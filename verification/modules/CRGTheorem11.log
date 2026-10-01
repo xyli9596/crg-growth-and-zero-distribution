@@ -1,0 +1,2 @@
+'CRGTheorem11.of_collected_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGTheorem11.theorem_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]

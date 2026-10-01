@@ -1,0 +1,6 @@
+'LevinCartan.exists_selected_balls' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCartan.exists_disks_distance_property' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCartan.factorial_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCartan.prod_lower_of_spread_fin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCartan.prod_lower_of_spread' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCartan.exists_disks_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

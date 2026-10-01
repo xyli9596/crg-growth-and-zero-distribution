@@ -1,0 +1,5 @@
+'WasowRegularTail.matrix_norm_le_of_mulVec_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularTail.regular_norm_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularTail.conjugation_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularTail.conjugated_remainder_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularTail.exists_small_conjugated_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

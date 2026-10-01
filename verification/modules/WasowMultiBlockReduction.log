@@ -1,0 +1,4 @@
+'WasowMultiBlockReduction.block_diagonal_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMultiBlockReduction.block_mul_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMultiBlockReduction.exists_multiblock_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMultiBlockReduction.exists_formal_multiblock_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'LevinFiniteCover.combine_finite_covers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFiniteCover.combine_annular_local_disks' depends on axioms: [propext, Classical.choice, Quot.sound]

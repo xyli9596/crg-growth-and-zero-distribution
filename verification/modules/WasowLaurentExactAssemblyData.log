@@ -1,0 +1,1 @@
+'WasowLaurentExactAssembly.product_mulVec_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

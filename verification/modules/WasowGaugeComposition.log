@@ -1,0 +1,6 @@
+'WasowGaugeComposition.gauge_composition_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGaugeComposition.pullback_rayGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGaugeComposition.value_constantMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGaugeComposition.eventually_constantConjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGaugeComposition.constant_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGaugeComposition.pullback_constant_rayGauge' depends on axioms: [propext, Classical.choice, Quot.sound]

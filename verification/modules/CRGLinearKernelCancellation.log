@@ -1,0 +1,9 @@
+'CRGLinearKernelCancellation.analytic_germs_eq_of_jets_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelCancellation.zero_on_interval_of_endpoint_jets_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGLinearKernelCancellation.analytic_glue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelCancellation.kernel_glue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelCancellation.kernel_zero_of_endpoint_jets_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

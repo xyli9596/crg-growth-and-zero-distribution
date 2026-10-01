@@ -1,0 +1,12 @@
+'CRGAsymptoticCoefficientCompleteExpansion.completeExpansion_of_taylor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientCompleteExpansion.actualDefect_isBigO_of_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientCompleteExpansion.remainder_isBigO_of_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientCompleteExpansion.finite_realization_of_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

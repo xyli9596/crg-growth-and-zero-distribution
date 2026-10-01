@@ -1,0 +1,5 @@
+'CRGWatson.hasDerivAt_complexPowerMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.complexPowerMoment_gamma_ofReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.complexPowerMoment_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.complexPowerMoment_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.truncated_complexPowerMoment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

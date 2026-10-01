@@ -1,0 +1,8 @@
+'LevinGeneral.small_density_equicontinuity_of_ne_zero_at_origin' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LevinGeneral.radialRegular_of_dense_sequence_of_ne_zero_at_origin' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LevinGeneral.radialRegular_of_dense_rays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGeneral.constantOrderRadialLevin' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'LevinMeasurableDensity.exists_common_exceptional_set_of_eventual_density_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

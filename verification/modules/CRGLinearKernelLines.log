@@ -1,0 +1,16 @@
+CRGLinearKernelLines.lean:36:62: warning: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Complex.mul_im, Complex.ofReal_re, Complex.ofReal_im, Complex.add_re, Complex.add_im,
+    Complex.one_re, Complex.one_im, Complex.mul_re, Complex.I_re, Complex.I_im, mul_zero, sub_zero, add_zero, zero_add,
+    mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CRGLinearKernelLines.scale_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLines.slope_eq_scale_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLines.line_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLines.lower_lt_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLines.density_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLines.kernel_rescale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLines.linearKernel_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]

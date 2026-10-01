@@ -1,0 +1,1 @@
+'WasowGlobalExactAssembly.exact_of_regularFamily' depends on axioms: [propext, Classical.choice, Quot.sound]

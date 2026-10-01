@@ -1,0 +1,5 @@
+'WasowMultiShiftReduction.block_assemble' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMultiShiftReduction.block_jordanShift_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMultiShiftReduction.block_mul_jordanShift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMultiShiftReduction.exists_multishift_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMultiShiftReduction.exists_formal_multishift_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]

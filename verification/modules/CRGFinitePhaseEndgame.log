@@ -1,0 +1,6 @@
+'CRGFinitePhaseEndgame.leading_eq_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGFinitePhaseEndgame.natDegree_pos_of_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGFinitePhaseEndgame.ae_leading_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGFinitePhaseEndgame.ae_all_leading_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGFinitePhaseEndgame.ae_rayData_of_phase_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGFinitePhaseEndgame.complete_of_finite_phases' depends on axioms: [propext, Classical.choice, Quot.sound]

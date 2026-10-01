@@ -1,0 +1,6 @@
+'LevinScaledBounds.rayPoint_scaled_normalizedDirection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinScaledBounds.normalizedDirection_rayPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinScaledBounds.scaled_error_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinScaledBounds.eventually_scaled_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinScaledBounds.eventually_scaled_good_centers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinScaledBounds.exists_scaled_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

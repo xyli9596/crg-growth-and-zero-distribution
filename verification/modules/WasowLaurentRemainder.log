@@ -1,0 +1,3 @@
+'WasowLaurentRemainder.finiteGauge_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRemainder.eventually_remainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRemainder.remainder_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]

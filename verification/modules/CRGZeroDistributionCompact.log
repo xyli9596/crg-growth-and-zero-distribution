@@ -1,0 +1,3 @@
+'CRGZeroDistributionCompact.zeroCount_le_finite_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGZeroDistributionCompact.exists_harmonic_disk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGZeroDistributionCompact.compact_zero_density' depends on axioms: [propext, Classical.choice, Quot.sound]

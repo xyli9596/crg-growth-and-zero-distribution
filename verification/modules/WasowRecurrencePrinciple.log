@@ -1,0 +1,1 @@
+'WasowRecurrencePrinciple.exists_formal_reduction_of_step' depends on axioms: [propext, Classical.choice, Quot.sound]

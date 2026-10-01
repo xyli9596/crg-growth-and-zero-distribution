@@ -1,0 +1,6 @@
+'WasowLaurentClearing.clearAt_poleOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentClearing.toLaurent_clearAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentClearing.recover_clearAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentClearing.commonOrder_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentClearing.equation_clearAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentClearing.automatic_cleared_data' depends on axioms: [propext, Classical.choice, Quot.sound]

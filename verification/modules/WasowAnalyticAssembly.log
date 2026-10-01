@@ -1,0 +1,3 @@
+'WasowAnalyticAssembly.exists_original_rayGauge_of_ramified_formal_truncation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

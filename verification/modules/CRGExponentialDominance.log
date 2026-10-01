@@ -1,0 +1,5 @@
+'CRGExponentialDominance.leading_coefficient_on_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGExponentialDominance.eventually_linear_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGExponentialDominance.ae_goodDirection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGExponentialDominance.exists_dominant_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGExponentialDominance.ae_exists_dominant_group' depends on axioms: [propext, Classical.choice, Quot.sound]

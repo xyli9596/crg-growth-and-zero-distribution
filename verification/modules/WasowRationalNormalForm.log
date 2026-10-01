@@ -1,0 +1,4 @@
+'WasowRationalNormalForm.ramified_ray_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRationalNormalForm.original_ray_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRationalNormalForm.exists_fixed_phase_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRationalNormalForm.rational_ray_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]

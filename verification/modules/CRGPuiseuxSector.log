@@ -1,0 +1,4 @@
+'CRGPuiseuxSector.clearedCoefficients_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxSector.Sector.coefficients_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxSector.Sector.localOnRay_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxSector.Sector.physical_ray_gauge' depends on axioms: [propext, Classical.choice, Quot.sound]

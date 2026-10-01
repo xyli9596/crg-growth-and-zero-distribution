@@ -1,0 +1,8 @@
+'CRGLinearKernelPacketExpansion.exists_upper_or_zero_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelPacketExpansion.exists_lower_or_zero_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelPacketExpansion.exists_upper_packet_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGLinearKernelPacketExpansion.exists_lower_packet_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

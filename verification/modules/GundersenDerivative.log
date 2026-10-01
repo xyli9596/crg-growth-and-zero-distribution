@@ -1,0 +1,4 @@
+'GundersenDerivative.entire_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenDerivative.upperOrder_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenDerivative.entire_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenDerivative.upperOrder_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]

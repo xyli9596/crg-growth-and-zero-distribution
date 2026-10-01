@@ -1,0 +1,2 @@
+'WasowRankSelection.exists_ramified_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRankSelection.exists_ramified_successor' depends on axioms: [propext, Classical.choice, Quot.sound]

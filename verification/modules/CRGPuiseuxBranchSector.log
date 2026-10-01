@@ -1,0 +1,10 @@
+CRGPuiseuxBranchSector.lean:54:38: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [angularInverse, inverseRay, direction_norm, Complex.norm_real, Real.norm_of_nonneg hsp.le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CRGPuiseuxBranchSector.angularInverse_continuousOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxBranchSector.exists_connected_tail_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxBranchSector.exists_fixed_principal_root_factor' depends on axioms: [propext, Classical.choice, Quot.sound]

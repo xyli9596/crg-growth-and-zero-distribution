@@ -1,0 +1,8 @@
+'WasowRecursiveTree.exists_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursiveTree.exists_slopeData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursiveTree.slope_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursiveTree.numerator_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursiveTree.full_shearing_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursiveTree.stopping_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursiveTree.smaller_wellFounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursiveTree.exists_tree' depends on axioms: [propext, Classical.choice, Quot.sound]

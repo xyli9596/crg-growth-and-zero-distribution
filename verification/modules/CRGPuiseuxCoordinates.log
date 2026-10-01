@@ -1,0 +1,6 @@
+'CRGPuiseuxCoordinates.ray_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCoordinates.originalPoint_inverseRay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCoordinates.originalPoint_localOnRay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCoordinates.direction_pow_general' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCoordinates.inverseRay_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCoordinates.lifted_tendsto_local_ray' depends on axioms: [propext, Classical.choice, Quot.sound]

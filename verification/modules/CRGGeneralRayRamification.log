@@ -1,0 +1,1 @@
+'CRGGeneralRayRamification.descend_rayGauge' depends on axioms: [propext, Classical.choice, Quot.sound]

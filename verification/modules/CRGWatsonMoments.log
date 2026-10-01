@@ -1,0 +1,2 @@
+'CRGWatson.realPowerMoment_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.powerMoment_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

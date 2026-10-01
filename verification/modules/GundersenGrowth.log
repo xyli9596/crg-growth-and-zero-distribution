@@ -1,0 +1,4 @@
+'GundersenGrowth.eventually_disks_logDeriv_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenGrowth.scaled_exp_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenGrowth.eventually_log_le_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenGrowth.eventually_numerical_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

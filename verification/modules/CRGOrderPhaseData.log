@@ -1,0 +1,2 @@
+'CRGOrderPhaseData.logarithmic_error_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrderPhaseData.rayData_of_polynomial_phase' depends on axioms: [propext, Classical.choice, Quot.sound]

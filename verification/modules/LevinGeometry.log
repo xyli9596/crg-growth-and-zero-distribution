@@ -1,0 +1,6 @@
+'LevinGeometry.measurableSet_radialShadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGeometry.norm_mem_radialShadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGeometry.radius_le_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGeometry.small_radius_at_large_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGeometry.radialShadow_volume_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGeometry.radialShadow_zero_density' depends on axioms: [propext, Classical.choice, Quot.sound]

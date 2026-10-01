@@ -1,0 +1,7 @@
+'WasowRegularTruncation.regular_transformed_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularTruncation.exists_approximateRayGauge_of_regular_formal_truncation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowRegularTruncation.exists_exact_rayGauge_of_regular_formal_truncation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

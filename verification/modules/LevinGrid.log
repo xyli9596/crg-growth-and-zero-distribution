@@ -1,0 +1,7 @@
+'LevinGrid.exists_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGrid.exists_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGrid.annularGrid_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGrid.annularGrid_covers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGrid.annularGrid_norm_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGrid.exists_annular_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinGrid.eventually_good_mesh_radii' depends on axioms: [propext, Classical.choice, Quot.sound]

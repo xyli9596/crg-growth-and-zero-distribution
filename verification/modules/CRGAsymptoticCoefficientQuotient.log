@@ -1,0 +1,23 @@
+'CRGAsymptoticCoefficientQuotient.flat_cancel_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientQuotient.flat_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientQuotient.flat_mul_of_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientQuotient.nonzero_series_not_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientQuotient.tendsto_of_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientQuotient.inverse_bounded_of_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientQuotient.eventually_ne_zero_of_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientQuotient.completeExpansion_quotient_unit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientQuotient.completeExpansion_remove_leading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientQuotient.eventually_ne_zero_of_nonzero_series' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientQuotient.laurentExpansion_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'LevinPoisson.norm_finiteBlaschke_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinPoisson.log_norm_le_poisson_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinPoisson.poissonKernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinPoisson.poissonKernel_far_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinPoisson.poisson_average_local_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'CRGWatson.normalized_initial_kernel_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.normalized_initial_density_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

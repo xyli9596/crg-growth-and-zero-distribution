@@ -1,0 +1,11 @@
+'WasowGlobalFiniteRealization.clearingOrder_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFiniteRealization.actualCoefficient_cleared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFiniteRealization.clearedCoefficient_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFiniteRealization.finiteControl_of_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFiniteRealization.exists_global_finite_realization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowGlobalFiniteRealization.ramifiedCoefficient_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFiniteRealization.exists_rational_global_finite_realization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'CRGPuiseuxRayData.global_ray_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxRayData.error_continuous_along_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxRayData.smallConjugatedTails' depends on axioms: [propext, Classical.choice, Quot.sound]

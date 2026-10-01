@@ -1,0 +1,18 @@
+'LevinDiskAssembly.mem_disks_flatten' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.radiusMass_flatten' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.weighted_partial_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.radiusMass_eq_zero_below_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.radiusMass_le_partial_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.isC0_flatten' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.ofFinite_total_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.mem_disks_ofFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.isC0_flatten_ofFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.diskRegular_of_shell_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.exists_slow_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskAssembly.diskRegular_of_eventual_shell_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LevinDiskAssembly.diskRegular_of_arbitrarily_small_shell_certificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LevinDiskAssembly.diskRegular_of_finite_shell_covers' depends on axioms: [propext, Classical.choice, Quot.sound]

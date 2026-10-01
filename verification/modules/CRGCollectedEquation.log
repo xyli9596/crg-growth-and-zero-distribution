@@ -1,0 +1,6 @@
+'CRGCollectedEquation.CollectedEquation.subtype_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGCollectedEquation.coefficientGroup_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGCollectedEquation.exists_collected_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGCollectedEquation.raw_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGCollectedEquation.coefficient_group_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGCollectedEquation.collected_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

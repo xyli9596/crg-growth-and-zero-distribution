@@ -1,0 +1,4 @@
+'CRGPolynomialKernel.analytic_weight_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.CoefficientData.differentiable_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

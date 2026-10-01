@@ -1,0 +1,6 @@
+Lean formalization of completely regular growth
+Copyright 2026 Xing-Yu Li
+
+This project depends on mathlib and its transitive dependencies. These
+third-party libraries retain their own copyright notices and licenses;
+their source and build caches are not included in this source archive.

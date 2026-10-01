@@ -1,0 +1,3 @@
+'CRGLinearKernel.cell_exists_exponential_groups' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernel.CoefficientData.sourceGroups_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernel.corollary_5_2' depends on axioms: [propext, Classical.choice, Quot.sound]

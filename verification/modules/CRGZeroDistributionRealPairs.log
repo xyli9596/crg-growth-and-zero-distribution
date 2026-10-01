@@ -1,0 +1,3 @@
+'CRGZeroDistributionRealPairs.finite_real_solution_indicator_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

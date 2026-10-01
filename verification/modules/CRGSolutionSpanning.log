@@ -1,0 +1,3 @@
+'CRGSolutionSpanning.matrix_mulVec_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSolutionSpanning.solution_eq_fundamental_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSolutionSpanning.exists_nonzero_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]

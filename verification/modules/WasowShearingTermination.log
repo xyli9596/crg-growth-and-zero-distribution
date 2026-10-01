@@ -1,0 +1,8 @@
+'WasowShearingTermination.next_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingTermination.mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingTermination.mass_lt_of_fractional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingTermination.rank_lt_of_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingTermination.measure_decreases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingTermination.step_wellFounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingTermination.no_infinite_steps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingTermination.exists_successor' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'WasowShearingExceptional.fractional_leading_trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingExceptional.scalar_part_zero_of_trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingExceptional.fractional_feedback_last_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingExceptional.exists_slope_integral_or_exceptional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

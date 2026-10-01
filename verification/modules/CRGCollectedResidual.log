@@ -1,0 +1,3 @@
+'CRGCollectedResidual.groupValue_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGCollectedResidual.common_jet_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGCollectedResidual.exists_residual_control' depends on axioms: [propext, Classical.choice, Quot.sound]

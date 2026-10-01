@@ -1,0 +1,3 @@
+'LevinC0.exists_scaled_shell_covers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinC0.diskRegular_of_radialRegular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinC0.constantOrderLevin' depends on axioms: [propext, Classical.choice, Quot.sound]

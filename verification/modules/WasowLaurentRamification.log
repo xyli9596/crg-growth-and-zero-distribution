@@ -1,0 +1,20 @@
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+'WasowLaurentRamification.jacobian_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.ramifyMatrix_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.pullback_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.ramify_coeff_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.ramify_coeff_of_not_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.ramify_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.ramify_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.ramify_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.derivative_ramify' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.ramify_powerSeries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.ramifyMatrix_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.matrixDerivative_ramify' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.gaugeEquation_ramify' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRamification.ramifyMatrix_inverses' depends on axioms: [propext, Classical.choice, Quot.sound]

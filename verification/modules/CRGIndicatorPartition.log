@@ -1,0 +1,27 @@
+CRGIndicatorPartition.lean:89:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+CRGIndicatorPartition.lean:106:36: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+CRGIndicatorPartition.lean:106:91: warning: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [collisionDirections, mem_setOf_eq, mem_iUnion, exists_prop, Subtype.exists]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CRGIndicatorPartition.lean:114:62: warning: Variable name `hρ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hρ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'CRGIndicatorPartition.leadingReal_zero_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorPartition.equality_directions_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorPartition.one_alternative_on_preconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorPartition.collisionDirections_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorPartition.indicator_on_interval' depends on axioms: [propext, Classical.choice, Quot.sound]

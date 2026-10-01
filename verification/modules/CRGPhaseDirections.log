@@ -1,0 +1,3 @@
+'CRGPhaseDirections.leadingReal_eq_cos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhaseDirections.leadingReal_zero_countable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhaseDirections.leadingReal_ae_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

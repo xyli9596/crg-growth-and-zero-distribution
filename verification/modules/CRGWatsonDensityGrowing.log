@@ -1,0 +1,3 @@
+'CRGWatson.growing_density_expansion_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.growing_density_uniform_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.analytic_growing_uniform_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]

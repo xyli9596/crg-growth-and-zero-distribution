@@ -1,0 +1,12 @@
+'LevinCompact.exists_uniform_extension_of_asymptotic_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCompact.uniform_of_asymptotic_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCompact.exists_uniform_limit_of_asymptotic_dense_sequence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LevinCompact.cauchy_of_asymptotic_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCompact.uniformContinuous_of_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCompact.uniform_of_asymptotic_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCompact.exists_uniform_limit_of_asymptotic_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCompact.cauchy_of_dense_convergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCompact.exists_continuous_uniform_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCompact.uniform_limit_of_dense' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,25 @@
+'LevinDensity.local_volume_ne_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.radialDensity_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.radialDensity_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.radialDensity_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.zeroRadialDensity_iff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.ZeroRadialDensity.mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.radialDensity_iUnion_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.zeroRadialDensity_iUnion_of_summable_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.exists_truncation_zeroRadialDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.exists_zeroRadialDensity_eventually_contains' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.exists_measurable_zeroRadialDensity_eventually_contains' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LevinDensity.exists_common_exceptional_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.zeroRadialDensity_tail_iInter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.exists_common_exceptional_set_of_small_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.exists_common_exceptional_set_of_density_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LevinDensity.zeroRadialDensity_Iic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.radialDensity_union_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.ZeroRadialDensity.union' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDensity.exists_common_exceptional_set_of_eventual_density_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

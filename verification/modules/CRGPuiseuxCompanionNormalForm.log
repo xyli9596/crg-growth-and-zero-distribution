@@ -1,0 +1,6 @@
+'CRGPuiseuxCompanionNormalForm.ramifiedCoefficient_companion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionNormalForm.physicalCoefficient_pullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionNormalForm.physical_ray_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionNormalForm.exists_fixed_physical_phase_normal_form' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

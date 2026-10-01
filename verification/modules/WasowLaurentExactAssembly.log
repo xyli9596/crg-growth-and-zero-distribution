@@ -1,0 +1,6 @@
+'WasowLaurentExactAssembly.exists_approximateRayGauge_of_laurent_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowLaurentExactAssembly.exists_exact_rayGauge_of_laurent_regular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

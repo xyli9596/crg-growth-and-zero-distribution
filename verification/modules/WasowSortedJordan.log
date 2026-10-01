@@ -1,0 +1,4 @@
+'WasowSortedJordan.exists_sorted_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowSortedJordan.jordanShift_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowSortedJordan.exists_sorted_jordan_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowSortedJordan.exists_sorted_jordan_matrix_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]

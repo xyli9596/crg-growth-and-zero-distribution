@@ -1,0 +1,7 @@
+'WasowMinorInvariance.minorGCD_dvd_left_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMinorInvariance.minorGCD_dvd_right_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMinorInvariance.minorGCD_left_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMinorInvariance.minorGCD_right_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMinorInvariance.minorGCD_equivalent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMinorInvariance.minorDegree_equivalent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowMinorInvariance.degreeMass_equivalent' depends on axioms: [propext, Classical.choice, Quot.sound]

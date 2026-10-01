@@ -1,0 +1,8 @@
+'CRGPolynomialKernel.formalComposition_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.growingFormalSeries_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.exists_nonzero_completeExpansion_of_analyticAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGPolynomialKernel.exists_nonzero_density_growing_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

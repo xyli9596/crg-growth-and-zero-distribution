@@ -1,0 +1,5 @@
+'WasowPhaseRealization.orderedOn_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseRealization.exists_persistent_phase_ordering' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseRealization.exists_exact_rayGauge_of_puiseux_phases' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,1 @@
+'CRGLinearKernelLineGeometry.line_eq_of_nonzero_intersection' depends on axioms: [propext, Classical.choice, Quot.sound]

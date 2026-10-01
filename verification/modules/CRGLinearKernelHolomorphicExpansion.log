@@ -1,0 +1,14 @@
+CRGLinearKernelHolomorphicExpansion.lean:27:68: warning: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [jet, iteratedDeriv_succ, ContinuousLinearMap.restrictScalars]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CRGLinearKernelHolomorphicExpansion.jet_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelHolomorphicExpansion.jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelHolomorphicExpansion.expansion_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelHolomorphicExpansion.expansion_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelHolomorphicExpansion.linearKernel_expansion_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

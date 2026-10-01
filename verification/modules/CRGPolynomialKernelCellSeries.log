@@ -1,0 +1,2 @@
+'CRGPolynomialKernel.Cell.exists_decayingSeries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.Cell.clearing_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

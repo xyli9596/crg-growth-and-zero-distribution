@@ -1,0 +1,12 @@
+CRGIndicatorAlternatives.lean:159:13: warning: This simp argument is unused:
+  d
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Rat.cast_div, Rat.cast_natCast] at hh ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CRGIndicatorAlternatives.finite_positive_type_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorAlternatives.order_mem_of_ae_rayData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorAlternatives.indicator_eq_of_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorAlternatives.alternatives_everywhere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorAlternatives.indicator_alternatives' depends on axioms: [propext, Classical.choice, Quot.sound]

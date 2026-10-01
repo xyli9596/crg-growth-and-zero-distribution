@@ -1,0 +1,5 @@
+'GundersenOrigin.ray_logDeriv_restore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenOrigin.upperOrder_remove_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenOrigin.upperOrder_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenOrigin.exists_normalized_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenOrigin.logDeriv_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]

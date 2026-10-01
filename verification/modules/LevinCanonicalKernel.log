@@ -1,0 +1,6 @@
+'CRGLevinCanonicalKernel.canonical_numerator_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLevinCanonicalKernel.canonical_numerator_log_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLevinCanonicalKernel.canonicalFactor_log_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLevinCanonicalKernel.canonicalFactor_circle_uniform_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

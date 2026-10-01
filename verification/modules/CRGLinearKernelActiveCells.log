@@ -1,0 +1,24 @@
+CRGLinearKernelActiveCells.lean:23:0: warning: automatically included section variable(s) unused in theorem `CRGLinearKernelActiveCells.mem_cells_iff`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+CRGLinearKernelActiveCells.lean:78:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+CRGLinearKernelActiveCells.lean:86:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+'CRGLinearKernelActiveCells.kernel_zero_of_cell_deleted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelActiveCells.sum_kernels_eq_surviving_cells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelActiveCells.extreme_upper_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelActiveCells.extreme_lower_cell' depends on axioms: [propext, Classical.choice, Quot.sound]

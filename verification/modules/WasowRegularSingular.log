@@ -1,0 +1,8 @@
+'WasowRegularSingular.norm_exp_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularSingular.norm_rayLog_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularSingular.exp_ray_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularSingular.rayPowerInverse_mul_rayPower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularSingular.rayPower_mul_rayPowerInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularSingular.rayPower_mulVec_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularSingular.rayPowerInverse_mulVec_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularSingular.exists_polynomial_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

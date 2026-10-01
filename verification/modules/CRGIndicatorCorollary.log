@@ -1,0 +1,22 @@
+CRGIndicatorCorollary.lean:27:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+CRGIndicatorCorollary.lean:104:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'CRGIndicatorCorollary.finite_solution_indicator_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorCorollary.finite_actual_solution_indicator_pairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGIndicatorCorollary.exists_fixed_indicator_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorCorollary.corollary_3_6_part_one' depends on axioms: [propext, Classical.choice, Quot.sound]

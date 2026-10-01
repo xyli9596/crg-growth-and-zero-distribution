@@ -1,0 +1,2 @@
+'CRGPuiseuxNormalForm.lifted_ray_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxNormalForm.exists_fixed_lifted_phase_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]

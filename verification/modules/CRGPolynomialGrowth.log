@@ -1,0 +1,2 @@
+'CRGPolynomialGrowth.derivative_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialGrowth.exists_polynomial_of_growth' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,16 @@
+CRGAsymptoticCoefficientMatrixTransfer.lean:19:2: warning: Unused tactic linter: `change (∑ n ∈ Finset.range N, z ^ n • PowerSeries.coeff n A) i j = _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'CRGAsymptoticCoefficientMatrixTransfer.eval_trunc_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientMatrixTransfer.isBigO_matrix_of_entries' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientMatrixTransfer.completeExpansion_of_entries' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientMatrixTransfer.polynomial_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientMatrixTransfer.completeExpansion_neg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

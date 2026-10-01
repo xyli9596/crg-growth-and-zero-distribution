@@ -1,0 +1,6 @@
+'CRGZeroDistributionCorollary.radialSector_zero_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGZeroDistributionCorollary.radialSector_zero_density_off_rays' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGZeroDistributionCorollary.corollary_3_6_collected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGZeroDistributionCorollary.corollary_3_6' depends on axioms: [propext, Classical.choice, Quot.sound]

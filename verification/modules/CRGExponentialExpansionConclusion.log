@@ -1,0 +1,4 @@
+'CRGExponentialExpansionConclusion.ae_sector_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGExponentialExpansionConclusion.of_exponential_expansion_groups' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

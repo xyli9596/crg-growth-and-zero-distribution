@@ -1,0 +1,7 @@
+'WasowFormalSplit.exists_blockData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSplit.component_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSplit.component_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSplit.translatedComponent_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSplit.exists_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSplit.child_dimension_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSplit.all_children_dimension_lt' depends on axioms: [propext, Classical.choice, Quot.sound]

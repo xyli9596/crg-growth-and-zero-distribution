@@ -1,0 +1,3 @@
+'CRGWatson.exists_zero_constant_completeExpansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.growing_polynomial_approximations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.decaying_polynomial_approximations' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'GundersenBlaschke.factor_eq_inverse_canonical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenBlaschke.factor_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenBlaschke.logDeriv_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenBlaschke.norm_logDeriv_factor_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenBlaschke.finiteBlaschke_eq_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenBlaschke.exists_disks_finiteBlaschke_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

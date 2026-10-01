@@ -1,0 +1,4 @@
+'LevinRadial.radialRegular_of_uniform_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinRadial.radialRegular_of_dense_sequence_and_small_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,18 @@
+CRGPuiseuxLinearKernelCells.lean:60:49: warning: This simp argument is unused:
+  Polynomial.coeff_C_mul_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Cell.phase]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CRGPuiseuxLinearKernelCells.lean:84:49: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Cell.phase, Polynomial.coeff_C_mul_X] at hcoef
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CRGPuiseuxLinearKernelCells.activeLine_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxLinearKernelCells.Cell.phase_injective_away_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxLinearKernelCells.exists_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxLinearKernelCells.exists_finite_cells' depends on axioms: [propext, Classical.choice, Quot.sound]

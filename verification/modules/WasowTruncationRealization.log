@@ -1,0 +1,3 @@
+'WasowTruncationRealization.exists_exact_rayGauge_of_formal_truncation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'CRGZeroDistributionScaled.zeroCount_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGZeroDistributionScaled.zeroCount_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGZeroDistributionScaled.eventually_local_zeroCount_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGZeroDistributionScaled.local_zero_density' depends on axioms: [propext, Classical.choice, Quot.sound]

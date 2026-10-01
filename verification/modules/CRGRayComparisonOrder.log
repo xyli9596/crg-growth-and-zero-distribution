@@ -1,0 +1,4 @@
+'CRGRayComparisonOrder.eventually_eval_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGRayComparisonOrder.phase_eventually_comparable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGRayComparisonOrder.finite_eventual_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGRayComparisonOrder.exists_dominant_phase' depends on axioms: [propext, Classical.choice, Quot.sound]

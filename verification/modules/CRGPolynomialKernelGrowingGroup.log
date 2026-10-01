@@ -1,0 +1,1 @@
+'CRGPolynomialKernel.exists_growingGroup_completeExpansion' depends on axioms: [propext, Classical.choice, Quot.sound]

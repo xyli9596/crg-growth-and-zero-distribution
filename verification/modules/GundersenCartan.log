@@ -1,0 +1,5 @@
+'GundersenCartan.reciprocal_sum_of_spread_fin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenCartan.reciprocal_sum_of_spread' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenCartan.exists_disks_reciprocal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenCartan.logDeriv_zero_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenCartan.exists_disks_logDeriv_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

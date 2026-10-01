@@ -1,0 +1,6 @@
+'WasowRecursivePhases.family_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursivePhases.toPhaseTree_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursivePhases.reductionPhaseTree_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursivePhases.phaseFamily_coeff_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursivePhases.phaseValue_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRecursivePhases.exists_reduction_fixed_phases' depends on axioms: [propext, Classical.choice, Quot.sound]

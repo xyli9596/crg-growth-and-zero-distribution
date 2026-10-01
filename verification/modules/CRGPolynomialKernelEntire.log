@@ -1,0 +1,2 @@
+'CRGPolynomialKernel.hasDerivAt_laplaceIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.differentiable_polynomialKernel' depends on axioms: [propext, Classical.choice, Quot.sound]

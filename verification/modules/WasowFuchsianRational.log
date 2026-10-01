@@ -1,0 +1,2 @@
+'WasowFuchsianRational.norm_le_sum_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianRational.exists_proper_ray_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

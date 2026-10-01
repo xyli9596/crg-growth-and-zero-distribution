@@ -1,0 +1,9 @@
+CRGPuiseuxPolynomialKernelCells.lean:69:35: warning: Try `simp at hd` instead of `simpa using hd`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'CRGPuiseuxPolynomialKernelCells.normalized_degree_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxPolynomialKernelCells.local_ray_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxPolynomialKernelCells.exists_geometry_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxPolynomialKernelCells.exists_finite_geometry_cells' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

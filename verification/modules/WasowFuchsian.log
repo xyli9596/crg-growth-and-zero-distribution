@@ -1,0 +1,3 @@
+'WasowFuchsian.exists_fuchsian_rayGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsian.exists_proper_rayGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsian.proper_rational_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'CRGPuiseuxFiniteRealization.clearedCoefficient_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGPuiseuxFiniteRealization.finiteControl_of_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxFiniteRealization.exists_global_finite_realization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

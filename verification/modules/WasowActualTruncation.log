@@ -1,0 +1,6 @@
+'WasowActualTruncation.coe_sub_noncomm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowActualTruncation.eval_trunc_eq_partialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowActualTruncation.polynomialDefect_coeff_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowActualTruncation.polynomialDefect_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowActualTruncation.actualDefect_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowActualTruncation.actualDefect_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]

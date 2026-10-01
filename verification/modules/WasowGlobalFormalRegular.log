@@ -1,0 +1,7 @@
+'WasowGlobalFormalRegular.entry_expandSeries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalRegular.toLaurent_expandSeries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalRegular.toLaurent_smul_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalRegular.pullback_regularCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalRegular.regularCoefficient_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalRegular.toLaurent_blockSeries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalRegular.regularCoefficient_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]

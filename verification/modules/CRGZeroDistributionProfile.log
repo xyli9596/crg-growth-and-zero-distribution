@@ -1,0 +1,11 @@
+CRGZeroDistributionProfile.lean:30:96: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'CRGZeroDistributionProfile.normalizedDirection_eq_angleDirection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGZeroDistributionProfile.cpow_real_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGZeroDistributionProfile.homogeneousIndicator_eq_cpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGZeroDistributionProfile.homogeneousIndicator_harmonicOnNhd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

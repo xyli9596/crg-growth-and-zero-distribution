@@ -1,0 +1,6 @@
+'GundersenAngles.zeroAngles_countable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenAngles.zeroAngles_measure_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenAngles.nonzero_on_ray_of_not_zeroAngles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenAngles.ae_nonzero_on_positive_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenAngles.rayDerivativeBound_mono_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenAngles.simultaneous_errors' depends on axioms: [propext, Classical.choice, Quot.sound]

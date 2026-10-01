@@ -1,0 +1,7 @@
+'CRGProgress.eventually_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGProgress.polynomial_exp_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGProgress.perturbation_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGProgress.exists_small_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGProgress.gauge_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGProgress.conjugated_perturbation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGProgress.derivative_of_gauged_vector' depends on axioms: [propext, Classical.choice, Quot.sound]

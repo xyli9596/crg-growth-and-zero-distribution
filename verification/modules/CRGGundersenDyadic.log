@@ -1,0 +1,3 @@
+'CRGGundersenDyadic.rpow_near_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGGundersenDyadic.dyadic_budget_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGGundersenDyadic.ae_normalized_logDeriv_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

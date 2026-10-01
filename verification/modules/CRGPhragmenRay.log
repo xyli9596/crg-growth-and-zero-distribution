@@ -1,0 +1,3 @@
+'CRGPhragmenRay.exp_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhragmenRay.rayBound_of_eventual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhragmenRay.dense_eventual_finiteType' depends on axioms: [propext, Classical.choice, Quot.sound]

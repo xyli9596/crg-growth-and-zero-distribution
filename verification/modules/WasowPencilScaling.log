@@ -1,0 +1,8 @@
+'WasowPencilScaling.scaleEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPencilScaling.natDegree_scaleEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPencilScaling.degreeMass_scaleEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPencilScaling.minorGCD_smul_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPencilScaling.degreeMass_smul_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPencilScaling.pencil_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPencilScaling.degreeMass_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPencilScaling.isNilpotent_unscale' depends on axioms: [propext, Classical.choice, Quot.sound]

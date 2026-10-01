@@ -1,0 +1,2 @@
+'CRGPhragmenGlobal.global_bound_of_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhragmenGlobal.finiteType_of_dense' depends on axioms: [propext, Classical.choice, Quot.sound]

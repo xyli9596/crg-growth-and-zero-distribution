@@ -1,0 +1,6 @@
+'CRGPhaseAsymptotics.coeff_realPhasePolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhaseAsymptotics.natDegree_realPhasePolynomial_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhaseAsymptotics.realPhasePolynomial_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhaseAsymptotics.realPhasePolynomial_leadingCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhaseAsymptotics.polynomial_normalized_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhaseAsymptotics.phase_normalized_limit' depends on axioms: [propext, Classical.choice, Quot.sound]

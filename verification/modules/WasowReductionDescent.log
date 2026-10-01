@@ -1,0 +1,17 @@
+'WasowReductionDescent.det_replaced_last_row_minor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.strict_minor_degree_drop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.minorGCD_diagonal_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.minor_degree_le_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.degreeMass_strict_drop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.le_val_of_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.initial_sum_le_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.det_diagonal_submatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.diagonal_initial_minor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.natDegree_minorGCD_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.minorGCD_dvd_minor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.dvd_minorGCD_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.det_submatrix_eq_zero_of_not_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowReductionDescent.det_principal_submatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowReductionDescent.minorGCD_dvd_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]

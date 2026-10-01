@@ -1,0 +1,2 @@
+'WasowFormalNormalization.exists_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalNormalization.data_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]

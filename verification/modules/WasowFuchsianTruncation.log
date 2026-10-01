@@ -1,0 +1,4 @@
+'WasowFuchsianTruncation.truncation_inverse_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianTruncation.regularCoefficient_continuousOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianTruncation.exists_regular_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianTruncation.exists_truncated_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]

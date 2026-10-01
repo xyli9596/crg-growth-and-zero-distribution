@@ -1,0 +1,3 @@
+'CRGPhragmenPolynomial.denominator_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhragmenPolynomial.denominator_norm_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhragmenPolynomial.strip_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

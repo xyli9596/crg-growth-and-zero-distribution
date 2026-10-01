@@ -1,0 +1,5 @@
+'WasowGlobalFormalTree.restoreScalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalTree.familyRealization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalTree.treeRealization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalTree.reductionRealization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalTree.exists_global_realization' depends on axioms: [propext, Classical.choice, Quot.sound]

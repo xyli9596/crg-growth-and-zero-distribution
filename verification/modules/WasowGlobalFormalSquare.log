@@ -1,0 +1,7 @@
+'WasowGlobalFormalSquare.exists_global_formal_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalSquare.change_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalSquare.reindexData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalSquare.coefficient_reindexData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalSquare.squareChange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalSquare.toSquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalSquare.exists_square_global_realization' depends on axioms: [propext, Classical.choice, Quot.sound]

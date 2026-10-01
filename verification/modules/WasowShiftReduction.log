@@ -1,0 +1,3 @@
+'WasowShiftReduction.shift_mul_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShiftReduction.exists_rectangular_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShiftReduction.exists_formal_shift_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]

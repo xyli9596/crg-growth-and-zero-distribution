@@ -1,0 +1,8 @@
+'WasowFundamental.retract_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFundamental.extend_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFundamental.fundamentalMatrix_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFundamental.normalizedMatrix_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFundamental.eventually_det_normalizedMatrix_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFundamental.det_fundamentalMatrix_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFundamental.fundamentalMatrix_column_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFundamental.exists_fundamental_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]

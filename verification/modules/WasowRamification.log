@@ -1,0 +1,16 @@
+'WasowRamification.solution_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.real_solution_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.coefficient_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.ramified_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.integral_slope_rank_decreases' depends on axioms: [propext, Quot.sound]
+'WasowRamification.polynomial_comp_pow_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.powerSubstitution_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.exists_integral_ramification' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.powerSubstitution_preserves_nonZeroDivisors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowRamification.eval_polynomial_fraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.eval_powerSubstitution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.powerSubstitution_pole_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.eval_ramifiedScalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRamification.eval_rationalCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]

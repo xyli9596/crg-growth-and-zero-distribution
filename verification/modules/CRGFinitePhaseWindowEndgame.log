@@ -1,0 +1,3 @@
+'CRGFinitePhaseWindowEndgame.complete_of_finite_phases_window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

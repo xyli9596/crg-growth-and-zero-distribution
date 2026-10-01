@@ -1,0 +1,8 @@
+'CRGOrderRay.norm_le_exp_of_log_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrderRay.zero_degree_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrderRay.negative_leading_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrderRay.positive_leading_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrderRay.positive_leading_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrderRay.zero_normalized_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrderRay.normalized_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrderRay.zero_degree_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

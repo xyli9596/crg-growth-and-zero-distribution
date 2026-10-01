@@ -1,0 +1,3 @@
+'CRGPolynomialKernel.intervalIntegrable_groupedPowerDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.analyticOnNhd_groupedPowerDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.polynomialKernel_grouped' depends on axioms: [propext, Classical.choice, Quot.sound]

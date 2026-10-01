@@ -1,0 +1,7 @@
+'WasowGlobalFormalCanonical.coefficient_regularData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalCanonical.addPhase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalCanonical.coefficient_addPhase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalCanonical.ramifiedData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalCanonical.coefficient_ramifiedData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalCanonical.blockData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalFormalCanonical.coefficient_blockData' depends on axioms: [propext, Classical.choice, Quot.sound]

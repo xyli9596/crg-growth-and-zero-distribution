@@ -1,0 +1,2 @@
+'CRGSolutionPerturbation.perturbed_gauge_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSolutionPerturbation.exists_perturbed_fundamental' depends on axioms: [propext, Classical.choice, Quot.sound]

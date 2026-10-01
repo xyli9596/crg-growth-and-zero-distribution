@@ -1,0 +1,8 @@
+'WasowRational.polynomial_bound_of_degree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRational.polynomial_denominator_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRational.properNumerator_degree_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRational.eval_sub_polynomialPart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRational.proper_quotient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRational.exists_polynomial_part_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRational.norm_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRational.exists_ray_polynomial_part' depends on axioms: [propext, Classical.choice, Quot.sound]

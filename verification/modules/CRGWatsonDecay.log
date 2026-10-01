@@ -1,0 +1,4 @@
+'CRGWatson.laplace_power_remainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.analytic_decay_remainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.integral_taylor_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.analytic_decay_cone_remainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,16 @@
+CRGPuiseuxProposition.lean:23:0: warning: automatically included section variable(s) unused in theorem `CRGPuiseuxProposition.phaseDenominator_positive`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+CRGPuiseuxProposition.lean:29:0: warning: automatically included section variable(s) unused in theorem `CRGPuiseuxProposition.phasePolynomial_normalized`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'CRGPuiseuxProposition.phaseDenominator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxProposition.phasePolynomial_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxProposition.phase_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxProposition.proposition_5_1' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'GundersenJet.quotient_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenJet.ae_iterated_quotient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenJet.ae_finite_jet_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

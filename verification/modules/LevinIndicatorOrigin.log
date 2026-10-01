@@ -1,0 +1,2 @@
+'LevinIndicatorOrigin.radialRegular_remove_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinIndicatorOrigin.eventual_upper_bounds_restore_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]

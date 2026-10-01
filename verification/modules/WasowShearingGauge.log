@@ -1,0 +1,7 @@
+'WasowShearingGauge.shear_ray_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingGauge.shear_ray_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingGauge.eventually_value_shear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingGauge.eventually_value_derivativeShear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingGauge.eventually_sheared_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingGauge.shearing_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowShearingGauge.pullback_shearing_rayGauge' depends on axioms: [propext, Classical.choice, Quot.sound]

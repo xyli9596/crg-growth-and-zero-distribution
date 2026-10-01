@@ -1,0 +1,2 @@
+'CRGLinearKernelFarEndpoint.normalized_upper_kernel_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelFarEndpoint.normalized_far_upper_kernel_flat' depends on axioms: [propext, Classical.choice, Quot.sound]

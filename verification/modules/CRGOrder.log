@@ -1,0 +1,5 @@
+'CRGOrder.UpperOrder.mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrder.eventually_mul_rpow_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrder.upperOrder_of_finiteType' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrder.le_upperOrder_of_positiveType' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrder.finitePositiveType_isOrder' depends on axioms: [propext, Classical.choice, Quot.sound]

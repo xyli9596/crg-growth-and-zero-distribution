@@ -1,0 +1,8 @@
+'WasowFormalSuccessor.singleData_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSuccessor.exists_single_successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSuccessor.formalStep_wellFounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSuccessor.flattenSeries_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSuccessor.slope_num_div_den' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSuccessor.rawSeries_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSuccessor.supported_flattenSeries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSuccessor.rawSeries_clear_powers' depends on axioms: [propext, Classical.choice, Quot.sound]

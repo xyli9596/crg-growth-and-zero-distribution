@@ -1,0 +1,5 @@
+'LevinCriterion.uniform_upper_bounds_restore_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCriterion.uniform_upper_bounds_of_radialRegular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCriterion.isIndicator_of_radialRegular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCriterion.radialRegular_and_indicator_of_dense_rays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCriterion.constantOrderRadialIndicatorLevin' depends on axioms: [propext, Classical.choice, Quot.sound]

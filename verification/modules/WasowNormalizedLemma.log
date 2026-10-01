@@ -1,0 +1,7 @@
+'WasowNormalizedLemma.normalized_step_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowNormalizedLemma.existsUnique_normalized_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowNormalizedLemma.existsUnique_normalized_lemma_19_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowNormalizedLemma.normalized_multishift_step_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowNormalizedLemma.existsUnique_normalized_multishift_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

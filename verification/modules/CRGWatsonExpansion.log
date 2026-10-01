@@ -1,0 +1,3 @@
+'CRGWatson.integral_taylorPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.analytic_decaying_expansion_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGWatson.analytic_decaying_uniform_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]

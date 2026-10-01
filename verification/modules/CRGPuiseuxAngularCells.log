@@ -1,0 +1,7 @@
+CRGPuiseuxAngularCells.lean:68:24: warning: `Set.setOf_mem_eq` has been deprecated: Use `Set.ofPred_mem_eq` instead
+'CRGPuiseuxAngularCells.exists_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxAngularCells.ae_exists_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxAngularCells.sign_constant_on_preconnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxAngularCells.phaseCuts_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxAngularCells.leading_sign_on_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxAngularCells.ae_phase_cell' depends on axioms: [propext, Classical.choice, Quot.sound]

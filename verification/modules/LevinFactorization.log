@@ -1,0 +1,15 @@
+'LevinFactorization.norm_canonicalFactor_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.log_norm_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.log_norm_center_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.exists_zero_free_factorization_with_center_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LevinFactorization.norm_finiteBlaschke_on_sphere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.eqOn_of_canonical_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.exists_zero_free_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.divisor_sphere_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.finite_order_on_disk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.exists_zero_free_canonical_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.canonical_numerator_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.analyticOnNhd_inverse_canonical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFactorization.analyticOnNhd_finiteBlaschke' depends on axioms: [propext, Classical.choice, Quot.sound]

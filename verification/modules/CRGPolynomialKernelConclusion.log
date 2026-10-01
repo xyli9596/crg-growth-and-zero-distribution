@@ -1,0 +1,2 @@
+'CRGPolynomialKernel.CoefficientData.sourceGroups_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.corollary_5_3' depends on axioms: [propext, Classical.choice, Quot.sound]

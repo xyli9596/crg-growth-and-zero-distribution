@@ -1,0 +1,12 @@
+CRGPuiseuxPolynomialCone.lean:43:12: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ray, Complex.norm_exp, Complex.mul_re, Real.norm_of_nonneg hr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CRGPuiseuxPolynomialCone.norm_eval_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxPolynomialCone.positive_ray_cone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxPolynomialCone.negative_ray_cone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxPolynomialCone.real_eval_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxPolynomialCone.uniform_positive_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

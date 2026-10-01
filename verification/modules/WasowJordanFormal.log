@@ -1,0 +1,3 @@
+'WasowJordanFormal.scalarSeries_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowJordanFormal.exists_scalar_multishift_powerSeries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowJordanFormal.exists_single_eigenvalue_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]

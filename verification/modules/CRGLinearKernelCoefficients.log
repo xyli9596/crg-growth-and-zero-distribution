@@ -1,0 +1,2 @@
+'CRGLinearKernel.CoefficientData.differentiable_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernel.CoefficientData.endpoint_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]

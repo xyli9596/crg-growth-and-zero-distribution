@@ -1,0 +1,10 @@
+'CRGIndicatorPeriodicRays.ae_toIocMod_of_ae_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorPeriodicRays.ae_of_periodic_of_ae_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorPeriodicRays.point_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorPeriodicRays.point_toIocMod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorPeriodicRays.rayData_of_toIocMod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorPeriodicRays.ae_restrict_rayData_of_phase_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGIndicatorPeriodicRays.ae_rayData_of_Ioc_phase_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorPeriodicRays.complete_of_Ioc_finite_phases' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,11 @@
+'CRGPuiseuxCompanionComparison.perturbation_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionComparison.norm_perturbation_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionComparison.perturbation_continuousOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionComparison.perturbation_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionComparison.companion_mulVec_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionComparison.companion_mulVec_not_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionComparison.jet_hasDerivAt_of_scalar_equation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGPuiseuxCompanionComparison.jet_polynomial_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionComparison.scalar_ray_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]

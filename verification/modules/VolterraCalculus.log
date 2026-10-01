@@ -1,0 +1,3 @@
+'VolterraCalculus.tail_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VolterraCalculus.forward_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VolterraCalculus.backward_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]

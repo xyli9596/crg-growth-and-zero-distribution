@@ -1,0 +1,3 @@
+'WasowLaurentActualResidual.finiteGauge_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentActualResidual.rawDefect_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentActualResidual.clearedDefect_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]

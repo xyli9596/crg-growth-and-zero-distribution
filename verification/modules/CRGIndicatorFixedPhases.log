@@ -1,0 +1,2 @@
+'CRGIndicatorFixedPhases.exists_fixed_equation_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorFixedPhases.EquationData.exists_fixed_phases' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,12 @@
+CRGLinearKernelLinePackets.lean:134:19: warning: This simp argument is unused:
+  if_pos he
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CRGLinearKernelLinePackets.normalizedWeight_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLinePackets.packet_eq_interval_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLinePackets.integral_sum_eq_packets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLinePackets.packet_upper_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLinePackets.packet_lower_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]

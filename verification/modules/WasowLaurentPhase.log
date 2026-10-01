@@ -1,0 +1,7 @@
+'WasowLaurentPhase.phaseLaurent_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentPhase.phaseLaurent_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentPhase.phaseLaurent_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentPhase.phaseLaurent_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentPhase.derivative_rankPhase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentPhase.ramify_phaseLaurent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentPhase.derivative_phase_ramify' depends on axioms: [propext, Classical.choice, Quot.sound]

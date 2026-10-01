@@ -1,0 +1,4 @@
+'LevinScaling.mem_scaled_ball_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinScaling.sum_scaled_radii' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinScaling.homogeneousIndicator_rayPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinScaling.shell_estimate_of_scaled_shell' depends on axioms: [propext, Classical.choice, Quot.sound]

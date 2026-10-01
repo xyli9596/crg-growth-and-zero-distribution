@@ -1,0 +1,15 @@
+'CRGPuiseuxCompanionExpansion.entry_companionSeries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionExpansion.clearedCompanion_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxCompanionExpansion.clearedCompanion_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGPuiseuxCompanionExpansion.clearedCompanion_eventually_continuousAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGPuiseuxCompanionExpansion.normalizedSource_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGPuiseuxCompanionExpansion.normalizedSource_eventually_continuousAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGPuiseuxCompanionExpansion.exists_companion_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'LevinFiniteType.scaled_exp_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFiniteType.scaled_log_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFiniteType.zero_free_normalized_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinFiniteType.zero_free_asymptotic_equicontinuity' depends on axioms: [propext, Classical.choice, Quot.sound]

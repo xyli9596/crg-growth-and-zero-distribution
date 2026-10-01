@@ -1,0 +1,10 @@
+'LevinSmallDensity.exists_zero_density_uniform_limit_of_arbitrarily_small_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'LevinSmallDensity.exists_zero_density_uniform_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinSmallDensity.exists_single_limit_all_density_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinSmallDensity.exists_ge_outside_of_density_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinSmallDensity.outsideFilter_neBot_of_density_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinSmallDensity.density_bound_union_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinSmallDensity.outsideFilter_union_le_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinSmallDensity.outsideFilter_union_le_right' depends on axioms: [propext, Classical.choice, Quot.sound]

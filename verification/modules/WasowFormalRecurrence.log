@@ -1,0 +1,6 @@
+'WasowFormalRecurrence.residual_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalRecurrence.coefficients_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalRecurrence.coefficients_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalRecurrence.coefficient_identity_of_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalRecurrence.exists_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalRecurrence.exists_formal_block_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]

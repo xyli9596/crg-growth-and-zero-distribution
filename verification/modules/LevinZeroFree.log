@@ -1,0 +1,7 @@
+'LevinZeroFree.directionCompactSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinZeroFree.directionNonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinZeroFree.rayRegular_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinZeroFree.radialRegular_of_uniform_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinZeroFree.exists_dense_sequence_in' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinZeroFree.radialRegular_of_zero_free_dense_sequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinZeroFree.radialRegular_of_zero_free_dense_rays' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'CRGLinearKernelEntire.kernel_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelEntire.differentiable_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelEntire.differentiable_linearKernel' depends on axioms: [propext, Classical.choice, Quot.sound]

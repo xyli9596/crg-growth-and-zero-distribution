@@ -1,0 +1,962 @@
+name = "crg_theorem_1_1"
+version = "1.0.0"
+defaultTargets = ["CRGRay", "CRGProgress", "MixedVolterra", "Halfline", "VolterraCalculus", "NormalFormGoal", "LevinDensity", "LevinMeasurableDensity", "LevinDyadic", "LevinCompact", "LevinAssembly", "LevinSmallDensity", "LevinAnalytic", "LevinGeometry", "LevinGrowth", "LevinFiniteType", "LevinZeroFree", "LevinFactorization", "LevinLocalFactor", "LevinLogKernel", "LevinCanonicalKernel", "LevinFiniteProduct", "LevinAnnulus", "LevinExceptional", "LevinOrigin", "LevinRadial", "LevinGeneral", "LevinPoisson", "LevinIndicator", "LevinIndicatorLower", "LevinIndicatorOrigin", "LevinIndicatorUpper", "LevinCriterion", "LevinCartan", "LevinIndicatorModulus", "LevinMinimumModulus", "LevinMinimumTransfer", "LevinCartanCost", "LevinLocalProfile", "LevinGrid", "LevinFiniteCover", "LevinDiskClip", "LevinDiskAssembly", "LevinScaledBounds", "LevinScaling", "LevinC0", "WasowRational", "WasowPolynomialPhase", "WasowScalarGauge", "WasowDiagonal", "WasowFormalSylvester", "WasowVolterra", "WasowRegularSingular", "WasowMatrixBounds", "WasowFundamental", "WasowPowerSeries", "WasowFormalRecurrence", "WasowRecurrencePrinciple", "WasowShiftReduction", "WasowMultiShiftReduction", "WasowMultiBlockReduction", "WasowFormalSeries", "WasowTruncation", "WasowShearing", "WasowRamification", "WasowRealization", "WasowBookCheck", "WasowAnalyticRemainder", "WasowNormalizedLemma", "WasowNormalizedRecurrence", "WasowLeadingBlocks", "WasowArbitraryFormalBlocks", "WasowMatrixPolynomial", "WasowTruncatedGauge", "WasowActualTruncation", "WasowActualTail", "WasowWeightedRemainder", "WasowGaugeAssembly", "WasowRegularGauge", "WasowRegularTail", "WasowPhaseOrdering", "WasowPhaseRealization", "WasowRegularTruncation", "WasowRamifiedGauge", "WasowAnalyticAssembly", "WasowShearingLeading", "WasowFormalShearing", "WasowRationalEvaluation", "WasowGaugeComposition", "WasowJordanBasis", "WasowJordanFormal", "WasowMinorExpansion", "WasowReductionDescent", "WasowMinorInvariance", "WasowMinorEquivalence", "WasowNilpotentNormalized", "WasowShearingExceptional", "WasowPencilCoefficients", "WasowPencilElimination", "WasowPencilReduction", "WasowSingleEigenBlocks", "WasowPaddedDescent", "WasowPencilDescent", "WasowPencilSimilarity", "WasowOrderedShearing", "WasowPencilCoordinates", "WasowPencilScaling", "WasowPhaseNormalization", "WasowSortedJordan", "WasowShearingTermination", "WasowRankSelection", "WasowReductionTermination", "WasowShearingGauge", "WasowTruncationRealization", "WasowFormalSuccessor", "WasowFormalNormalization", "WasowFormalSpectrum", "WasowFormalSplit", "WasowFuchsianODE", "WasowFuchsianFundamental", "WasowFuchsianBounds", "WasowFuchsianRational", "WasowFuchsian", "WasowPolynomialTail", "WasowFuchsianRealization", "WasowFuchsianTruncation", "WasowLaurentGauge", "WasowPhaseFamily", "WasowPhaseFamilyBlocks", "WasowPhaseFamilyRamification", "WasowPhaseTree", "WasowRationalAtInfinity", "WasowRecursiveTree", "WasowScalarPhase", "WasowRecursivePhases", "WasowRationalReduction", "WasowRayRotation", "WasowRegularLeaf", "WasowRegularBlocks", "WasowGlobalFormalEdges", "WasowLaurentRamification", "WasowLaurentShearing", "WasowGlobalFormalSplit", "WasowGlobalFormalRegular", "WasowAnalyticPowerPullback", "WasowLaurentPhase", "WasowGlobalFormalCanonical", "WasowLaurentTruncation", "WasowClearedResidual", "WasowLaurentResidual", "WasowLaurentClearing", "WasowCanonicalTruncation", "WasowCanonicalPhaseEvaluation", "WasowGlobalFormalAssembly", "WasowGlobalFormalTree", "WasowGlobalFormalSquare", "WasowLaurentInverse", "WasowLaurentActualResidual", "WasowLaurentRemainder", "WasowLaurentTail", "WasowLaurentFiniteRealization", "WasowRamifiedCoefficient", "WasowGlobalFiniteRealization", "WasowLaurentConjugatedTail", "WasowLaurentRayEquation", "WasowPhaseRegularGauge", "WasowGlobalRayData", "WasowCanonicalRegularGauge", "WasowLaurentChainTail", "WasowLaurentExactAssemblyData", "WasowGlobalConjugatedTail", "WasowLaurentGaugeControl", "WasowLaurentExactAssembly", "WasowGlobalExactAssembly", "WasowRationalNormalForm", "CRGAngularShadow", "CRGExponentialCoefficients", "CRGCollectedEquation", "CRGPhaseDirections", "CRGPhaseAsymptotics", "CRGRayComparisonOrder", "CRGExponentialDominance", "CRGRayComparisonLog", "CRGSolutionSpanning", "CRGSolutionPerturbation", "CRGSolutionPerturbationTail", "CRGRayComparison", "CRGCompanion", "CRGCompanionComparison", "CRGGroupResidual", "GundersenAngles", "GundersenJet", "CRGCollectedResidual", "CRGOrder", "CRGPhragmenStrip", "CRGPhragmenGrowth", "CRGPhragmenGlobal", "CRGPhragmenRay", "CRGPhragmenPolynomial", "CRGPhragmenPolynomialGlobal", "CRGPhragmenPolynomialRay", "CRGOrderRay", "CRGPolynomialGrowth", "CRGOrderPhaseCriterion", "CRGOrderLevin", "GundersenCartan", "GundersenBlaschke", "GundersenLogarithm", "GundersenLocal", "GundersenGrowth", "CRGGundersenDyadic", "GundersenOrigin", "GundersenDerivative", "GundersenTwoSided", "GundersenTheorem", "CRGOrderAE", "CRGOrderPhaseData", "CRGFinitePhaseEndgame", "CRGGroupHighest", "CRGOrderPolynomialPhases", "CRGPolynomialGroupComparison", "CRGTheorem11", "CRGAsymptoticCoefficientCompleteExpansion", "CRGAsymptoticCoefficientMatrixTransfer", "CRGAsymptoticCoefficientPullback", "CRGAsymptoticCoefficientQuotient", "CRGAsymptoticCoefficientRayTail", "CRGAsymptoticCoefficientScalarAlgebra", "CRGExponentialCoefficientGroups", "CRGExponentialExpansionConclusion", "CRGExponentialExpansionGroupsBuilder", "CRGExponentialExpansionSector", "CRGFinitePhaseWindowEndgame", "CRGGeneralRayComparison", "CRGGeneralRayFlatTail", "CRGGeneralRayGauge", "CRGGeneralRayRamification", "CRGIndicatorAlternatives", "CRGIndicatorCorollary", "CRGIndicatorFinite", "CRGIndicatorFixedPhases", "CRGIndicatorPartition", "CRGIndicatorPeriodicRays", "CRGLinearKernelActiveCells", "CRGLinearKernelCancellation", "CRGLinearKernelCellPackets", "CRGLinearKernelCoefficients", "CRGLinearKernelConclusion", "CRGLinearKernelEntire", "CRGLinearKernelExpansion", "CRGLinearKernelFarEndpoint", "CRGLinearKernelFarEndpointLower", "CRGLinearKernelGroupAssembly", "CRGLinearKernelHolomorphicExpansion", "CRGLinearKernelIntegration", "CRGLinearKernelLineEndpoints", "CRGLinearKernelLineGeometry", "CRGLinearKernelLinePackets", "CRGLinearKernelLines", "CRGLinearKernelNonzeroInterior", "CRGLinearKernelPacketExpansion", "CRGLinearKernelSourceExpansion", "CRGLinearKernelSubdivision", "CRGPolynomialKernelAtInfinity", "CRGPolynomialKernelCancellation", "CRGPolynomialKernelCellGroups", "CRGPolynomialKernelCellSeries", "CRGPolynomialKernelCells", "CRGPolynomialKernelClearing", "CRGPolynomialKernelCoefficients", "CRGPolynomialKernelConclusion", "CRGPolynomialKernelDensity", "CRGPolynomialKernelDensityGroups", "CRGPolynomialKernelEntire", "CRGPolynomialKernelFormalGroups", "CRGPolynomialKernelGroupPackets", "CRGPolynomialKernelGrowingGroup", "CRGPolynomialKernelMonic", "CRGPolynomialKernelNonvanishing", "CRGPolynomialKernelPuiseux", "CRGPolynomialKernelRamification", "CRGPuiseuxAngularCells", "CRGPuiseuxBranchSector", "CRGPuiseuxCompanionComparison", "CRGPuiseuxCompanionExpansion", "CRGPuiseuxCompanionNormalForm", "CRGPuiseuxCoordinates", "CRGPuiseuxFiniteRealization", "CRGPuiseuxLinearKernelCells", "CRGPuiseuxMonic", "CRGPuiseuxNormalForm", "CRGPuiseuxPolynomialCone", "CRGPuiseuxPolynomialKernelCells", "CRGPuiseuxProposition", "CRGPuiseuxRayData", "CRGPuiseuxRayReduction", "CRGPuiseuxScalarReduction", "CRGPuiseuxSector", "CRGPuiseuxSectorComparison", "CRGWatsonComplexMoments", "CRGWatsonDecay", "CRGWatsonDensityGrowing", "CRGWatsonExpansion", "CRGWatsonFormalSeries", "CRGWatsonGrowing", "CRGWatsonMoments", "CRGWatsonSourceExpansion", "CRGWatsonTaylor", "CRGZeroDistributionCompact", "CRGZeroDistributionCorollary", "CRGZeroDistributionDyadic", "CRGZeroDistributionHarmonic", "CRGZeroDistributionLocal", "CRGZeroDistributionProfile", "CRGZeroDistributionRealPairs", "CRGZeroDistributionScaled", "CRGZeroDistributionSector", "Audit"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "db584cd6d46c92f209a44c0f1c829460d327499d"
+
+[[lean_lib]]
+name = "CRGRay"
+
+[[lean_lib]]
+name = "CRGProgress"
+
+[[lean_lib]]
+name = "MixedVolterra"
+
+[[lean_lib]]
+name = "Halfline"
+
+[[lean_lib]]
+name = "VolterraCalculus"
+
+[[lean_lib]]
+name = "NormalFormGoal"
+
+[[lean_lib]]
+name = "LevinDensity"
+
+[[lean_lib]]
+name = "LevinMeasurableDensity"
+
+[[lean_lib]]
+name = "LevinDyadic"
+
+[[lean_lib]]
+name = "LevinCompact"
+
+[[lean_lib]]
+name = "LevinAssembly"
+
+[[lean_lib]]
+name = "LevinSmallDensity"
+
+[[lean_lib]]
+name = "LevinAnalytic"
+
+[[lean_lib]]
+name = "LevinGeometry"
+
+[[lean_lib]]
+name = "LevinGrowth"
+
+[[lean_lib]]
+name = "LevinFiniteType"
+
+[[lean_lib]]
+name = "LevinZeroFree"
+
+[[lean_lib]]
+name = "LevinFactorization"
+
+[[lean_lib]]
+name = "LevinLocalFactor"
+
+[[lean_lib]]
+name = "LevinLogKernel"
+
+[[lean_lib]]
+name = "LevinCanonicalKernel"
+
+[[lean_lib]]
+name = "LevinFiniteProduct"
+
+[[lean_lib]]
+name = "LevinAnnulus"
+
+[[lean_lib]]
+name = "LevinExceptional"
+
+[[lean_lib]]
+name = "LevinOrigin"
+
+[[lean_lib]]
+name = "LevinRadial"
+
+[[lean_lib]]
+name = "LevinGeneral"
+
+[[lean_lib]]
+name = "LevinPoisson"
+
+[[lean_lib]]
+name = "LevinIndicator"
+
+[[lean_lib]]
+name = "LevinIndicatorLower"
+
+[[lean_lib]]
+name = "LevinIndicatorOrigin"
+
+[[lean_lib]]
+name = "LevinIndicatorUpper"
+
+[[lean_lib]]
+name = "LevinCriterion"
+
+[[lean_lib]]
+name = "LevinCartan"
+
+[[lean_lib]]
+name = "LevinIndicatorModulus"
+
+[[lean_lib]]
+name = "LevinMinimumModulus"
+
+[[lean_lib]]
+name = "LevinMinimumTransfer"
+
+[[lean_lib]]
+name = "LevinCartanCost"
+
+[[lean_lib]]
+name = "LevinLocalProfile"
+
+[[lean_lib]]
+name = "LevinGrid"
+
+[[lean_lib]]
+name = "LevinFiniteCover"
+
+[[lean_lib]]
+name = "LevinDiskClip"
+
+[[lean_lib]]
+name = "LevinDiskAssembly"
+
+[[lean_lib]]
+name = "LevinScaledBounds"
+
+[[lean_lib]]
+name = "LevinScaling"
+
+[[lean_lib]]
+name = "LevinC0"
+
+[[lean_lib]]
+name = "WasowRational"
+
+[[lean_lib]]
+name = "WasowPolynomialPhase"
+
+[[lean_lib]]
+name = "WasowScalarGauge"
+
+[[lean_lib]]
+name = "WasowDiagonal"
+
+[[lean_lib]]
+name = "WasowFormalSylvester"
+
+[[lean_lib]]
+name = "WasowVolterra"
+
+[[lean_lib]]
+name = "WasowRegularSingular"
+
+[[lean_lib]]
+name = "WasowMatrixBounds"
+
+[[lean_lib]]
+name = "WasowFundamental"
+
+[[lean_lib]]
+name = "WasowPowerSeries"
+
+[[lean_lib]]
+name = "WasowFormalRecurrence"
+
+[[lean_lib]]
+name = "WasowRecurrencePrinciple"
+
+[[lean_lib]]
+name = "WasowShiftReduction"
+
+[[lean_lib]]
+name = "WasowMultiShiftReduction"
+
+[[lean_lib]]
+name = "WasowMultiBlockReduction"
+
+[[lean_lib]]
+name = "WasowFormalSeries"
+
+[[lean_lib]]
+name = "WasowTruncation"
+
+[[lean_lib]]
+name = "WasowShearing"
+
+[[lean_lib]]
+name = "WasowRamification"
+
+[[lean_lib]]
+name = "WasowRealization"
+
+[[lean_lib]]
+name = "WasowBookCheck"
+
+[[lean_lib]]
+name = "WasowAnalyticRemainder"
+
+[[lean_lib]]
+name = "WasowNormalizedLemma"
+
+[[lean_lib]]
+name = "WasowNormalizedRecurrence"
+
+[[lean_lib]]
+name = "WasowLeadingBlocks"
+
+[[lean_lib]]
+name = "WasowArbitraryFormalBlocks"
+
+[[lean_lib]]
+name = "WasowMatrixPolynomial"
+
+[[lean_lib]]
+name = "WasowTruncatedGauge"
+
+[[lean_lib]]
+name = "WasowActualTruncation"
+
+[[lean_lib]]
+name = "WasowActualTail"
+
+[[lean_lib]]
+name = "WasowWeightedRemainder"
+
+[[lean_lib]]
+name = "WasowGaugeAssembly"
+
+[[lean_lib]]
+name = "WasowRegularGauge"
+
+[[lean_lib]]
+name = "WasowRegularTail"
+
+[[lean_lib]]
+name = "WasowPhaseOrdering"
+
+[[lean_lib]]
+name = "WasowPhaseRealization"
+
+[[lean_lib]]
+name = "WasowRegularTruncation"
+
+[[lean_lib]]
+name = "WasowRamifiedGauge"
+
+[[lean_lib]]
+name = "WasowAnalyticAssembly"
+
+[[lean_lib]]
+name = "WasowShearingLeading"
+
+[[lean_lib]]
+name = "WasowFormalShearing"
+
+[[lean_lib]]
+name = "WasowRationalEvaluation"
+
+[[lean_lib]]
+name = "WasowGaugeComposition"
+
+[[lean_lib]]
+name = "WasowJordanBasis"
+
+[[lean_lib]]
+name = "WasowJordanFormal"
+
+[[lean_lib]]
+name = "WasowMinorExpansion"
+
+[[lean_lib]]
+name = "WasowReductionDescent"
+
+[[lean_lib]]
+name = "WasowMinorInvariance"
+
+[[lean_lib]]
+name = "WasowMinorEquivalence"
+
+[[lean_lib]]
+name = "WasowNilpotentNormalized"
+
+[[lean_lib]]
+name = "WasowShearingExceptional"
+
+[[lean_lib]]
+name = "WasowPencilCoefficients"
+
+[[lean_lib]]
+name = "WasowPencilElimination"
+
+[[lean_lib]]
+name = "WasowPencilReduction"
+
+[[lean_lib]]
+name = "WasowSingleEigenBlocks"
+
+[[lean_lib]]
+name = "WasowPaddedDescent"
+
+[[lean_lib]]
+name = "WasowPencilDescent"
+
+[[lean_lib]]
+name = "WasowPencilSimilarity"
+
+[[lean_lib]]
+name = "WasowOrderedShearing"
+
+[[lean_lib]]
+name = "WasowPencilCoordinates"
+
+[[lean_lib]]
+name = "WasowPencilScaling"
+
+[[lean_lib]]
+name = "WasowPhaseNormalization"
+
+[[lean_lib]]
+name = "WasowSortedJordan"
+
+[[lean_lib]]
+name = "WasowShearingTermination"
+
+[[lean_lib]]
+name = "WasowRankSelection"
+
+[[lean_lib]]
+name = "WasowReductionTermination"
+
+[[lean_lib]]
+name = "WasowShearingGauge"
+
+[[lean_lib]]
+name = "WasowTruncationRealization"
+
+[[lean_lib]]
+name = "WasowFormalSuccessor"
+
+[[lean_lib]]
+name = "WasowFormalNormalization"
+
+[[lean_lib]]
+name = "WasowFormalSpectrum"
+
+[[lean_lib]]
+name = "WasowFormalSplit"
+
+[[lean_lib]]
+name = "WasowFuchsianODE"
+
+[[lean_lib]]
+name = "WasowFuchsianFundamental"
+
+[[lean_lib]]
+name = "WasowFuchsianBounds"
+
+[[lean_lib]]
+name = "WasowFuchsianRational"
+
+[[lean_lib]]
+name = "WasowFuchsian"
+
+[[lean_lib]]
+name = "WasowPolynomialTail"
+
+[[lean_lib]]
+name = "WasowFuchsianRealization"
+
+[[lean_lib]]
+name = "WasowFuchsianTruncation"
+
+[[lean_lib]]
+name = "WasowLaurentGauge"
+
+[[lean_lib]]
+name = "WasowPhaseFamily"
+
+[[lean_lib]]
+name = "WasowPhaseFamilyBlocks"
+
+[[lean_lib]]
+name = "WasowPhaseFamilyRamification"
+
+[[lean_lib]]
+name = "WasowPhaseTree"
+
+[[lean_lib]]
+name = "WasowRationalAtInfinity"
+
+[[lean_lib]]
+name = "WasowRecursiveTree"
+
+[[lean_lib]]
+name = "WasowScalarPhase"
+
+[[lean_lib]]
+name = "WasowRecursivePhases"
+
+[[lean_lib]]
+name = "WasowRationalReduction"
+
+[[lean_lib]]
+name = "WasowRayRotation"
+
+[[lean_lib]]
+name = "WasowRegularLeaf"
+
+[[lean_lib]]
+name = "WasowRegularBlocks"
+
+[[lean_lib]]
+name = "WasowGlobalFormalEdges"
+
+[[lean_lib]]
+name = "WasowLaurentRamification"
+
+[[lean_lib]]
+name = "WasowLaurentShearing"
+
+[[lean_lib]]
+name = "WasowGlobalFormalSplit"
+
+[[lean_lib]]
+name = "WasowGlobalFormalRegular"
+
+[[lean_lib]]
+name = "WasowAnalyticPowerPullback"
+
+[[lean_lib]]
+name = "WasowLaurentPhase"
+
+[[lean_lib]]
+name = "WasowGlobalFormalCanonical"
+
+[[lean_lib]]
+name = "WasowLaurentTruncation"
+
+[[lean_lib]]
+name = "WasowClearedResidual"
+
+[[lean_lib]]
+name = "WasowLaurentResidual"
+
+[[lean_lib]]
+name = "WasowLaurentClearing"
+
+[[lean_lib]]
+name = "WasowCanonicalTruncation"
+
+[[lean_lib]]
+name = "WasowCanonicalPhaseEvaluation"
+
+[[lean_lib]]
+name = "WasowGlobalFormalAssembly"
+
+[[lean_lib]]
+name = "WasowGlobalFormalTree"
+
+[[lean_lib]]
+name = "WasowGlobalFormalSquare"
+
+[[lean_lib]]
+name = "WasowLaurentInverse"
+
+[[lean_lib]]
+name = "WasowLaurentActualResidual"
+
+[[lean_lib]]
+name = "WasowLaurentRemainder"
+
+[[lean_lib]]
+name = "WasowLaurentTail"
+
+[[lean_lib]]
+name = "WasowLaurentFiniteRealization"
+
+[[lean_lib]]
+name = "WasowRamifiedCoefficient"
+
+[[lean_lib]]
+name = "WasowGlobalFiniteRealization"
+
+[[lean_lib]]
+name = "WasowLaurentConjugatedTail"
+
+[[lean_lib]]
+name = "WasowLaurentRayEquation"
+
+[[lean_lib]]
+name = "WasowPhaseRegularGauge"
+
+[[lean_lib]]
+name = "WasowGlobalRayData"
+
+[[lean_lib]]
+name = "WasowCanonicalRegularGauge"
+
+[[lean_lib]]
+name = "WasowLaurentChainTail"
+
+[[lean_lib]]
+name = "WasowLaurentExactAssemblyData"
+
+[[lean_lib]]
+name = "WasowGlobalConjugatedTail"
+
+[[lean_lib]]
+name = "WasowLaurentGaugeControl"
+
+[[lean_lib]]
+name = "WasowLaurentExactAssembly"
+
+[[lean_lib]]
+name = "WasowGlobalExactAssembly"
+
+[[lean_lib]]
+name = "WasowRationalNormalForm"
+
+[[lean_lib]]
+name = "CRGAngularShadow"
+
+[[lean_lib]]
+name = "CRGExponentialCoefficients"
+
+[[lean_lib]]
+name = "CRGCollectedEquation"
+
+[[lean_lib]]
+name = "CRGPhaseDirections"
+
+[[lean_lib]]
+name = "CRGPhaseAsymptotics"
+
+[[lean_lib]]
+name = "CRGRayComparisonOrder"
+
+[[lean_lib]]
+name = "CRGExponentialDominance"
+
+[[lean_lib]]
+name = "CRGRayComparisonLog"
+
+[[lean_lib]]
+name = "CRGSolutionSpanning"
+
+[[lean_lib]]
+name = "CRGSolutionPerturbation"
+
+[[lean_lib]]
+name = "CRGSolutionPerturbationTail"
+
+[[lean_lib]]
+name = "CRGRayComparison"
+
+[[lean_lib]]
+name = "CRGCompanion"
+
+[[lean_lib]]
+name = "CRGCompanionComparison"
+
+[[lean_lib]]
+name = "CRGGroupResidual"
+
+[[lean_lib]]
+name = "GundersenAngles"
+
+[[lean_lib]]
+name = "GundersenJet"
+
+[[lean_lib]]
+name = "CRGCollectedResidual"
+
+[[lean_lib]]
+name = "CRGOrder"
+
+[[lean_lib]]
+name = "CRGPhragmenStrip"
+
+[[lean_lib]]
+name = "CRGPhragmenGrowth"
+
+[[lean_lib]]
+name = "CRGPhragmenGlobal"
+
+[[lean_lib]]
+name = "CRGPhragmenRay"
+
+[[lean_lib]]
+name = "CRGPhragmenPolynomial"
+
+[[lean_lib]]
+name = "CRGPhragmenPolynomialGlobal"
+
+[[lean_lib]]
+name = "CRGPhragmenPolynomialRay"
+
+[[lean_lib]]
+name = "CRGOrderRay"
+
+[[lean_lib]]
+name = "CRGPolynomialGrowth"
+
+[[lean_lib]]
+name = "CRGOrderPhaseCriterion"
+
+[[lean_lib]]
+name = "CRGOrderLevin"
+
+[[lean_lib]]
+name = "GundersenCartan"
+
+[[lean_lib]]
+name = "GundersenBlaschke"
+
+[[lean_lib]]
+name = "GundersenLogarithm"
+
+[[lean_lib]]
+name = "GundersenLocal"
+
+[[lean_lib]]
+name = "GundersenGrowth"
+
+[[lean_lib]]
+name = "CRGGundersenDyadic"
+
+[[lean_lib]]
+name = "GundersenOrigin"
+
+[[lean_lib]]
+name = "GundersenDerivative"
+
+[[lean_lib]]
+name = "GundersenTwoSided"
+
+[[lean_lib]]
+name = "GundersenTheorem"
+
+[[lean_lib]]
+name = "CRGOrderAE"
+
+[[lean_lib]]
+name = "CRGOrderPhaseData"
+
+[[lean_lib]]
+name = "CRGFinitePhaseEndgame"
+
+[[lean_lib]]
+name = "CRGGroupHighest"
+
+[[lean_lib]]
+name = "CRGOrderPolynomialPhases"
+
+[[lean_lib]]
+name = "CRGPolynomialGroupComparison"
+
+[[lean_lib]]
+name = "CRGTheorem11"
+
+[[lean_lib]]
+name = "Audit"
+
+[[lean_lib]]
+name = "CRGAsymptoticCoefficientCompleteExpansion"
+
+[[lean_lib]]
+name = "CRGAsymptoticCoefficientMatrixTransfer"
+
+[[lean_lib]]
+name = "CRGAsymptoticCoefficientPullback"
+
+[[lean_lib]]
+name = "CRGAsymptoticCoefficientQuotient"
+
+[[lean_lib]]
+name = "CRGAsymptoticCoefficientRayTail"
+
+[[lean_lib]]
+name = "CRGAsymptoticCoefficientScalarAlgebra"
+
+[[lean_lib]]
+name = "CRGExponentialCoefficientGroups"
+
+[[lean_lib]]
+name = "CRGExponentialExpansionConclusion"
+
+[[lean_lib]]
+name = "CRGExponentialExpansionGroupsBuilder"
+
+[[lean_lib]]
+name = "CRGExponentialExpansionSector"
+
+[[lean_lib]]
+name = "CRGFinitePhaseWindowEndgame"
+
+[[lean_lib]]
+name = "CRGGeneralRayComparison"
+
+[[lean_lib]]
+name = "CRGGeneralRayFlatTail"
+
+[[lean_lib]]
+name = "CRGGeneralRayGauge"
+
+[[lean_lib]]
+name = "CRGGeneralRayRamification"
+
+[[lean_lib]]
+name = "CRGIndicatorAlternatives"
+
+[[lean_lib]]
+name = "CRGIndicatorCorollary"
+
+[[lean_lib]]
+name = "CRGIndicatorFinite"
+
+[[lean_lib]]
+name = "CRGIndicatorFixedPhases"
+
+[[lean_lib]]
+name = "CRGIndicatorPartition"
+
+[[lean_lib]]
+name = "CRGIndicatorPeriodicRays"
+
+[[lean_lib]]
+name = "CRGLinearKernelActiveCells"
+
+[[lean_lib]]
+name = "CRGLinearKernelCancellation"
+
+[[lean_lib]]
+name = "CRGLinearKernelCellPackets"
+
+[[lean_lib]]
+name = "CRGLinearKernelCoefficients"
+
+[[lean_lib]]
+name = "CRGLinearKernelConclusion"
+
+[[lean_lib]]
+name = "CRGLinearKernelEntire"
+
+[[lean_lib]]
+name = "CRGLinearKernelExpansion"
+
+[[lean_lib]]
+name = "CRGLinearKernelFarEndpoint"
+
+[[lean_lib]]
+name = "CRGLinearKernelFarEndpointLower"
+
+[[lean_lib]]
+name = "CRGLinearKernelGroupAssembly"
+
+[[lean_lib]]
+name = "CRGLinearKernelHolomorphicExpansion"
+
+[[lean_lib]]
+name = "CRGLinearKernelIntegration"
+
+[[lean_lib]]
+name = "CRGLinearKernelLineEndpoints"
+
+[[lean_lib]]
+name = "CRGLinearKernelLineGeometry"
+
+[[lean_lib]]
+name = "CRGLinearKernelLinePackets"
+
+[[lean_lib]]
+name = "CRGLinearKernelLines"
+
+[[lean_lib]]
+name = "CRGLinearKernelNonzeroInterior"
+
+[[lean_lib]]
+name = "CRGLinearKernelPacketExpansion"
+
+[[lean_lib]]
+name = "CRGLinearKernelSourceExpansion"
+
+[[lean_lib]]
+name = "CRGLinearKernelSubdivision"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelAtInfinity"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelCancellation"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelCellGroups"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelCellSeries"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelCells"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelClearing"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelCoefficients"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelConclusion"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelDensity"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelDensityGroups"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelEntire"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelFormalGroups"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelGroupPackets"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelGrowingGroup"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelMonic"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelNonvanishing"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelPuiseux"
+
+[[lean_lib]]
+name = "CRGPolynomialKernelRamification"
+
+[[lean_lib]]
+name = "CRGPuiseuxAngularCells"
+
+[[lean_lib]]
+name = "CRGPuiseuxBranchSector"
+
+[[lean_lib]]
+name = "CRGPuiseuxCompanionComparison"
+
+[[lean_lib]]
+name = "CRGPuiseuxCompanionExpansion"
+
+[[lean_lib]]
+name = "CRGPuiseuxCompanionNormalForm"
+
+[[lean_lib]]
+name = "CRGPuiseuxCoordinates"
+
+[[lean_lib]]
+name = "CRGPuiseuxFiniteRealization"
+
+[[lean_lib]]
+name = "CRGPuiseuxLinearKernelCells"
+
+[[lean_lib]]
+name = "CRGPuiseuxMonic"
+
+[[lean_lib]]
+name = "CRGPuiseuxNormalForm"
+
+[[lean_lib]]
+name = "CRGPuiseuxPolynomialCone"
+
+[[lean_lib]]
+name = "CRGPuiseuxPolynomialKernelCells"
+
+[[lean_lib]]
+name = "CRGPuiseuxProposition"
+
+[[lean_lib]]
+name = "CRGPuiseuxRayData"
+
+[[lean_lib]]
+name = "CRGPuiseuxRayReduction"
+
+[[lean_lib]]
+name = "CRGPuiseuxScalarReduction"
+
+[[lean_lib]]
+name = "CRGPuiseuxSector"
+
+[[lean_lib]]
+name = "CRGPuiseuxSectorComparison"
+
+[[lean_lib]]
+name = "CRGWatsonComplexMoments"
+
+[[lean_lib]]
+name = "CRGWatsonDecay"
+
+[[lean_lib]]
+name = "CRGWatsonDensityGrowing"
+
+[[lean_lib]]
+name = "CRGWatsonExpansion"
+
+[[lean_lib]]
+name = "CRGWatsonFormalSeries"
+
+[[lean_lib]]
+name = "CRGWatsonGrowing"
+
+[[lean_lib]]
+name = "CRGWatsonMoments"
+
+[[lean_lib]]
+name = "CRGWatsonSourceExpansion"
+
+[[lean_lib]]
+name = "CRGWatsonTaylor"
+
+[[lean_lib]]
+name = "CRGZeroDistributionCompact"
+
+[[lean_lib]]
+name = "CRGZeroDistributionCorollary"
+
+[[lean_lib]]
+name = "CRGZeroDistributionDyadic"
+
+[[lean_lib]]
+name = "CRGZeroDistributionHarmonic"
+
+[[lean_lib]]
+name = "CRGZeroDistributionLocal"
+
+[[lean_lib]]
+name = "CRGZeroDistributionProfile"
+
+[[lean_lib]]
+name = "CRGZeroDistributionRealPairs"
+
+[[lean_lib]]
+name = "CRGZeroDistributionScaled"
+
+[[lean_lib]]
+name = "CRGZeroDistributionSector"

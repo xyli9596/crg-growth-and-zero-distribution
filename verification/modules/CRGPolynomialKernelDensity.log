@@ -1,0 +1,4 @@
+'CRGPolynomialKernel.powerKernel_eq_densityIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.intervalIntegrable_powerDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.analyticOnNhd_powerDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.laplaceIntegral_add_parameter' depends on axioms: [propext, Classical.choice, Quot.sound]

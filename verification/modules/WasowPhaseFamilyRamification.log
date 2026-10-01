@@ -1,0 +1,5 @@
+'WasowPhaseFamilyRamification.rootOnRay_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseFamilyRamification.phaseOnRay_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseFamilyRamification.phase_derivative_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseFamilyRamification.descend_rayGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseFamilyRamification.ramification_family_pullback' depends on axioms: [propext, Classical.choice, Quot.sound]

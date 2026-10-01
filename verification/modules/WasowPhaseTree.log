@@ -1,0 +1,4 @@
+'WasowPhaseTree.denominator_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseTree.family_coeff_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseTree.phaseValue_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseTree.exists_fixed_family' depends on axioms: [propext, Classical.choice, Quot.sound]

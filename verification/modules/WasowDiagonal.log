@@ -1,0 +1,5 @@
+'WasowDiagonal.diagonal_mulVec_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowDiagonal.coefficientOnRay_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowDiagonal.exists_diagonal_rayGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowDiagonal.diagonal_rational_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowDiagonal.scalar_rational_normal_form' depends on axioms: [propext, Classical.choice, Quot.sound]

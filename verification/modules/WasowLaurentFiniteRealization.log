@@ -1,0 +1,6 @@
+'WasowLaurentFiniteRealization.finite_realization_common' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentFiniteRealization.gauge_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentFiniteRealization.transformed_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentFiniteRealization.residual_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentFiniteRealization.finite_realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentFiniteRealization.residual_small_ray_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'WasowPhaseRegularGauge.matrix_solutions_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseRegularGauge.diagonal_commute_of_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseRegularGauge.eval_trunc_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseRegularGauge.regularCoefficient_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseRegularGauge.exists_regularGauge_preserving_fibers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

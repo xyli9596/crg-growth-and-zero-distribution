@@ -1,0 +1,6 @@
+'LevinDiskClip.clippedRadius_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskClip.clippedRadius_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskClip.mem_clipped_ball_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskClip.center_lower_of_clipped_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskClip.sum_clippedRadius_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinDiskClip.exists_clipped_family' depends on axioms: [propext, Classical.choice, Quot.sound]

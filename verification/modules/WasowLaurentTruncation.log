@@ -1,0 +1,8 @@
+'WasowLaurentTruncation.poleOrder_add_order_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentTruncation.entry_cleared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentTruncation.toLaurent_cleared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentTruncation.recover_cleared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentTruncation.toLaurent_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentTruncation.cleared_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentTruncation.cleared_inverse_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentTruncation.trunc_product_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]

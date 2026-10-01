@@ -1,0 +1,6 @@
+'WasowTruncation.coeff_mul_congr_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowTruncation.coeff_truncation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowTruncation.coeff_shifted_derivative_truncation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowTruncation.defect_coeff_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowTruncation.defect_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowTruncation.truncation_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]

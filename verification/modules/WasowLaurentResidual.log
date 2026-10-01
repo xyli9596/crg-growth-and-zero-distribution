@@ -1,0 +1,6 @@
+'WasowLaurentResidual.monomial_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentResidual.monomial_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentResidual.toLaurent_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentResidual.toLaurent_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentResidual.derivative_monomial_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentResidual.equation_of_laurent' depends on axioms: [propext, Classical.choice, Quot.sound]

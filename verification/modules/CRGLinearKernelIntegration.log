@@ -1,0 +1,5 @@
+'CRGLinearKernelIntegration.integration_by_parts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelIntegration.iterated_integration_by_parts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelIntegration.real_exponential_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelIntegration.norm_kernel_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelIntegration.norm_exact_remainder_le' depends on axioms: [propext, Classical.choice, Quot.sound]

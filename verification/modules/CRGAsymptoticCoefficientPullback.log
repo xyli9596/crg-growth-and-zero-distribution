@@ -1,0 +1,8 @@
+'CRGAsymptoticCoefficientPullback.coeff_expandedTruncation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientPullback.eval_expandedTruncation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientPullback.isBigO_norm_pow_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientPullback.completeExpansion_power_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientPullback.eval_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientPullback.completeExpansion_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]

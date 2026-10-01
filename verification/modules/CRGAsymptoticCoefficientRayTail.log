@@ -1,0 +1,7 @@
+'CRGAsymptoticCoefficientRayTail.rayFilter_le_punctured' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientRayTail.power_tendsto_rayFilter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientRayTail.exists_ray_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientRayTail.exists_conjugated_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientRayTail.exists_small_conjugated_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

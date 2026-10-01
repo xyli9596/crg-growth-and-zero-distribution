@@ -1,0 +1,6 @@
+'WasowPhaseNormalization.normalizePhase_coeff_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseNormalization.phaseOnRay_normalize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseNormalization.deriv_phaseOnRay_normalize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseNormalization.normalizedWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseNormalization.exists_normalized_rayGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPhaseNormalization.normalize_phase_family' depends on axioms: [propext, Classical.choice, Quot.sound]

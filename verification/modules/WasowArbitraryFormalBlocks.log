@@ -1,0 +1,6 @@
+'WasowArbitraryFormalBlocks.map_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowArbitraryFormalBlocks.coordinateSeries_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowArbitraryFormalBlocks.coordinateSeries_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowArbitraryFormalBlocks.exists_arbitrary_formal_block_reduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

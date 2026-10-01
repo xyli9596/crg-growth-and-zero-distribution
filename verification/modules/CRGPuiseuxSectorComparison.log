@@ -1,0 +1,6 @@
+'CRGPuiseuxSectorComparison.localOnRay_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxSectorComparison.localJet_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxSectorComparison.residual_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxSectorComparison.companion_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxSectorComparison.reduced_physical_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxSectorComparison.Sector.ray_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]

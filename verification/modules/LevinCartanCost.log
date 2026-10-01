@@ -1,0 +1,6 @@
+'LevinCartanCost.tendsto_mul_log_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCartanCost.tendsto_mul_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCartanCost.loss_mul_modulus_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCartanCost.profileModulus_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCartanCost.loss_mul_profileModulus_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinCartanCost.exists_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]

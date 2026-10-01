@@ -1,0 +1,3 @@
+'CRGPuiseuxMonic.fullCoefficient_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxMonic.full_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxMonic.proposition_5_1_monic' depends on axioms: [propext, Classical.choice, Quot.sound]

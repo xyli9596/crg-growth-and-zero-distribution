@@ -1,0 +1,5 @@
+'WasowPaddedDescent.paddedDegrees_monotone' depends on axioms: [propext, Quot.sound]
+'WasowPaddedDescent.padded_lowerTriangular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPaddedDescent.padded_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPaddedDescent.padded_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPaddedDescent.padded_degreeMass_strict_drop' depends on axioms: [propext, Classical.choice, Quot.sound]

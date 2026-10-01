@@ -1,0 +1,4 @@
+'CRGExponentialCoefficients.normalizedExponent_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGExponentialCoefficients.normalized_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGExponentialCoefficients.grouped_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGExponentialCoefficients.distinct_normalized_nonconstant' depends on axioms: [propext, Classical.choice, Quot.sound]

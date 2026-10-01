@@ -1,0 +1,6 @@
+'WasowFuchsianRealization.exists_approximateRayGauge_of_fuchsian_formal_truncation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowFuchsianRealization.exists_exact_rayGauge_of_fuchsian_formal_truncation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

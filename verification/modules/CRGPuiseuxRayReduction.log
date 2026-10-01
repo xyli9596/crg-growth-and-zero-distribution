@@ -1,0 +1,31 @@
+CRGPuiseuxRayReduction.lean:27:19: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [inverseRay, direction_norm, Complex.norm_real, Real.norm_of_nonneg hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CRGPuiseuxRayReduction.lean:83:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+CRGPuiseuxRayReduction.lean:116:2: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+CRGPuiseuxRayReduction.lean:111:14: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ray, Complex.norm_exp, Complex.mul_re, Real.norm_of_nonneg hrp.le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'CRGPuiseuxRayReduction.localJet_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxRayReduction.localJet_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxRayReduction.cleared_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxRayReduction.highest_positive_from_ray_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxRayReduction.flat_residual_from_ray_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPuiseuxRayReduction.flat_on_physical_ray' depends on axioms: [propext, Classical.choice, Quot.sound]

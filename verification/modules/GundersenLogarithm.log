@@ -1,0 +1,4 @@
+'GundersenLogarithm.hasDerivAt_log_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenLogarithm.norm_deriv_log_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenLogarithm.logDeriv_bound_of_log_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenLogarithm.zero_free_logDeriv_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

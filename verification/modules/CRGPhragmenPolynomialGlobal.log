@@ -1,0 +1,3 @@
+'CRGPhragmenPolynomialGlobal.between_rays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhragmenPolynomialGlobal.local_bound_of_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhragmenPolynomialGlobal.global_bound_of_dense' depends on axioms: [propext, Classical.choice, Quot.sound]

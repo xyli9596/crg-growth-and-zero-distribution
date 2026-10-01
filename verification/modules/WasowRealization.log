@@ -1,0 +1,5 @@
+'WasowRealization.operatorMatrix_mul_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRealization.matrix_product_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRealization.corrected_derivative_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRealization.exists_normalized_correction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRealization.exists_exact_rayGauge' depends on axioms: [propext, Classical.choice, Quot.sound]

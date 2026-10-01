@@ -1,0 +1,5 @@
+'CRGGeneralRayFlatTail.smallConjugatedTails_of_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGGeneralRayFlatTail.smallConjugatedTails_of_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGGeneralRayFlatTail.smallConjugatedTails_of_flat_inverse_powers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

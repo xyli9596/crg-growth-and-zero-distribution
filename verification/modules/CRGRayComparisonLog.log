@@ -1,0 +1,4 @@
+'CRGRayComparisonLog.exponentialVector_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGRayComparisonLog.log_of_polynomial_exponential_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGRayComparisonLog.represented_solution_exponential_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGRayComparisonLog.represented_scalar_log_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]

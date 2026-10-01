@@ -1,0 +1,13 @@
+'CRGLinearKernelSourceExpansion.affineWeight_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelSourceExpansion.affineWeight_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelSourceExpansion.kernel_affine_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelSourceExpansion.normalized_kernel_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelSourceExpansion.kernel_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelSourceExpansion.reflectedWeight_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelSourceExpansion.reflectedWeight_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelSourceExpansion.exists_upper_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGLinearKernelSourceExpansion.exists_lower_completeExpansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

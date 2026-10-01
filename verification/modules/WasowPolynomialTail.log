@@ -1,0 +1,3 @@
+'WasowPolynomialTail.conjugation_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPolynomialTail.conjugated_remainder_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowPolynomialTail.exists_small_conjugated_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

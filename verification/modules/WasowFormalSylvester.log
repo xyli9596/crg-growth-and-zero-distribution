@@ -1,0 +1,14 @@
+'WasowFormalSylvester.leftMul_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSylvester.rightMul_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSylvester.leftMul_pow_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSylvester.rightMul_pow_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSylvester.leftMul_commute_rightMul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSylvester.isNilpotent_leftMul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSylvester.isNilpotent_rightMul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSylvester.sylvester_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSylvester.sylvester_scalar_parts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSylvester.isUnit_sylvester_of_nilpotent_parts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFormalSylvester.existsUnique_sylvester_of_nilpotent_parts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowFormalSylvester.exists_block_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]

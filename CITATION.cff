@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this formalization, cite the exact archived release or Git commit that you checked."
+title: "Lean formalization of completely regular growth for exponential-polynomial differential equations"
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Xing-Yu"
+version: "1.0.0"
+license: Apache-2.0
+abstract: >-
+  Lean 4 formalization of Theorem 1.1: every transcendental entire finite-order
+  solution of a monic linear differential equation with exponential-polynomial
+  coefficients has positive rational order, finite nonzero type, and completely
+  regular growth. Includes the required Gundersen angular estimates, rational
+  ray normal form, Phragmen-Lindelof connections, and constant-order Levin
+  criterion with C0 exceptional disks and the unrestricted indicator.
+keywords:
+  - Lean
+  - formal verification
+  - entire functions
+  - ordinary differential equations
+  - completely regular growth

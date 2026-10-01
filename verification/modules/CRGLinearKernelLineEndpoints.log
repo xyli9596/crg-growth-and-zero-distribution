@@ -1,0 +1,5 @@
+'CRGLinearKernelLineEndpoints.coefficient_eq_active_packets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLineEndpoints.upperDensity_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLineEndpoints.lowerDensity_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLineEndpoints.other_upperEnd_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGLinearKernelLineEndpoints.lowerEnd_lt_other' depends on axioms: [propext, Classical.choice, Quot.sound]

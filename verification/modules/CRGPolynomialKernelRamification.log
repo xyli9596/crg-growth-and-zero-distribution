@@ -1,0 +1,3 @@
+'CRGPolynomialKernel.CoefficientData.ramification_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.CoefficientData.power_dvd_ramification' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPolynomialKernel.normalizedExponent_nonconstant' depends on axioms: [propext, Classical.choice, Quot.sound]

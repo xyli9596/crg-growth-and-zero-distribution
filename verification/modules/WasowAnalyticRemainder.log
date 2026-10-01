@@ -1,0 +1,6 @@
+'WasowAnalyticRemainder.partialSum_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowAnalyticRemainder.isBigO_of_initial_coefficients_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowAnalyticRemainder.inverse_real_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowAnalyticRemainder.exists_inverse_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowAnalyticRemainder.exists_integrable_inverse_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowAnalyticRemainder.exists_small_integrable_inverse_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

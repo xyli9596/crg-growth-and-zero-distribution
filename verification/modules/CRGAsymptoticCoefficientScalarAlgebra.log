@@ -1,0 +1,26 @@
+'CRGAsymptoticCoefficientScalarAlgebra.completeExpansion_of_taylor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.exists_completeExpansion_of_analyticAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.completeExpansion_const' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.completeExpansion_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.completeExpansion_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.completeExpansion_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.completeExpansion_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.completeExpansion_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.coeff_pow_eq_zero_of_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.trunc_finiteComposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.completeExpansion_of_polynomial_approximations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGAsymptoticCoefficientScalarAlgebra.completeExpansion_composition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

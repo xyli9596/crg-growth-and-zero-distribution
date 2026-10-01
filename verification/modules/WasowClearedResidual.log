@@ -1,0 +1,5 @@
+'WasowClearedResidual.coeff_shifted_truncation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowClearedResidual.polynomialDefect_coeff_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowClearedResidual.polynomialDefect_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowClearedResidual.actualDefect_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowClearedResidual.actualDefect_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]

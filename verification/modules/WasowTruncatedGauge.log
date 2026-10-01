@@ -1,0 +1,5 @@
+'WasowTruncatedGauge.eval_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowTruncatedGauge.gauge_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowTruncatedGauge.gauge_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowTruncatedGauge.gauge_inverse_variable_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowTruncatedGauge.exists_inverse_tail_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'GundersenTheorem.ae_logDeriv_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenTheorem.ae_finite_jet_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenTheorem.ae_all_jets_all_errors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenTheorem.ae_ray_input' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GundersenTheorem.exists_null_exceptional_set' depends on axioms: [propext, Classical.choice, Quot.sound]

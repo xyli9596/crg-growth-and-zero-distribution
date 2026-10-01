@@ -1,0 +1,2 @@
+'WasowGlobalConjugatedTail.eventually_error_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowGlobalConjugatedTail.smallConjugatedTails' depends on axioms: [propext, Classical.choice, Quot.sound]

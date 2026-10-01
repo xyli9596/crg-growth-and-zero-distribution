@@ -1,0 +1,10 @@
+'WasowCanonicalPhaseEvaluation.eval_pole_polynomial_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowCanonicalPhaseEvaluation.phasePolynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowCanonicalPhaseEvaluation.eval_trunc_canonical_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowCanonicalPhaseEvaluation.evalOn_sum_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowCanonicalPhaseEvaluation.finite_laurent_eval_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowCanonicalPhaseEvaluation.phaseDerivative_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowCanonicalPhaseEvaluation.phase_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowCanonicalPhaseEvaluation.toLaurent_polynomial_entry' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'CRGOrderPhaseCriterion.exists_positive_leading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrderPhaseCriterion.finite_positive_type' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGOrderPhaseCriterion.positive_rational_order' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,8 @@
+'WasowFuchsianODE.exists_solution_Ici' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianODE.exists_solution_Icc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianODE.solution_eqOn_Icc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianODE.continuous_extend' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianODE.extend_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianODE.continuous_integrand' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianODE.iterate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowFuchsianODE.exists_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]

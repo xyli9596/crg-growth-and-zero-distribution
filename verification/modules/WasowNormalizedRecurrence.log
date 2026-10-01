@@ -1,0 +1,15 @@
+'WasowNormalizedRecurrence.step_of_coefficient_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowNormalizedRecurrence.normalized_formal_solution_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowNormalizedRecurrence.existsUnique_formal_shift_reduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowNormalizedRecurrence.existsUnique_formal_multishift_reduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowNormalizedRecurrence.powerSeries_solution_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowNormalizedRecurrence.normalized_multishift_powerSeries_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WasowNormalizedRecurrence.existsUnique_normalized_multishift_powerSeries' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

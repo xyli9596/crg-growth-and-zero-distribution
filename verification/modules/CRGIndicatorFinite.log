@@ -1,0 +1,11 @@
+CRGIndicatorFinite.lean:114:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'CRGIndicatorFinite.exists_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorFinite.angleDirection_arg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGIndicatorFinite.finite_continuous_indicators' depends on axioms: [propext, Classical.choice, Quot.sound]

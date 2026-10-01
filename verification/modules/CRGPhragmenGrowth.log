@@ -1,0 +1,3 @@
+'CRGPhragmenGrowth.lift_bound_of_upperOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhragmenGrowth.between_rays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGPhragmenGrowth.local_bound_of_dense' depends on axioms: [propext, Classical.choice, Quot.sound]

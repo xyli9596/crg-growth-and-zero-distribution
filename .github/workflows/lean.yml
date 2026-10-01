@@ -1,0 +1,47 @@
+name: Lean verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lean-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      PYTHONUNBUFFERED: "1"
+      LEAN_NUM_THREADS: "2"
+    steps:
+      - name: Check out the source
+        uses: actions/checkout@v4
+
+      - name: Install the Lean version in lean-toolchain
+        uses: leanprover/lean-action@v1
+        with:
+          auto-config: "false"
+          use-mathlib-cache: "false"
+          use-github-cache: "false"
+
+      - name: Fetch the pinned mathlib dependencies and cache
+        run: lake exe cache get
+
+      - name: Build and audit the proofs
+        run: python3 verify.py
+
+      - name: Upload the verification report and logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: lean-verification-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            verification/verification.json
+            verification/modules/*.log
+          if-no-files-found: warn

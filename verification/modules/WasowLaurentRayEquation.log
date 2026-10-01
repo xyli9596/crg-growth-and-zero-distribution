@@ -1,0 +1,7 @@
+'WasowLaurentRayEquation.chainFactor_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRayEquation.finite_realization_on_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRayEquation.inverseRay_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRayEquation.onRay_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRayEquation.ray_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRayEquation.finiteGauge_onRay_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowLaurentRayEquation.finiteGauge_ray_equation' depends on axioms: [propext, Classical.choice, Quot.sound]

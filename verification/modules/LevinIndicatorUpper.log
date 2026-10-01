@@ -1,0 +1,4 @@
+'LevinIndicatorUpper.exists_ratio_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinIndicatorUpper.scaled_poisson_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinIndicatorUpper.exists_uniform_ratio_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LevinIndicatorUpper.uniform_upper_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

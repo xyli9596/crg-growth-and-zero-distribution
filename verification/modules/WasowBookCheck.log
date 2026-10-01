@@ -1,0 +1,4 @@
+'WasowBookCheck.zero_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowBookCheck.nonzero_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowBookCheck.output_rows_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowBookCheck.not_existsUnique_unnormalized_last_row' depends on axioms: [propext, Classical.choice, Quot.sound]

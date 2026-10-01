@@ -1,0 +1,6 @@
+'WasowRegularBlocks.exists_exact_rayGauge_of_regular_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularBlocks.blockMatrix_continuousOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularBlocks.assemble_regularGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularBlocks.block_scalar_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularBlocks.exists_block_regularGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WasowRegularBlocks.exists_uniform_block_regularGauge' depends on axioms: [propext, Classical.choice, Quot.sound]
