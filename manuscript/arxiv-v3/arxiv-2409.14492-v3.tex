@@ -82,18 +82,13 @@ Consider the linear differential equation
  f^{(n)}+A_{n-1}f^{(n-1)}+\cdots+A_0f=0,
 \]
 where the coefficients are exponential polynomials.
-We prove that every transcendental entire solution $f$ of finite order
-has completely regular growth and obtain asymptotic formulas for
-$\log|f|$ on almost every ray, answering a question of
-Heittokangas et al.\ \cite[p.~33]{HITW2022}.
+We prove that every finite-order transcendental entire solution has completely regular growth and obtain asymptotic formulas for \(\log |f|\) on almost every ray. This answers a question of Heittokangas et al.\ \cite[p.~33]{HITW2022}.
 The proof combines logarithmic derivative estimates with asymptotic
 integration along rays.
 %These formulas involve a finite collection of functions
 %determined by the equation and restrict the possible indicator functions.
 We express the angular densities of zeros in terms of the indicator.
-We also extend the completely regular growth conclusion beyond
-exponential polynomial coefficients by giving a sufficient condition
-based on sectorial Laurent--Puiseux expansions.
+We also extend the result beyond exponential polynomial coefficients under a sectorial Laurent–Puiseux condition.
 
 \bigskip
 \noindent
@@ -109,8 +104,8 @@ asymptotic integration.
 \section{Introduction}
 Complex oscillation and the growth of solutions of linear differential
 equations with entire coefficients have been studied extensively.
-Exponential polynomials play an important role in oscillation,
-zero distribution and analytic number theory; see the survey by
+Exponential polynomials play an important role in oscillation and
+zero distribution; see the survey by
 Heittokangas, Ishizaki, Tohge and Wen \cite{HITW2022}.
 
 \bigskip
@@ -172,8 +167,7 @@ solutions of finite order.
     	whose coefficients are entire functions of \textit{c.r.g}. Is $f$ also of \textit{c.r.g.}?}
 
     \bigskip
-Positive results for special classes of second-order equations are
-discussed by Heittokangas, Laine, Tohge and Wen
+Several positive results for second-order equations are discussed in 
 \cite[Section~4]{GOP}. In particular, they recall cases with coefficients
 polynomial in $e^z$ for which finite order transcendental solutions
 are exponential sums and hence of \textit{c.r.g}.
@@ -185,15 +179,19 @@ representations of finite order entire solutions as exponential sums,
 and existence criteria when the nonzero frequencies have the same sign.
 In this case the \textit{c.r.g.}\ conclusion follows from the representation.
 
-
+\iffalse
 Nevertheless, Bergweiler \cite[Theorems~1.1 and~1.2]{Bergweiler} constructed
 a second-order equation $f''+Af'+Bf=0$ with entire coefficients
 $A$ and $B$ of \textit{c.r.g.}\ and an entire solution $f$ with
 $0<\rho(f)<1$ and lower order zero, which does not satisfy the definition 
 of \textit{c.r.g}. 
-This makes us wonder what is the boundary condition to keep this regular inheritance. In 
+This raises the question of when \textit{c.r.g.}\ of the coefficients is inherited by finite-order solutions. In 
 \cite[p.~33, Problem~5]{HITW2022}, they asked the following question for
 equations of arbitrary order with exponential polynomial coefficients: 
+   \fi
+   Bergweiler \cite[Theorems~1.1 and~1.2]{Bergweiler}  constructed a second-order equation with coefficients of \textit{c.r.g.}\ having a finite-order entire solution which is not of \textit{c.r.g.}\ This raises the question of when \textit{c.r.g.}\ of the coefficients is inherited by finite-order solutions. In particular, Heittokangas et al.\ \cite[p.~33, Problem~5]{HITW2022} asked whether this holds when all coefficients are exponential polynomials:
+   
+   
     
     \bigskip
     \noindent
@@ -210,14 +208,7 @@ possible finite orders of transcendental entire solutions to
 \eqref{eq.basic} form a finite set of positive rational numbers,
 and that each such solution has order equal to its lower order.
 
-To establish \textit{c.r.g.}, we obtain asymptotic estimates along rays.
-The integral equation approach used by Cotti, Guzzetti and Masoero
-\cite{CGM} suggests how sectorial asymptotics can be used for this purpose.
-We apply Wasow's theorem to auxiliary systems with rational coefficients
-on sectors, and then control the effect of the perturbation along almost
-every ray by integral equations in the radial variable $r$.
-This gives an affirmative answer to the survey question for exponential
-polynomial coefficients of the general form \eqref{exppoly.eq1}.
+Our proof is based on asymptotic estimates along rays. We combine Wasow's sectorial asymptotic theory for rational systems with an integral-equation argument controlling exponentially small perturbations on almost every ray, in the spirit of \cite{CGM}. This yields an affirmative answer to Heittokangas et al.'s Problem 5.
 The ray estimates also give an alternative derivation of the order
 conclusions proved by Droletz.
 
@@ -225,7 +216,7 @@ conclusions proved by Droletz.
 Suppose that the coefficients $a_0,\ldots,a_{n-1}$ of \eqref{eq.basic}
 are exponential polynomials. Every transcendental entire solution of
 finite order has positive rational order, finite nonzero type, and
-\textit{c.r.g}.
+completely regular growth.
 \end{theorem}
 
 \bigskip
@@ -239,8 +230,7 @@ multipliers, and combine terms with the same exponent. The equation becomes
 \]
 where the $Q_\nu$ are distinct polynomials with $Q_\nu(0)=0$ and the
 $a_{k,\nu}$ are polynomials.
-Outside finitely many directions, one exponential factor is larger
-than all the others by an exponentially growing factor.
+Outside finitely many directions, one exponential factor dominates all the others exponentially.
 Gundersen's estimate gives polynomial bounds for $f^{(k)}/f$ on
 almost every complete ray tail.
 Dividing by the largest exponential factor and by the nonzero polynomial
@@ -261,8 +251,7 @@ directions. It has the form
 $\mathsf Y_0=\mathsf T e^{\mathsf Q}$, where $\mathsf Q$ is diagonal
 with entries that are polynomials in a fractional power of $z$, and
 $\mathsf T$ and $\mathsf T^{-1}$ have polynomial bounds.
-This matrix transformation takes the system for the given solution to
-a diagonal system with an integrable perturbation on the fixed ray.
+This transformation reduces the system to a diagonal system with an integrable perturbation on the fixed ray.
 Lemma \ref{lem.stein.modify} compares its solutions with the diagonal
 system. Together with the derivative bounds, it gives
 \[
@@ -279,11 +268,7 @@ Levin's theorem yields \textit{c.r.g.}\ in the whole plane
 from the limits on the remaining dense set of rays.
 
 \bigskip
-Section \ref{Sec.crg} recalls the criterion for \textit{c.r.g.},
-and Section \ref{Sec.asym} proves the comparison lemmas.
-Section \ref{Sec.result} first treats exponential sum coefficients,
-then exponential polynomial coefficients, and states the consequences
-for indicators and zeros. Section \ref{Sec.proof} contains the
+Section 2 collects the growth and asymptotic tools. Section 3 treats exponential sums and general exponential-polynomial coefficients, and derives consequences for indicators and zeros. Section \ref{Sec.proof} contains the
 proofs. Section \ref{sec.concluding} considers entire coefficients beyond the
 exponential polynomial class. Finitely many rays divide a neighbourhood
 of infinity into sectors $S_\nu$. On each sector, the coefficients,
@@ -1476,14 +1461,17 @@ $\epsilon_\theta(r)=O(r^{-L})$ for every $L>0$.
 The companion matrix $\mathsf A$ of the left-hand side has a
 Laurent--Puiseux asymptotic expansion, denoted by $\widehat{\mathsf A}$.
 
-Apply the formal reduction at infinity to this series; see
-\cite[Theorem 4]{Barkatou}.
+By the Turrittin--Levelt formal reduction theorem, this series admits a
+formal reduction at infinity after a finite ramification; see
+\cite{BabbittVaradarajan} and \cite[Theorem 4]{Barkatou}.
 For an ordinary point in the local variable $x=z^{-1/p_\nu}$,
 use its formal power series fundamental matrix.
 After replacing $p_\nu$ by a multiple if necessary, this gives a formally
 invertible Laurent--Puiseux matrix $\widehat{\mathsf H}$, a constant
 matrix $\mathsf G$, and a diagonal matrix $\mathsf Q$ whose entries are
-polynomials in $z^{1/p_\nu}$ with zero constant terms. They satisfy
+polynomials in $z^{1/p_\nu}$ with zero constant terms. The formal change $Y=\widehat{\mathsf H}V$ reduces
+$Y'=\widehat{\mathsf A}Y$ to
+$V'=(\mathsf Q'+\mathsf G/z)V$. Hence
 \begin{equation}\label{eq.puiseux.formal}
  \widehat{\mathsf A}\widehat{\mathsf H}
  -\widehat{\mathsf H}'
@@ -1762,15 +1750,19 @@ and LaTeX source, and to develop and debug the Lean formalizations.
 The author is responsible for the mathematical content, references and
 final presentation.
 
-The supplementary material contains Lean~4 formalizations of
-Theorem \ref{Thm.intro}, 
-Corollary \ref{cor.indicator.zeros}, Proposition \ref{prop.puiseux},
-and Corollaries \ref{cor.analytic.weights} and
-\ref{cor.polynomial.kernels}, together with the source code and
-verification report. All 318 modules passed the recorded verification,
-which audited 1,720 distinct declarations; the code contains no \texttt{sorry}.
+All numbered theorem, proposition, and corollary statements in this
+manuscript have been formalized in Lean~4. The fixed source version and
+verification report are cited in \cite{LiLean}. All 320 modules passed the
+recorded verification, which audited 1,734 distinct declarations; the
+sources contain no \texttt{sorry}.
 
 \begin{thebibliography}{99}
+
+\bibitem{BabbittVaradarajan}
+D.~G.~Babbitt and V.~S.~Varadarajan,
+\emph{Formal reduction theory of meromorphic differential equations:
+a group theoretic view},
+Pacific J. Math. \textbf{109} (1983), no.~1, 1--80.
 
 \bibitem{Barkatou}
 M.~Barkatou, F.~\'A.~Carnicero-Mart\'in and F.~Sanz S\'anchez,
@@ -1831,6 +1823,13 @@ B.~Ja.~Levin,
 \emph{Distribution of zeros of entire functions}, revised ed.,
 Translations of Mathematical Monographs, vol.~5,
 American Mathematical Society, Providence, RI, 1980.
+
+\bibitem{LiLean}
+X.-Y.~Li,
+\emph{Lean formalization of completely regular growth for differential equations},
+Lean~4 source code and verification report, version~1.0.1 (2026),
+fixed Git commit \texttt{fd0cb44a2f83f6fa926184e25dc6cfb218da317c},
+\url{https://github.com/xyli9596/crg-growth-and-zero-distribution/tree/fd0cb44a2f83f6fa926184e25dc6cfb218da317c}.
 
 \bibitem{LiWangWen}
 X.-Y.~Li, J.~Wang and Z.-T.~Wen,
