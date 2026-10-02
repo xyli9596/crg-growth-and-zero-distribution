@@ -5,10 +5,11 @@ type: software
 authors:
   - family-names: "Li"
     given-names: "Xing-Yu"
-version: "1.0.0"
+version: "1.0.1"
 license: Apache-2.0
 abstract: >-
-  Lean 4 formalization of Theorem 1.1: every transcendental entire finite-order
+  Lean 4 formalizations of all seven numbered theorem, proposition, and
+  corollary statements of the manuscript, including Theorem 1.1: every transcendental entire finite-order
   solution of a monic linear differential equation with exponential-polynomial
   coefficients has positive rational order, finite nonzero type, and completely
   regular growth. Includes the required Gundersen angular estimates, rational
@@ -20,3 +21,4 @@ keywords:
   - entire functions
   - ordinary differential equations
   - completely regular growth
+repository-code: "https://github.com/xyli9596/crg-growth-and-zero-distribution"

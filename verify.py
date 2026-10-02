@@ -233,6 +233,12 @@ MILESTONES = {
 }
 
 
+MILESTONES.update({
+    "whole_theorem_3_2_verified": ("CRGSection3Alignment.lean", "CRGSection3Alignment.theorem_3_2"),
+    "whole_theorem_3_5_verified": ("CRGSection3Alignment.lean", "CRGSection3Alignment.theorem_3_5"),
+    "uniform_sector_proposition_5_1_verified": ("CRGUniformSectorAlignment.lean", "CRGUniformSectorAlignment.proposition_5_1_uniform"),
+})
+
 class VerificationError(Exception):
     """A precondition or audit failed; the report must remain unsuccessful."""
 

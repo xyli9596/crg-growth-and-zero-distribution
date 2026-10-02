@@ -1,0 +1,3 @@
+'CRGUniformSectorAlignment.rayFilter_le_closedSubsector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGUniformSectorAlignment.UniformSector.ray_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGUniformSectorAlignment.proposition_5_1_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]

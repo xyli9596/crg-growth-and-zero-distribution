@@ -1,0 +1,13 @@
+'CRGSection3Alignment.exists_group_phases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSection3Alignment.exists_null_set_in_turn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSection3Alignment.theorem_3_5_collected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSection3Alignment.fullCoefficient_isExponentialPolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CRGSection3Alignment.theorem_3_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSection3Alignment.linear_eval_on_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSection3Alignment.vertexDirection_rayDominant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSection3Alignment.theorem_3_2_collected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSection3Alignment.exists_linear_equation_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSection3Alignment.fullCoefficient_isExponentialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CRGSection3Alignment.theorem_3_2' depends on axioms: [propext, Classical.choice, Quot.sound]

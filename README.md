@@ -1,21 +1,25 @@
 # Completely regular growth: Lean formalization
 
-This repository copy is a private staging archive for the frozen manuscript
-and its current expanded Lean formalization. The frozen 24-page paper and
-standalone LaTeX source are in [`manuscript/arxiv-v3`](manuscript/arxiv-v3).
-The recorded full verification covers **318 modules and 1,720 distinct audited
-declarations**. Cite the exact Git commit for this revision: the historical
-`1.0.0` package/citation version identifies the earlier Theorem 1.1 revision
-and is not a release tag for this expanded tree. No archival DOI has been issued
-for this repository copy. Public release is deferred until arXiv announces v3.
+This repository stages the manuscript and its aligned Lean formalization for
+[arXiv:2409.14492](https://arxiv.org/abs/2409.14492). The recorded verification
+of local package revision `1.0.1` covers **320 modules and 1,734 distinct audited
+declarations**, including all seven numbered theorem, proposition, and
+corollary statements. The manuscript is in
+[`manuscript/arxiv-v3`](manuscript/arxiv-v3). Cite the exact source commit;
+public release is deferred until arXiv announces v3. The earlier 318-module
+snapshot remains recoverable in Git history.
 
 This repository contains a Lean proof of the manuscript's Theorem 1.1:
 every transcendental entire solution of finite order of a monic linear
 differential equation with exponential-polynomial coefficients has positive
 rational order, finite nonzero type, and completely regular growth.
-It also contains the numbered assertions of Corollary 3.6, the coefficient
-expansion criterion of Proposition 5.1, and the analytic integral-coefficient
-classes in Corollaries 5.2 and 5.3.
+It also contains explicit statements of Theorems 3.2 and 3.5, the numbered
+assertions of Corollary 3.6, Proposition 5.1 from uniform closed-subsector
+expansions, and the integral-coefficient classes in Corollaries 5.2 and 5.3.
+These are all seven numbered theorem, proposition and corollary statements
+in the manuscript. Lemmas and unnumbered formulas are outside this wording.
+The source-statement inventory and quantifier correspondence are recorded in
+[`statement-alignment.json`](statement-alignment.json).
 
 The main declaration is
 [`CRGTheorem11.theorem_1_1`](CRGTheorem11.lean).
@@ -88,18 +92,33 @@ dependencies, the existing Lean installation, and the standard mathlib cache.
 It did not reuse compiled modules from the development project. It was not a
 fresh operating-system installation; hosted Linux CI has not yet been run.
 The historical `v1.0.0` source archive retains that revision and its report.
-It does not include the four additional results described above.
+It does not include the later numbered results described above.
 
-Current expanded revision: a complete local rebuild with four dependency-aware
+Historical 2026-10-01 expanded revision: a complete local rebuild with four dependency-aware
 compiler workers passed: **318 modules freshly recompiled, zero local modules
 reused, and 1,720 distinct declarations audited**. The report at
-[`verification/verification.json`](verification/verification.json) certifies
-Theorem 1.1 and all four new numbered results. Source, verifier/configuration,
+the preserved 2026-10-01 snapshot certifies
+Theorem 1.1 and the four additional numbered results of that snapshot. Source, verifier/configuration,
 compiled output, dependency and unified-audit consistency checks all passed.
 The run recorded 42 nonfatal warnings about unused variables, simplification,
 tactic style and deprecated names; none introduces a proof hole.
 It used the pinned local dependency checkout and mathlib cache; a new hosted CI
 run has not been performed. The complete rebuild took approximately 27 minutes.
+
+Current local revision `1.0.1`, checked on 2026-10-02: **320 modules freshly
+recompiled, zero local modules reused, and 1,734 distinct declarations
+audited**. All requested checks passed, including the complete Theorem 3.2
+and 3.5 entry points and the uniform closed-subsector formulation of
+Proposition 5.1. The 42 nonfatal warnings are retained; neither added module
+introduced a warning. Source, configuration, compiled output, dependency,
+and unified-audit consistency checks passed. The complete run took
+966.394 seconds (approximately 16 minutes), using the same pinned local
+dependency checkout and standard mathlib cache. This was a complete local
+source rebuild, not a fresh operating-system installation or hosted CI run.
+See [`verification/verification.json`](verification/verification.json), the
+module logs in `verification/modules/`, and
+[`statement-alignment.json`](statement-alignment.json) for exact scope and
+provenance. Previously uploaded snapshots have not been modified.
 
 **Read or edit in VS Code**
 
@@ -115,9 +134,12 @@ On Windows, the verification task uses the Python launcher `py -3`.
 | Part | Declaration |
 | --- | --- |
 | Manuscript Theorem 1.1 | [`CRGTheorem11.theorem_1_1`](CRGTheorem11.lean) |
+| Theorem 3.2: full exponential-sum statement, including group-specific vertex-ray phases | [`CRGSection3Alignment.theorem_3_2`](CRGSection3Alignment.lean) |
+| Theorem 3.5: full exponential-polynomial statement, including fixed phases and an explicit null set | [`CRGSection3Alignment.theorem_3_5`](CRGSection3Alignment.lean) |
 | Corollary 3.6: finite order/indicator pairs, fixed exceptional rays, and negligible zeros away from them | [`CRGZeroDistributionCorollary.corollary_3_6`](CRGZeroDistributionCorollary.lean) |
 | Corollary 3.6: finite pairs with order explicitly valued in the real numbers | [`CRGZeroDistributionRealPairs.finite_real_solution_indicator_pairs`](CRGZeroDistributionRealPairs.lean) |
 | Proposition 5.1: complete coefficient expansions to growth and a fixed finite fractional phase family | [`CRGPuiseuxProposition.proposition_5_1`](CRGPuiseuxProposition.lean) |
+| Proposition 5.1: uniform closed-subsector source formulation and proved conversion to ray packets | [`CRGUniformSectorAlignment.proposition_5_1_uniform`](CRGUniformSectorAlignment.lean) |
 | Corollary 5.2: finite linear kernels with holomorphic weights | [`CRGLinearKernel.corollary_5_2`](CRGLinearKernelConclusion.lean) |
 | Corollary 5.3: polynomial kernels with positive integer powers and holomorphic weights | [`CRGPolynomialKernel.corollary_5_3`](CRGPolynomialKernelConclusion.lean) |
 | Finite phase comparison to the complete growth conclusion | [`CRGFinitePhaseEndgame.complete_of_finite_phases`](CRGFinitePhaseEndgame.lean) |
@@ -146,8 +168,11 @@ Proposition 5.1 is expressed with finite coefficient packets providing
 complete expansions on each covered ray. This is a weaker source condition
 than the manuscript's uniform expansion on closed subsectors. Negative
 starting powers are encoded by a common clearing monomial; the formal
-series may diverge. The Lean statement does not introduce a separate
-uniform-subsector definition or a conversion theorem for that syntax.
+series may diverge. The additional `UniformSector` formulation in
+[`CRGUniformSectorAlignment.lean`](CRGUniformSectorAlignment.lean) controls
+all finite remainders uniformly on each closed angular interval, and proves
+the conversion into the original ray packets. It uses the same inverse
+coordinate and clearing convention, rather than literal manuscript syntax.
 The actual gauge, flat forcing estimates, finite fractional phases and
 growth conclusion are constructed from these coefficient data.
 
@@ -167,8 +192,9 @@ unused-variable warnings in `MixedVolterra.lean` do not introduce proof holes.
 
 Use the exact Git commit or release tag of the source you checked when citing
 or comparing this formalization. Citation metadata is provided in
-[`CITATION.cff`](CITATION.cff). A repository URL and archival DOI will be added
-when they exist. This is a standalone project depending on mathlib; its
+[`CITATION.cff`](CITATION.cff). The repository is
+https://github.com/xyli9596/crg-growth-and-zero-distribution. An archival DOI
+may be added after publication. This is a standalone project depending on mathlib; its
 inclusion here does not imply acceptance into the upstream mathlib library.
 
 This copy is being prepared locally for publication. Public release is
@@ -183,8 +209,8 @@ report and module logs as a workflow artifact after success or failure.
 **AI assistance**
 
 OpenAI's ChatGPT and Codex were used extensively to develop and debug the Lean
-formalization of Theorem 1.1, Corollary 3.6, Proposition 5.1, Corollaries 5.2
-and 5.3, and their supporting results, and to prepare and
+formalization of Theorems 1.1, 3.2 and 3.5, Corollary 3.6, Proposition 5.1,
+and Corollaries 5.2 and 5.3, and their supporting results, and to prepare and
 revise the verification scripts and documentation. The checked declarations,
 their stated hypotheses, and the axiom audit specify the formal guarantees;
 the mathematical scope and definition boundaries are described above.
@@ -193,7 +219,7 @@ the mathematical scope and definition boundaries are described above.
 
 The Lean project and verification code are licensed under the Apache License,
 Version 2.0; see [`LICENSE`](LICENSE). Dependencies retain their respective
-licenses. The frozen manuscript in `manuscript/arxiv-v3` retains its separate
+licenses. The manuscript in `manuscript/arxiv-v3` retains its separate
 CC BY-NC-SA 4.0 licence, as described in that folder's README.
 
 **Double-click verification on macOS**

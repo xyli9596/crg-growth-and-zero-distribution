@@ -1,0 +1,115 @@
+{
+  "local_revision": "1.0.1",
+  "manuscript_source": "/Users/lxy/Documents/tex/HITW/arxiv-2409.14492-v3-2026-10-01/arxiv-2409.14492-v3.tex",
+  "manuscript_sha256": "56ea5cf2824bc5999ca57f1ab6df735608de82775f3b4e76d7fffbe5307b8287",
+  "numbered_main_result_count": 7,
+  "statements": [
+    {
+      "manuscript": "Theorem 1.1",
+      "label": "Thm.intro",
+      "module": "CRGTheorem11.lean",
+      "declaration": "CRGTheorem11.theorem_1_1",
+      "correspondence_checks": [
+        "Original monic ODE",
+        "Entire finite-order nonpolynomial solution",
+        "Positive rational order, finite positive type, C0 completely regular growth"
+      ]
+    },
+    {
+      "manuscript": "Theorem 3.2",
+      "label": "Thm.main",
+      "module": "CRGSection3Alignment.lean",
+      "declaration": "CRGSection3Alignment.theorem_3_2",
+      "correspondence_checks": [
+        "Original exponential-sum coefficients collected without extra analytic assumptions",
+        "One denominator and finite polynomial list per frequency coefficient equation, fixed before solution and direction",
+        "One null angular set per solution",
+        "Vertex directions encoded by strict conjugate-frequency supporting inequalities",
+        "Complete ray tails, with the selected vertex group retained"
+      ]
+    },
+    {
+      "manuscript": "Theorem 3.5",
+      "label": "Thm.main.exp-poly",
+      "module": "CRGSection3Alignment.lean",
+      "declaration": "CRGSection3Alignment.theorem_3_5",
+      "correspondence_checks": [
+        "Original monic exponential-polynomial coefficients",
+        "Fixed finite group-indexed ramified phase list before solution and direction",
+        "Growth conclusion and explicit null set together",
+        "Nonvanishing and O(log r) on complete ray tails"
+      ]
+    },
+    {
+      "manuscript": "Corollary 3.6",
+      "label": "cor.indicator.zeros",
+      "module": "CRGZeroDistributionCorollary.lean",
+      "declaration": "CRGZeroDistributionCorollary.corollary_3_6",
+      "correspondence_checks": [
+        "Original nonmonic equation with nonzero leading coefficient",
+        "Finite actual order/indicator pairs and one fixed finite ray partition",
+        "Actual analytic divisor counted with multiplicities",
+        "o(r^rho) in compact angular regions separated from fixed rays"
+      ]
+    },
+    {
+      "manuscript": "Proposition 5.1",
+      "label": "prop.puiseux",
+      "module": "CRGUniformSectorAlignment.lean",
+      "declaration": "CRGUniformSectorAlignment.proposition_5_1_uniform",
+      "correspondence_checks": [
+        "Original monic ODE",
+        "Uniform complete expansions on closed angular subsectors",
+        "Laurent-Puiseux powers expressed in inverse coordinates with a common clearing power",
+        "Fixed multiplier and possibly divergent formal series independent of solution",
+        "Proved uniform-subsector to ray-packet conversion",
+        "Complete growth and fixed fractional phase conclusions"
+      ]
+    },
+    {
+      "manuscript": "Corollary 5.2",
+      "label": "cor.analytic.weights",
+      "module": "CRGLinearKernelConclusion.lean",
+      "declaration": "CRGLinearKernel.corollary_5_2",
+      "correspondence_checks": [
+        "Actual finite linear-kernel integrals and holomorphic weights",
+        "Coefficient entireness, endpoint expansions and cancellation constructed internally",
+        "Complete growth and coefficient-only fractional phases"
+      ]
+    },
+    {
+      "manuscript": "Corollary 5.3",
+      "label": "cor.polynomial.kernels",
+      "module": "CRGPolynomialKernelConclusion.lean",
+      "declaration": "CRGPolynomialKernel.corollary_5_3",
+      "correspondence_checks": [
+        "Actual polynomial-kernel integrals, positive integer powers and holomorphic weights",
+        "Branches, coefficient entireness, cancellations and finite sector families constructed internally",
+        "Complete growth and coefficient-only fractional phases"
+      ]
+    }
+  ],
+  "excluded_from_all_wording": [
+    "Lemma statements, including the full classical sectorial Wasow theorem",
+    "Unnumbered indicator derivative-jump zero-density formula following Corollary 3.6",
+    "The entire contents of the Levin and Wasow books"
+  ],
+  "unchanged_baseline": "318 modules and 1720 audited declarations; baseline files remain byte-identical",
+  "validation_status": "passed",
+  "verification": {
+    "report": "verification/verification.json",
+    "report_sha256": "d1856e2d8328eea21be2daab0a10f91a9e7f2429c84e501a808c1fc4c81363a2",
+    "module_count": 320,
+    "distinct_audited_declarations": 1734,
+    "warning_count": 42,
+    "elapsed_seconds": 966.394,
+    "finished_at_utc": "2026-10-02T13:40:47.996489+00:00",
+    "local_modules_reused": 0,
+    "lean_toolchain": "leanprover/lean4:v4.33.0",
+    "mathlib_revision": "db584cd6d46c92f209a44c0f1c829460d327499d"
+  },
+  "baseline_unchanged_check": {
+    "checked_top_level_files": 328,
+    "all_byte_identical": true
+  }
+}
