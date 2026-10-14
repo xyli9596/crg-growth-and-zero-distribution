@@ -1,13 +1,13 @@
 # Completely regular growth: Lean formalization
 
-This repository stages the manuscript and its aligned Lean formalization for
-[arXiv:2409.14492](https://arxiv.org/abs/2409.14492). The recorded verification
-of local package revision `1.0.1` covers **320 modules and 1,734 distinct audited
-declarations**, including all seven numbered theorem, proposition, and
-corollary statements. The manuscript is in
-[`manuscript/arxiv-v3`](manuscript/arxiv-v3). Cite the exact source commit;
-public release is deferred until arXiv announces v3. The earlier 318-module
-snapshot remains recoverable in Git history.
+This repository contains the aligned Lean formalization for
+[arXiv:2409.14492](https://arxiv.org/abs/2409.14492), together with the
+constant-multiplier extension used in the supplementary LWW proof.
+Revision `1.0.2` adds seven modules proving exact order one, finite positive
+type and completely regular growth from constant-multiplier differential
+equations. The full verification report for this revision covers **327 modules and 1,752
+distinct audited declarations**. Cite a fixed source commit and its report.
+The earlier `1.0.1` source and 320-module report remain recoverable in Git history.
 
 This repository contains a Lean proof of the manuscript's Theorem 1.1:
 every transcendental entire solution of finite order of a monic linear
@@ -105,7 +105,7 @@ tactic style and deprecated names; none introduces a proof hole.
 It used the pinned local dependency checkout and mathlib cache; a new hosted CI
 run has not been performed. The complete rebuild took approximately 27 minutes.
 
-Current local revision `1.0.1`, checked on 2026-10-02: **320 modules freshly
+Historical local revision `1.0.1`, checked on 2026-10-02: **320 modules freshly
 recompiled, zero local modules reused, and 1,734 distinct declarations
 audited**. All requested checks passed, including the complete Theorem 3.2
 and 3.5 entry points and the uniform closed-subsector formulation of
@@ -116,7 +116,7 @@ and unified-audit consistency checks passed. The complete run took
 dependency checkout and standard mathlib cache. This was a complete local
 source rebuild, not a fresh operating-system installation or hosted CI run.
 See [`verification/verification.json`](verification/verification.json), the
-module logs in `verification/modules/`, and
+[module log archive](verification/module-logs-v1.0.2.zip), and
 [`statement-alignment.json`](statement-alignment.json) for exact scope and
 provenance. Previously uploaded snapshots have not been modified.
 
@@ -230,3 +230,33 @@ window, prepares the pinned dependency cache, and runs the same full verificatio
 as the VS Code task **Lean: verify proofs and axioms**. Progress appears in that
 window; the report is saved to `verification/verification.json`. The window
 stays open until you press Return after the check finishes.
+
+## Independent constant-multiplier growth theorem
+
+`CRGPolynomialExponentialOrder.polynomial_exponential_order_one` accepts
+polynomials `P_j`, the leading polynomial `X^gamma`, an actual pointwise
+ODE with coefficients `P_j(exp(omega*z))`, and an entire, finite-order,
+nonpolynomial solution. It proves exact order one, finite positive type at
+order one, and completely regular growth with the C0 exceptional set and
+unrestricted indicator. No growth conclusion or representation is an input.
+
+The proof constructs Jordan coordinates for arbitrary constant matrices,
+including repeated eigenvalues and nontrivial Jordan blocks. Integer shearing
+and a commuting regular gauge retain a fixed family of linear phases.
+Dominant-group reduction and the CRG phase/order criterion then prove the
+conclusion. It does not invoke Droletz or any LWW growth or representation
+proof. The monic constant-multiplier theorem permits arbitrary complex
+frequencies and cancellations between coefficient terms.
+
+The seven modules are `WasowConstantCoordinates`, `WasowConstantLinearGauge`,
+`CRGFixedGaugeComparison`, `CRGConstantGroupComparison`,
+`CRGLinearPhaseEndgame`, `CRGConstantMultiplierOrder`, and
+`CRGPolynomialExponentialOrder`. Run `python3 tools/verify_routes.py` after
+`python3 verify.py --jobs 4` to check the proof bodies for independence from
+the LWW and Wiman-Valiron growth routes.
+
+The separate [LWW formalization](https://github.com/xyli9596/li-wang-wen-representation-lean)
+contains the representation theorems, normalization, corollaries and coefficient
+lemmas. These are cited separately so that each source's scope is explicit.
+
+Fresh verification for version `1.0.2`: **327 modules, 1,752 audited declarations, 42 nonfatal warnings**. The [complete module logs](verification/module-logs-v1.0.2.zip) accompany the source/configuration hashes in the report. The [proof-body dependency audit](verification/proof-routes.json) confirms that the three new public growth endpoints use the CRG order criterion and constructed constant-matrix solutions, without any LWW growth or representation dependency.

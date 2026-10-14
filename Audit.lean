@@ -1,3 +1,10 @@
+import WasowConstantCoordinates
+import WasowConstantLinearGauge
+import CRGFixedGaugeComparison
+import CRGConstantGroupComparison
+import CRGLinearPhaseEndgame
+import CRGConstantMultiplierOrder
+import CRGPolynomialExponentialOrder
 import CRGAngularShadow
 import CRGAsymptoticCoefficientCompleteExpansion
 import CRGAsymptoticCoefficientMatrixTransfer
@@ -2054,3 +2061,39 @@ import WasowWeightedRemainder
 #print axioms WasowWeightedRemainder.exists_small_weighted_inverse_tail
 #print axioms WasowWeightedRemainder.exists_weighted_inverse_tail_bound
 #print axioms WasowWeightedRemainder.normalizedDefect_control
+
+#print axioms WasowConstantCoordinates.exists_weighted_coordinates
+
+#print axioms WasowConstantLinearGauge.linear_phase
+
+#print axioms WasowConstantLinearGauge.linear_phase_hasDerivAt
+
+#print axioms WasowConstantLinearGauge.residue_rayGauge
+
+#print axioms WasowConstantLinearGauge.residue_commute
+
+#print axioms WasowConstantLinearGauge.shearing_identity
+
+#print axioms WasowConstantLinearGauge.jordan_linear_rayGauge
+
+#print axioms WasowConstantLinearGauge.constantConjugate_eq
+
+#print axioms WasowConstantLinearGauge.constant_linear_normal_form
+
+#print axioms CRGFixedGaugeComparison.of_fixed_normal_form
+
+#print axioms CRGConstantGroupComparison.scalar_constant_comparison
+
+#print axioms CRGConstantGroupComparison.group_constant_comparison
+
+#print axioms CRGLinearPhaseEndgame.order_one_of_linear_phases
+
+#print axioms CRGConstantMultiplierOrder.of_collected_constant_equation
+
+#print axioms CRGConstantMultiplierOrder.exists_constant_collected_equation
+
+#print axioms CRGConstantMultiplierOrder.order_one_of_constant_multipliers
+
+#print axioms CRGPolynomialExponentialOrder.normalized_coefficient_expansion
+
+#print axioms CRGPolynomialExponentialOrder.polynomial_exponential_order_one

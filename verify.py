@@ -28,6 +28,14 @@ TOOLCHAIN_PIN = "leanprover/lean4:v4.33.0"
 ALLOWED_AXIOMS = {"propext", "Classical.choice", "Quot.sound"}
 CONFIG_FILES = ("lean-toolchain", "lake-manifest.json", "lakefile.toml", "verify.py")
 MILESTONES = {
+    'constant_linear_ray_normal_form_verified':
+        ('WasowConstantLinearGauge.lean', 'WasowConstantLinearGauge.constant_linear_normal_form'),
+    'linear_phase_exact_order_one_verified':
+        ('CRGLinearPhaseEndgame.lean', 'CRGLinearPhaseEndgame.order_one_of_linear_phases'),
+    'constant_multiplier_order_one_crg_verified':
+        ('CRGConstantMultiplierOrder.lean', 'CRGConstantMultiplierOrder.order_one_of_constant_multipliers'),
+    'actual_polynomial_exponential_order_one_verified':
+        ('CRGPolynomialExponentialOrder.lean', 'CRGPolynomialExponentialOrder.polynomial_exponential_order_one'),
     'manuscript_corollary_3_6_verified':
         ('CRGZeroDistributionCorollary.lean', 'CRGZeroDistributionCorollary.corollary_3_6'),
     'real_order_indicator_pairs_verified':

@@ -1,24 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this formalization, cite the exact archived release or Git commit that you checked."
-title: "Lean formalization of completely regular growth for exponential-polynomial differential equations"
+message: "Please cite this fixed source version and its verification report."
 type: software
+title: "Lean formalization of completely regular growth for differential equations"
 authors:
-  - family-names: "Li"
-    given-names: "Xing-Yu"
-version: "1.0.1"
+  - family-names: Li
+    given-names: Xing-Yu
+version: 1.0.2
+date-released: 2026-10-14
+url: "https://github.com/xyli9596/crg-growth-and-zero-distribution"
 license: Apache-2.0
-abstract: >-
-  Lean 4 formalizations of all seven numbered theorem, proposition, and
-  corollary statements of the manuscript, including Theorem 1.1: every transcendental entire finite-order
-  solution of a monic linear differential equation with exponential-polynomial
-  coefficients has positive rational order, finite nonzero type, and completely
-  regular growth. Includes the required Gundersen angular estimates, rational
-  ray normal form, Phragmen-Lindelof connections, and constant-order Levin
-  criterion with C0 exceptional disks and the unrestricted indicator.
-keywords:
-  - Lean
-  - formal verification
-  - entire functions
-  - ordinary differential equations
-  - completely regular growth
-repository-code: "https://github.com/xyli9596/crg-growth-and-zero-distribution"
+abstract: "All seven numbered theorem, proposition and corollary statements of arXiv:2409.14492v3, with an independent constant-multiplier theorem proving order one, finite positive type and completely regular growth."
