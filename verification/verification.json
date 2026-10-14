@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "jobs": 4,
-  "checked_at_utc": "2026-10-02T13:24:41.586414+00:00",
+  "checked_at_utc": "2026-10-14T16:27:51.025154+00:00",
   "status": "passed",
   "verification_policy": "Always recompile every local module; never resume or reuse local oleans.",
   "allowed_axioms": [
@@ -120,7 +120,7 @@
       "olean": ".lake/build/lib/lean/CRGRay.olean",
       "olean_sha256": "da1e3821f15b86a8824eafa4b1ee64de03cd5c2ce41fd5f91fa2d16119ba34e6",
       "log": "modules/CRGRay.log",
-      "elapsed_seconds": 9.862
+      "elapsed_seconds": 9.875
     },
     {
       "file": "CRGProgress.lean",
@@ -190,7 +190,7 @@
       "olean": ".lake/build/lib/lean/CRGProgress.olean",
       "olean_sha256": "c3a47a3a6ed9963b124689e1fb4554b6e1a0038a18d80a520c4ff5fa41e126cd",
       "log": "modules/CRGProgress.log",
-      "elapsed_seconds": 11.936
+      "elapsed_seconds": 9.01
     },
     {
       "file": "NormalFormGoal.lean",
@@ -216,7 +216,7 @@
       "olean": ".lake/build/lib/lean/NormalFormGoal.olean",
       "olean_sha256": "925252884e94d009a0145fe2af65d0f14bcd862a250c4dbc2728fd82493b0605",
       "log": "modules/NormalFormGoal.log",
-      "elapsed_seconds": 8.977
+      "elapsed_seconds": 10.829
     },
     {
       "file": "CRGAngularShadow.lean",
@@ -298,7 +298,7 @@
       "olean": ".lake/build/lib/lean/CRGAngularShadow.olean",
       "olean_sha256": "e8caae792d5371c48372852a6d1e5724ae3e920ff7823cf233a992073dbfda76",
       "log": "modules/CRGAngularShadow.log",
-      "elapsed_seconds": 12.927
+      "elapsed_seconds": 9.697
     },
     {
       "file": "WasowPowerSeries.lean",
@@ -380,7 +380,7 @@
       "olean": ".lake/build/lib/lean/WasowPowerSeries.olean",
       "olean_sha256": "25346b967fe422812ce126d620bfaad3cf2fa3d6ca86ab8d6556cd669dc08edf",
       "log": "modules/WasowPowerSeries.log",
-      "elapsed_seconds": 9.864
+      "elapsed_seconds": 9.883
     },
     {
       "file": "WasowLaurentGauge.lean",
@@ -480,7 +480,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentGauge.olean",
       "olean_sha256": "1952e42b0dc1c36ab27e9dca75c6e66f24337766ce96bbaa45a3bbba63963e1b",
       "log": "modules/WasowLaurentGauge.log",
-      "elapsed_seconds": 11.895
+      "elapsed_seconds": 9.534
     },
     {
       "file": "WasowTruncation.lean",
@@ -544,7 +544,7 @@
       "olean": ".lake/build/lib/lean/WasowTruncation.olean",
       "olean_sha256": "12deb1244ba38844d1ba848b411bcb7f06d0194ae40f961e51742abf70716b04",
       "log": "modules/WasowTruncation.log",
-      "elapsed_seconds": 11.885
+      "elapsed_seconds": 8.711
     },
     {
       "file": "WasowMatrixPolynomial.lean",
@@ -644,7 +644,7 @@
       "olean": ".lake/build/lib/lean/WasowMatrixPolynomial.olean",
       "olean_sha256": "cdc81efefb506c19412333fe813b5e9059de312f4069294e0d26ae48f55a8772",
       "log": "modules/WasowMatrixPolynomial.log",
-      "elapsed_seconds": 11.906
+      "elapsed_seconds": 11.069
     },
     {
       "file": "WasowAnalyticRemainder.lean",
@@ -708,7 +708,7 @@
       "olean": ".lake/build/lib/lean/WasowAnalyticRemainder.olean",
       "olean_sha256": "5b2c9e790abc071d5cecbc7c3e4f5aa4dd01da481be4dd59ae3d9cca4f0d8b07",
       "log": "modules/WasowAnalyticRemainder.log",
-      "elapsed_seconds": 13.0
+      "elapsed_seconds": 10.335
     },
     {
       "file": "WasowActualTruncation.lean",
@@ -772,7 +772,7 @@
       "olean": ".lake/build/lib/lean/WasowActualTruncation.olean",
       "olean_sha256": "e519021d3c069164f7201935c97500f386b2f67ca61bfe4e27ec01c810354398",
       "log": "modules/WasowActualTruncation.log",
-      "elapsed_seconds": 10.67
+      "elapsed_seconds": 9.652
     },
     {
       "file": "WasowLaurentTruncation.lean",
@@ -848,7 +848,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentTruncation.olean",
       "olean_sha256": "56d55edb22903959bff42e8e8898e0ba67b71a849c538ff47bdc9ac69130c75f",
       "log": "modules/WasowLaurentTruncation.log",
-      "elapsed_seconds": 10.885
+      "elapsed_seconds": 21.009
     },
     {
       "file": "WasowClearedResidual.lean",
@@ -906,7 +906,7 @@
       "olean": ".lake/build/lib/lean/WasowClearedResidual.olean",
       "olean_sha256": "3730f9027cd12ac68a9f1ac6571dbf4621b0b8baad19e5106623a3088f036976",
       "log": "modules/WasowClearedResidual.log",
-      "elapsed_seconds": 10.895
+      "elapsed_seconds": 20.973
     },
     {
       "file": "WasowLaurentResidual.lean",
@@ -970,7 +970,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentResidual.olean",
       "olean_sha256": "bec07aff889145d3fb837fabfd2717f24766fad7799f238bda8ecb41fc2cbd73",
       "log": "modules/WasowLaurentResidual.log",
-      "elapsed_seconds": 11.018
+      "elapsed_seconds": 14.365
     },
     {
       "file": "WasowLaurentClearing.lean",
@@ -1034,7 +1034,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentClearing.olean",
       "olean_sha256": "96495fe6270577ef961ebf708a15ad4a9eb9700c0fceba3de6e7b1734998e95f",
       "log": "modules/WasowLaurentClearing.log",
-      "elapsed_seconds": 10.242
+      "elapsed_seconds": 9.353
     },
     {
       "file": "WasowMatrixBounds.lean",
@@ -1092,7 +1092,7 @@
       "olean": ".lake/build/lib/lean/WasowMatrixBounds.olean",
       "olean_sha256": "fb78411ab650f85e25403d48bcd6920182961c146db0fa7a713ee8eb7cf012dc",
       "log": "modules/WasowMatrixBounds.log",
-      "elapsed_seconds": 12.839
+      "elapsed_seconds": 21.062
     },
     {
       "file": "WasowTruncatedGauge.lean",
@@ -1150,7 +1150,7 @@
       "olean": ".lake/build/lib/lean/WasowTruncatedGauge.olean",
       "olean_sha256": "ddf0731cd7164b59c8d44f1b01e016839a711989e02c86bbceefa28d8c19582a",
       "log": "modules/WasowTruncatedGauge.log",
-      "elapsed_seconds": 10.663
+      "elapsed_seconds": 11.817
     },
     {
       "file": "WasowLaurentInverse.lean",
@@ -1238,7 +1238,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentInverse.olean",
       "olean_sha256": "2de2764961b6e20be5295799c0c9d630ee01d32e6ae6ffdb02d78aa4f8aaa833",
       "log": "modules/WasowLaurentInverse.log",
-      "elapsed_seconds": 9.425
+      "elapsed_seconds": 12.075
     },
     {
       "file": "WasowActualTail.lean",
@@ -1290,7 +1290,7 @@
       "olean": ".lake/build/lib/lean/WasowActualTail.olean",
       "olean_sha256": "8990d071cd1bc5af110d8bef3b1c1e16dcd69d8e8e1f162f49c9f19a9809f586",
       "log": "modules/WasowActualTail.log",
-      "elapsed_seconds": 10.883
+      "elapsed_seconds": 20.924
     },
     {
       "file": "WasowLaurentActualResidual.lean",
@@ -1336,7 +1336,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentActualResidual.olean",
       "olean_sha256": "aa03cce836894d2788c8783b84fa205d137ccddc5a88104d70f1f702cb7a4474",
       "log": "modules/WasowLaurentActualResidual.log",
-      "elapsed_seconds": 12.127
+      "elapsed_seconds": 12.117
     },
     {
       "file": "WasowLaurentRemainder.lean",
@@ -1382,7 +1382,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentRemainder.olean",
       "olean_sha256": "bb47d68d3f59a8f06b616596fc2b5cd3286304d4f7866e06b35b31c213b0a75d",
       "log": "modules/WasowLaurentRemainder.log",
-      "elapsed_seconds": 14.438
+      "elapsed_seconds": 9.73
     },
     {
       "file": "WasowLaurentTail.lean",
@@ -1446,7 +1446,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentTail.olean",
       "olean_sha256": "b28c7ed4d058414d29ca2507bc3f26cbe10220ed01ae64c6cb75af2f02fe633e",
       "log": "modules/WasowLaurentTail.log",
-      "elapsed_seconds": 9.877
+      "elapsed_seconds": 14.805
     },
     {
       "file": "WasowLaurentFiniteRealization.lean",
@@ -1510,7 +1510,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentFiniteRealization.olean",
       "olean_sha256": "5c1e44d428ae3e89cb891c2bcf3dfc8c08b91ad2c90460f94344cad83b31fe7f",
       "log": "modules/WasowLaurentFiniteRealization.log",
-      "elapsed_seconds": 9.35
+      "elapsed_seconds": 10.66
     },
     {
       "file": "CRGAsymptoticCoefficientCompleteExpansion.lean",
@@ -1562,7 +1562,7 @@
       "olean": ".lake/build/lib/lean/CRGAsymptoticCoefficientCompleteExpansion.olean",
       "olean_sha256": "84a42c60bcfbc00945fbaa8c66b1b42c230a714e0ce94fd051a5d7b9019bf540",
       "log": "modules/CRGAsymptoticCoefficientCompleteExpansion.log",
-      "elapsed_seconds": 11.091
+      "elapsed_seconds": 15.144
     },
     {
       "file": "WasowRational.lean",
@@ -1638,7 +1638,7 @@
       "olean": ".lake/build/lib/lean/WasowRational.olean",
       "olean_sha256": "d7e4773c65c39877fa0d0ee52afdf44d680733cb2dec3706e16dd2830c5ead86",
       "log": "modules/WasowRational.log",
-      "elapsed_seconds": 10.77
+      "elapsed_seconds": 11.784
     },
     {
       "file": "WasowScalarGauge.lean",
@@ -1702,7 +1702,7 @@
       "olean": ".lake/build/lib/lean/WasowScalarGauge.olean",
       "olean_sha256": "d3bea0b7dd2764e18adc88c5f174bf69ecf56c4dcfad20f1746d01cf706ec5ca",
       "log": "modules/WasowScalarGauge.log",
-      "elapsed_seconds": 10.668
+      "elapsed_seconds": 11.909
     },
     {
       "file": "WasowPolynomialPhase.lean",
@@ -1754,7 +1754,7 @@
       "olean": ".lake/build/lib/lean/WasowPolynomialPhase.olean",
       "olean_sha256": "beb76ec88001d63586211207de5985d8abd05f336c7e76d555e4fcb482dd1948",
       "log": "modules/WasowPolynomialPhase.log",
-      "elapsed_seconds": 10.888
+      "elapsed_seconds": 11.604
     },
     {
       "file": "WasowDiagonal.lean",
@@ -1812,7 +1812,7 @@
       "olean": ".lake/build/lib/lean/WasowDiagonal.olean",
       "olean_sha256": "f80b60dbca8017137822d1d0f3d249829177f87454d0bbdb4e4a93eb593eeabd",
       "log": "modules/WasowDiagonal.log",
-      "elapsed_seconds": 9.185
+      "elapsed_seconds": 9.879
     },
     {
       "file": "WasowShearing.lean",
@@ -1900,7 +1900,7 @@
       "olean": ".lake/build/lib/lean/WasowShearing.olean",
       "olean_sha256": "1557ee7dbfb02f379512a5a3287cdb7fb10f32ea465b06ca6cd3f15baf36f50d",
       "log": "modules/WasowShearing.log",
-      "elapsed_seconds": 12.099
+      "elapsed_seconds": 14.796
     },
     {
       "file": "WasowShearingLeading.lean",
@@ -2006,7 +2006,7 @@
       "olean": ".lake/build/lib/lean/WasowShearingLeading.olean",
       "olean_sha256": "89cce4766a40364573ee673f471384b13ed517316cb9b1e64f4813c6b1a1692c",
       "log": "modules/WasowShearingLeading.log",
-      "elapsed_seconds": 14.418
+      "elapsed_seconds": 10.873
     },
     {
       "file": "WasowFormalShearing.lean",
@@ -2148,7 +2148,7 @@
       "olean": ".lake/build/lib/lean/WasowFormalShearing.olean",
       "olean_sha256": "11007f5ee0b0864ee07e7ef743d87b26847a91465a3e977780cefaa7e5190a7c",
       "log": "modules/WasowFormalShearing.log",
-      "elapsed_seconds": 10.164
+      "elapsed_seconds": 14.945
     },
     {
       "file": "WasowFormalSylvester.lean",
@@ -2248,7 +2248,7 @@
       "olean": ".lake/build/lib/lean/WasowFormalSylvester.olean",
       "olean_sha256": "bef017d56f437d04f4b2565cf71da36c7bca196e3b8c0f5ad3eccf3f290f6ba7",
       "log": "modules/WasowFormalSylvester.log",
-      "elapsed_seconds": 9.863
+      "elapsed_seconds": 10.051
     },
     {
       "file": "WasowFormalRecurrence.lean",
@@ -2312,7 +2312,7 @@
       "olean": ".lake/build/lib/lean/WasowFormalRecurrence.olean",
       "olean_sha256": "1590001dcbd851bcc18ea69e28bf20c126552a700ff756ae2d4279704cff7a6c",
       "log": "modules/WasowFormalRecurrence.log",
-      "elapsed_seconds": 8.983
+      "elapsed_seconds": 10.876
     },
     {
       "file": "WasowRecurrencePrinciple.lean",
@@ -2346,7 +2346,7 @@
       "olean": ".lake/build/lib/lean/WasowRecurrencePrinciple.olean",
       "olean_sha256": "6a2869114ed8aa01521c625ffc3b4a84be8fc16bfb66f17877d88178ba29122c",
       "log": "modules/WasowRecurrencePrinciple.log",
-      "elapsed_seconds": 12.871
+      "elapsed_seconds": 9.67
     },
     {
       "file": "WasowShiftReduction.lean",
@@ -2392,7 +2392,7 @@
       "olean": ".lake/build/lib/lean/WasowShiftReduction.olean",
       "olean_sha256": "902c0c8c52abc8d5a079591edc6bd66b10d7da8bd92e51448a9535b4661a1b13",
       "log": "modules/WasowShiftReduction.log",
-      "elapsed_seconds": 9.143
+      "elapsed_seconds": 9.84
     },
     {
       "file": "WasowNilpotentNormalized.lean",
@@ -2486,7 +2486,7 @@
       "olean": ".lake/build/lib/lean/WasowNilpotentNormalized.olean",
       "olean_sha256": "1a1701008e166b60cc5f7ae49f8784662e2b329cf4fbd58585d6ca20ce5a3e8f",
       "log": "modules/WasowNilpotentNormalized.log",
-      "elapsed_seconds": 11.797
+      "elapsed_seconds": 14.785
     },
     {
       "file": "WasowShearingExceptional.lean",
@@ -2538,7 +2538,7 @@
       "olean": ".lake/build/lib/lean/WasowShearingExceptional.olean",
       "olean_sha256": "e572cb41c7d3cd95abe30b18cd7a07a9127036464ed8b8026fed41e2c7f752ed",
       "log": "modules/WasowShearingExceptional.log",
-      "elapsed_seconds": 9.799
+      "elapsed_seconds": 17.219
     },
     {
       "file": "WasowMultiShiftReduction.lean",
@@ -2596,7 +2596,7 @@
       "olean": ".lake/build/lib/lean/WasowMultiShiftReduction.olean",
       "olean_sha256": "dd31aba1b4aee726b3ffc879c4458972c18a656b65a6cca0f900c747621dae8a",
       "log": "modules/WasowMultiShiftReduction.log",
-      "elapsed_seconds": 14.436
+      "elapsed_seconds": 14.734
     },
     {
       "file": "WasowMultiBlockReduction.lean",
@@ -2648,7 +2648,7 @@
       "olean": ".lake/build/lib/lean/WasowMultiBlockReduction.olean",
       "olean_sha256": "134f78bfc308c3ab69ecc64c607e898af87683535f885e2ebf2e387494663e16",
       "log": "modules/WasowMultiBlockReduction.log",
-      "elapsed_seconds": 9.798
+      "elapsed_seconds": 10.654
     },
     {
       "file": "WasowReductionDescent.lean",
@@ -2766,7 +2766,7 @@
       "olean": ".lake/build/lib/lean/WasowReductionDescent.olean",
       "olean_sha256": "1a01f73fb1de1764ef3300e8cac6cc6fa67e98210bf310f43bb14c84a9e78eff",
       "log": "modules/WasowReductionDescent.log",
-      "elapsed_seconds": 9.864
+      "elapsed_seconds": 9.875
     },
     {
       "file": "WasowPencilCoefficients.lean",
@@ -2830,7 +2830,7 @@
       "olean": ".lake/build/lib/lean/WasowPencilCoefficients.olean",
       "olean_sha256": "6ce5a00538b68f02e4a11ba05d89c2fe41035dd597765cf61117d16a7b9e20c4",
       "log": "modules/WasowPencilCoefficients.log",
-      "elapsed_seconds": 8.941
+      "elapsed_seconds": 8.736
     },
     {
       "file": "WasowFormalSeries.lean",
@@ -2876,7 +2876,7 @@
       "olean": ".lake/build/lib/lean/WasowFormalSeries.olean",
       "olean_sha256": "51242ccbbaaf9e7fb20643cf7a17cbaa735449e4f54627fb53868df68e3c3416",
       "log": "modules/WasowFormalSeries.log",
-      "elapsed_seconds": 9.429
+      "elapsed_seconds": 15.136
     },
     {
       "file": "WasowLeadingBlocks.lean",
@@ -2982,7 +2982,7 @@
       "olean": ".lake/build/lib/lean/WasowLeadingBlocks.olean",
       "olean_sha256": "5b08a64ca1bbd8389ca3317a827df58a787a180faa03a04da55aa36ad3961291",
       "log": "modules/WasowLeadingBlocks.log",
-      "elapsed_seconds": 11.347
+      "elapsed_seconds": 17.606
     },
     {
       "file": "WasowPencilElimination.lean",
@@ -3046,7 +3046,7 @@
       "olean": ".lake/build/lib/lean/WasowPencilElimination.olean",
       "olean_sha256": "1dd300c79f2714a2f8fe4805dc9e2262ab37d85f63a57e2308aeee2b84a3ed2b",
       "log": "modules/WasowPencilElimination.log",
-      "elapsed_seconds": 10.784
+      "elapsed_seconds": 15.104
     },
     {
       "file": "WasowPencilReduction.lean",
@@ -3182,7 +3182,7 @@
       "olean": ".lake/build/lib/lean/WasowPencilReduction.olean",
       "olean_sha256": "a73cf01470146433177fc47bd2ee70e89eecdd7e7566e71ea82ef7a81419dd79",
       "log": "modules/WasowPencilReduction.log",
-      "elapsed_seconds": 15.166
+      "elapsed_seconds": 16.774
     },
     {
       "file": "WasowSingleEigenBlocks.lean",
@@ -3270,7 +3270,7 @@
       "olean": ".lake/build/lib/lean/WasowSingleEigenBlocks.olean",
       "olean_sha256": "f02e5af9413b8ebcdedae9a62150f4b6effd3836a3f34b3279508261f5678354",
       "log": "modules/WasowSingleEigenBlocks.log",
-      "elapsed_seconds": 10.49
+      "elapsed_seconds": 17.75
     },
     {
       "file": "WasowMinorExpansion.lean",
@@ -3316,7 +3316,7 @@
       "olean": ".lake/build/lib/lean/WasowMinorExpansion.olean",
       "olean_sha256": "2beb559cc625794ab6b239ed760ebef022a8d27e9a28de64fa45fb8defb6852e",
       "log": "modules/WasowMinorExpansion.log",
-      "elapsed_seconds": 14.72
+      "elapsed_seconds": 16.058
     },
     {
       "file": "WasowMinorInvariance.lean",
@@ -3386,7 +3386,7 @@
       "olean": ".lake/build/lib/lean/WasowMinorInvariance.olean",
       "olean_sha256": "0a82fcc7705fb6185a08a297be49f4c278964d0d1e6cf534cfd65fb4d844b7ee",
       "log": "modules/WasowMinorInvariance.log",
-      "elapsed_seconds": 10.935
+      "elapsed_seconds": 18.463
     },
     {
       "file": "WasowMinorEquivalence.lean",
@@ -3444,7 +3444,7 @@
       "olean": ".lake/build/lib/lean/WasowMinorEquivalence.olean",
       "olean_sha256": "eb7f67673fc0c313f4f07a64f7e50c588514b941e4e4a99d6e37866568b87156",
       "log": "modules/WasowMinorEquivalence.log",
-      "elapsed_seconds": 11.58
+      "elapsed_seconds": 16.644
     },
     {
       "file": "WasowPaddedDescent.lean",
@@ -3501,7 +3501,7 @@
       "olean": ".lake/build/lib/lean/WasowPaddedDescent.olean",
       "olean_sha256": "1ae396de56141b50dba62bbb016a9b0904ab8063d3a69b98696e6bc84b8b93a9",
       "log": "modules/WasowPaddedDescent.log",
-      "elapsed_seconds": 8.777
+      "elapsed_seconds": 15.353
     },
     {
       "file": "WasowPencilDescent.lean",
@@ -3613,7 +3613,7 @@
       "olean": ".lake/build/lib/lean/WasowPencilDescent.olean",
       "olean_sha256": "16ad2a47c0ec3600e3a9f797dde3d9935004a4887fc75e92e43deed142b8b294",
       "log": "modules/WasowPencilDescent.log",
-      "elapsed_seconds": 9.491
+      "elapsed_seconds": 18.504
     },
     {
       "file": "WasowPencilSimilarity.lean",
@@ -3701,7 +3701,7 @@
       "olean": ".lake/build/lib/lean/WasowPencilSimilarity.olean",
       "olean_sha256": "4bb9f0bbc58e85811e8becf968f470814b155d1f4e7589248f227cc7f099dd8b",
       "log": "modules/WasowPencilSimilarity.log",
-      "elapsed_seconds": 12.203
+      "elapsed_seconds": 16.516
     },
     {
       "file": "WasowOrderedShearing.lean",
@@ -3807,7 +3807,7 @@
       "olean": ".lake/build/lib/lean/WasowOrderedShearing.olean",
       "olean_sha256": "9253802ba835f06f8d4b0631854fdda140dc45274828e29d34f9af8cbf0ec03a",
       "log": "modules/WasowOrderedShearing.log",
-      "elapsed_seconds": 9.71
+      "elapsed_seconds": 16.74
     },
     {
       "file": "WasowPencilCoordinates.lean",
@@ -3865,7 +3865,7 @@
       "olean": ".lake/build/lib/lean/WasowPencilCoordinates.olean",
       "olean_sha256": "2c96cb909cfecca13750f2855ad6db4bf6bf8b650abe6b7f5d405820c9b7ac4b",
       "log": "modules/WasowPencilCoordinates.log",
-      "elapsed_seconds": 9.681
+      "elapsed_seconds": 16.152
     },
     {
       "file": "WasowPencilScaling.lean",
@@ -3941,7 +3941,7 @@
       "olean": ".lake/build/lib/lean/WasowPencilScaling.olean",
       "olean_sha256": "e279d92974c8ea7905c5f4b0dada2af3bf5b53149238f11bff0c28e73bd7e941",
       "log": "modules/WasowPencilScaling.log",
-      "elapsed_seconds": 10.215
+      "elapsed_seconds": 16.269
     },
     {
       "file": "WasowJordanBasis.lean",
@@ -4065,7 +4065,7 @@
       "olean": ".lake/build/lib/lean/WasowJordanBasis.olean",
       "olean_sha256": "79b6c2a8036424a6e98e7bc4e0f3334f38a1a0ceb7cc8912cd27df677f1e0a50",
       "log": "modules/WasowJordanBasis.log",
-      "elapsed_seconds": 15.186
+      "elapsed_seconds": 16.749
     },
     {
       "file": "WasowSortedJordan.lean",
@@ -4117,7 +4117,7 @@
       "olean": ".lake/build/lib/lean/WasowSortedJordan.olean",
       "olean_sha256": "64c13baef7567c7d31387ad6b4b00567f029cd86b5757877bad366a2e75d4529",
       "log": "modules/WasowSortedJordan.log",
-      "elapsed_seconds": 10.488
+      "elapsed_seconds": 17.816
     },
     {
       "file": "WasowShearingTermination.lean",
@@ -4193,7 +4193,7 @@
       "olean": ".lake/build/lib/lean/WasowShearingTermination.olean",
       "olean_sha256": "a05cdae29a54f47acfa7bcca29c7ec3c7f414ca39a66b9884c84d25a190d795c",
       "log": "modules/WasowShearingTermination.log",
-      "elapsed_seconds": 11.732
+      "elapsed_seconds": 17.567
     },
     {
       "file": "WasowRankSelection.lean",
@@ -4233,7 +4233,7 @@
       "olean": ".lake/build/lib/lean/WasowRankSelection.olean",
       "olean_sha256": "f276d63dfdc29497b224342dc69cf57bf121b36c2a90fccbb2d168462f934bfd",
       "log": "modules/WasowRankSelection.log",
-      "elapsed_seconds": 10.264
+      "elapsed_seconds": 18.853
     },
     {
       "file": "WasowArbitraryFormalBlocks.lean",
@@ -4285,7 +4285,7 @@
       "olean": ".lake/build/lib/lean/WasowArbitraryFormalBlocks.olean",
       "olean_sha256": "80a0f8ac9318dcb506b2e4eb626f240a1ec54ebb1a77ca8449b67c67320e9b98",
       "log": "modules/WasowArbitraryFormalBlocks.log",
-      "elapsed_seconds": 14.729
+      "elapsed_seconds": 16.123
     },
     {
       "file": "WasowFormalSuccessor.lean",
@@ -4361,7 +4361,7 @@
       "olean": ".lake/build/lib/lean/WasowFormalSuccessor.olean",
       "olean_sha256": "87c3b379b91b681f0ef3a4a698b0ff69f31e734853596b1331f20ac142f4c3ec",
       "log": "modules/WasowFormalSuccessor.log",
-      "elapsed_seconds": 15.146
+      "elapsed_seconds": 19.935
     },
     {
       "file": "WasowFormalNormalization.lean",
@@ -4401,7 +4401,7 @@
       "olean": ".lake/build/lib/lean/WasowFormalNormalization.olean",
       "olean_sha256": "2e8bf43b46216f5ec3c964d22d288f563ac1a7a2f03b5420301631368727e4e3",
       "log": "modules/WasowFormalNormalization.log",
-      "elapsed_seconds": 12.533
+      "elapsed_seconds": 18.331
     },
     {
       "file": "WasowReductionTermination.lean",
@@ -4483,7 +4483,7 @@
       "olean": ".lake/build/lib/lean/WasowReductionTermination.olean",
       "olean_sha256": "2eba484c0c66075773d52c4b6ac0c9dfb7f648acd26e25b212468b6f66337034",
       "log": "modules/WasowReductionTermination.log",
-      "elapsed_seconds": 15.251
+      "elapsed_seconds": 20.287
     },
     {
       "file": "WasowFormalSplit.lean",
@@ -4553,7 +4553,7 @@
       "olean": ".lake/build/lib/lean/WasowFormalSplit.olean",
       "olean_sha256": "10bb202abb6a6ad409e7a0e1d85191333c13d12c1e343ce87618bd274c8103e9",
       "log": "modules/WasowFormalSplit.log",
-      "elapsed_seconds": 9.896
+      "elapsed_seconds": 17.882
     },
     {
       "file": "WasowFormalSpectrum.lean",
@@ -4587,7 +4587,7 @@
       "olean": ".lake/build/lib/lean/WasowFormalSpectrum.olean",
       "olean_sha256": "48e1bc635dac29778ab984ae1c8eb3fcccd54630a875b4a41585c69d772e0461",
       "log": "modules/WasowFormalSpectrum.log",
-      "elapsed_seconds": 10.928
+      "elapsed_seconds": 18.378
     },
     {
       "file": "WasowRecursiveTree.lean",
@@ -4663,7 +4663,7 @@
       "olean": ".lake/build/lib/lean/WasowRecursiveTree.olean",
       "olean_sha256": "19103d7e9e811d57589b29d12632af5b8583479367332c916d2b56e8452b18ea",
       "log": "modules/WasowRecursiveTree.log",
-      "elapsed_seconds": 10.808
+      "elapsed_seconds": 16.652
     },
     {
       "file": "WasowGlobalFormalEdges.lean",
@@ -4763,7 +4763,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalFormalEdges.olean",
       "olean_sha256": "d4559813000ae30c0f7f5f4eeed928d1a6d48827ab130dd645fa979589aa195c",
       "log": "modules/WasowGlobalFormalEdges.log",
-      "elapsed_seconds": 11.646
+      "elapsed_seconds": 17.591
     },
     {
       "file": "WasowLaurentRamification.lean",
@@ -4875,7 +4875,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentRamification.olean",
       "olean_sha256": "2e70db37914a851cc4e6eef2d9fa824a39c415c8cfe5e9fff5f6eba0d1bb2517",
       "log": "modules/WasowLaurentRamification.log",
-      "elapsed_seconds": 9.099
+      "elapsed_seconds": 9.784
     },
     {
       "file": "WasowLaurentShearing.lean",
@@ -4963,7 +4963,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentShearing.olean",
       "olean_sha256": "a65fb67142aef798f4fc8839307c2671edb677d6d51a8966609ef3598fb482c3",
       "log": "modules/WasowLaurentShearing.log",
-      "elapsed_seconds": 15.545
+      "elapsed_seconds": 16.908
     },
     {
       "file": "WasowGlobalFormalSplit.lean",
@@ -5069,7 +5069,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalFormalSplit.olean",
       "olean_sha256": "2093a6b0d27e4200dee8f20ad81bd2a328016e206df678cdf0fdb67e40896881",
       "log": "modules/WasowGlobalFormalSplit.log",
-      "elapsed_seconds": 11.336
+      "elapsed_seconds": 19.426
     },
     {
       "file": "WasowGlobalFormalRegular.lean",
@@ -5139,7 +5139,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalFormalRegular.olean",
       "olean_sha256": "7a292f3e3e683b6ce59c2a5618f082cb9339a47d7e4dba4cfb83d9c42d1b14b6",
       "log": "modules/WasowGlobalFormalRegular.log",
-      "elapsed_seconds": 10.126
+      "elapsed_seconds": 22.944
     },
     {
       "file": "WasowRamifiedCoefficient.lean",
@@ -5179,7 +5179,7 @@
       "olean": ".lake/build/lib/lean/WasowRamifiedCoefficient.olean",
       "olean_sha256": "3cd4d2720335c6c2aceb3c465bf6acfa392fd04430d727cf93165d7895bf3099",
       "log": "modules/WasowRamifiedCoefficient.log",
-      "elapsed_seconds": 10.426
+      "elapsed_seconds": 14.479
     },
     {
       "file": "CRGAsymptoticCoefficientPullback.lean",
@@ -5243,7 +5243,7 @@
       "olean": ".lake/build/lib/lean/CRGAsymptoticCoefficientPullback.olean",
       "olean_sha256": "0b4a2640dd6058bc1e6096f45dce95c37567a0f53cd3e2eabcb65b3d56d4c8f7",
       "log": "modules/CRGAsymptoticCoefficientPullback.log",
-      "elapsed_seconds": 13.928
+      "elapsed_seconds": 24.38
     },
     {
       "file": "CRGAsymptoticCoefficientQuotient.lean",
@@ -5337,7 +5337,7 @@
       "olean": ".lake/build/lib/lean/CRGAsymptoticCoefficientQuotient.olean",
       "olean_sha256": "7bc9d1b76a1aeafe1542f1883fafd7d72ea954343d4e24e16c851280ee477755",
       "log": "modules/CRGAsymptoticCoefficientQuotient.log",
-      "elapsed_seconds": 12.364
+      "elapsed_seconds": 24.409
     },
     {
       "file": "WasowRamification.lean",
@@ -5448,7 +5448,7 @@
       "olean": ".lake/build/lib/lean/WasowRamification.olean",
       "olean_sha256": "05c9d981b998a828005dd076f28aeb7e75c63034d425aff51f750b657dfc82ab",
       "log": "modules/WasowRamification.log",
-      "elapsed_seconds": 9.428
+      "elapsed_seconds": 15.107
     },
     {
       "file": "WasowPhaseOrdering.lean",
@@ -5530,7 +5530,7 @@
       "olean": ".lake/build/lib/lean/WasowPhaseOrdering.olean",
       "olean_sha256": "46059b954a689a803a95dc9d6c790c29b464cbcd902ccf6d91a712513e5dcb71",
       "log": "modules/WasowPhaseOrdering.log",
-      "elapsed_seconds": 14.444
+      "elapsed_seconds": 9.877
     },
     {
       "file": "WasowRamifiedGauge.lean",
@@ -5642,7 +5642,7 @@
       "olean": ".lake/build/lib/lean/WasowRamifiedGauge.olean",
       "olean_sha256": "ff640603eabbc8e68c1c1350b89410ce677f7e03d3db3f142c22471d6e16c889",
       "log": "modules/WasowRamifiedGauge.log",
-      "elapsed_seconds": 11.073
+      "elapsed_seconds": 17.15
     },
     {
       "file": "WasowRationalEvaluation.lean",
@@ -5736,7 +5736,7 @@
       "olean": ".lake/build/lib/lean/WasowRationalEvaluation.olean",
       "olean_sha256": "48b371ffff300d65d4caa9edf0c8f5d23e53b191de764e1cf16c1adf1ba85049",
       "log": "modules/WasowRationalEvaluation.log",
-      "elapsed_seconds": 10.998
+      "elapsed_seconds": 15.548
     },
     {
       "file": "WasowWeightedRemainder.lean",
@@ -5788,7 +5788,7 @@
       "olean": ".lake/build/lib/lean/WasowWeightedRemainder.olean",
       "olean_sha256": "ff4c035145f41cfbd72a96ade923cf79a04e92b42f352efdabd50de2f3cc94ec",
       "log": "modules/WasowWeightedRemainder.log",
-      "elapsed_seconds": 9.067
+      "elapsed_seconds": 10.743
     },
     {
       "file": "MixedVolterra.lean",
@@ -5906,7 +5906,7 @@
       "olean": ".lake/build/lib/lean/MixedVolterra.olean",
       "olean_sha256": "e1451b8fdec4a8d442a1371837081f708f7617384f7dc54bc99520123c46c773",
       "log": "modules/MixedVolterra.log",
-      "elapsed_seconds": 11.076
+      "elapsed_seconds": 17.365
     },
     {
       "file": "Halfline.lean",
@@ -5940,7 +5940,7 @@
       "olean": ".lake/build/lib/lean/Halfline.olean",
       "olean_sha256": "909a97977ea09b056cc4ec62b7f44376e3265b16df2c397705db3162f594c611",
       "log": "modules/Halfline.log",
-      "elapsed_seconds": 10.999
+      "elapsed_seconds": 15.311
     },
     {
       "file": "VolterraCalculus.lean",
@@ -5986,7 +5986,7 @@
       "olean": ".lake/build/lib/lean/VolterraCalculus.olean",
       "olean_sha256": "1b3317e5dbf31bd79f384e2a8e4797b675233c1d71528bee4222a64618d9bfcf",
       "log": "modules/VolterraCalculus.log",
-      "elapsed_seconds": 10.996
+      "elapsed_seconds": 15.587
     },
     {
       "file": "WasowVolterra.lean",
@@ -6110,7 +6110,7 @@
       "olean": ".lake/build/lib/lean/WasowVolterra.olean",
       "olean_sha256": "d41920ee6c438ab042665d7d78d5f535fe6e432125e4156346f56453501fffd1",
       "log": "modules/WasowVolterra.log",
-      "elapsed_seconds": 11.707
+      "elapsed_seconds": 16.82
     },
     {
       "file": "WasowFundamental.lean",
@@ -6186,7 +6186,7 @@
       "olean": ".lake/build/lib/lean/WasowFundamental.olean",
       "olean_sha256": "6b2cf9e688784898dac720a7662907bde8b1e29f12909424312136f20d6baaf0",
       "log": "modules/WasowFundamental.log",
-      "elapsed_seconds": 8.666
+      "elapsed_seconds": 15.191
     },
     {
       "file": "WasowRealization.lean",
@@ -6244,7 +6244,7 @@
       "olean": ".lake/build/lib/lean/WasowRealization.olean",
       "olean_sha256": "b507f14e5e0f237ba58f4849178a6965c5da09df462c7593af8ff24764913ef0",
       "log": "modules/WasowRealization.log",
-      "elapsed_seconds": 9.51
+      "elapsed_seconds": 18.52
     },
     {
       "file": "WasowGaugeAssembly.lean",
@@ -6314,7 +6314,7 @@
       "olean": ".lake/build/lib/lean/WasowGaugeAssembly.olean",
       "olean_sha256": "eb8d885f87217f214ab3720e7bc643b6d5dfdbed3fad25f77f38765c61ae432a",
       "log": "modules/WasowGaugeAssembly.log",
-      "elapsed_seconds": 12.199
+      "elapsed_seconds": 17.056
     },
     {
       "file": "WasowGaugeComposition.lean",
@@ -6378,7 +6378,7 @@
       "olean": ".lake/build/lib/lean/WasowGaugeComposition.olean",
       "olean_sha256": "4f6a8452d29bd45342e806e0e1668bfd2da57b4a5bd448cc490b8e4757692631",
       "log": "modules/WasowGaugeComposition.log",
-      "elapsed_seconds": 10.267
+      "elapsed_seconds": 16.303
     },
     {
       "file": "WasowShearingGauge.lean",
@@ -6448,7 +6448,7 @@
       "olean": ".lake/build/lib/lean/WasowShearingGauge.olean",
       "olean_sha256": "6adabd61fb805c028c4d22ea755cc5d5f97015cbe24574f3b1aed7fa63079d27",
       "log": "modules/WasowShearingGauge.log",
-      "elapsed_seconds": 11.638
+      "elapsed_seconds": 17.47
     },
     {
       "file": "WasowPhaseNormalization.lean",
@@ -6512,7 +6512,7 @@
       "olean": ".lake/build/lib/lean/WasowPhaseNormalization.olean",
       "olean_sha256": "a9caa2f965bec7d663b7c1a8ec2f93bb9fc3882a2050396c58dad51d34d89416",
       "log": "modules/WasowPhaseNormalization.log",
-      "elapsed_seconds": 11.572
+      "elapsed_seconds": 16.636
     },
     {
       "file": "WasowPhaseFamily.lean",
@@ -6618,7 +6618,7 @@
       "olean": ".lake/build/lib/lean/WasowPhaseFamily.olean",
       "olean_sha256": "9aae4fedccec2fe0cfa55aefbeb66e8cf9b0ce33d1c14354f300886fca7899f7",
       "log": "modules/WasowPhaseFamily.log",
-      "elapsed_seconds": 10.305
+      "elapsed_seconds": 18.857
     },
     {
       "file": "WasowScalarPhase.lean",
@@ -6712,7 +6712,7 @@
       "olean": ".lake/build/lib/lean/WasowScalarPhase.olean",
       "olean_sha256": "873a2107ad519a5ec2d3867d15071e673c2696a54f48928920431947b292d695",
       "log": "modules/WasowScalarPhase.log",
-      "elapsed_seconds": 14.987
+      "elapsed_seconds": 19.078
     },
     {
       "file": "WasowLaurentPhase.lean",
@@ -6782,7 +6782,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentPhase.olean",
       "olean_sha256": "c9bcce7ee6394734cd6fd5602fbe410bc3e4f85e49a1bb5e227122b17de854af",
       "log": "modules/WasowLaurentPhase.log",
-      "elapsed_seconds": 12.636
+      "elapsed_seconds": 19.174
     },
     {
       "file": "WasowGlobalFormalCanonical.lean",
@@ -6852,7 +6852,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalFormalCanonical.olean",
       "olean_sha256": "a1df264b3f112d15cd0139e9043c35563de6c73f5706b5c4ea1bd7409630560f",
       "log": "modules/WasowGlobalFormalCanonical.log",
-      "elapsed_seconds": 13.963
+      "elapsed_seconds": 24.524
     },
     {
       "file": "WasowGlobalFormalAssembly.lean",
@@ -6934,7 +6934,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalFormalAssembly.olean",
       "olean_sha256": "5b89326c2feef8fd574861d856f89a0b8f743633d1ee6780432089bee13e48eb",
       "log": "modules/WasowGlobalFormalAssembly.log",
-      "elapsed_seconds": 12.363
+      "elapsed_seconds": 24.413
     },
     {
       "file": "WasowGlobalFormalTree.lean",
@@ -6992,7 +6992,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalFormalTree.olean",
       "olean_sha256": "8d0c5ece7cd484297738a6aa01d83528fede2d48b741bd9470071e7dd59553c0",
       "log": "modules/WasowGlobalFormalTree.log",
-      "elapsed_seconds": 10.994
+      "elapsed_seconds": 24.96
     },
     {
       "file": "WasowGlobalFormalSquare.lean",
@@ -7062,7 +7062,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalFormalSquare.olean",
       "olean_sha256": "081bfa294e1d3b79f31c43d82d914a8db327aff12eacf02d89bee917ff7757d9",
       "log": "modules/WasowGlobalFormalSquare.log",
-      "elapsed_seconds": 10.965
+      "elapsed_seconds": 19.364
     },
     {
       "file": "WasowRationalAtInfinity.lean",
@@ -7156,7 +7156,7 @@
       "olean": ".lake/build/lib/lean/WasowRationalAtInfinity.olean",
       "olean_sha256": "83d368f046030d8f07c79b9fbae5558b44e9b1618ca777f98cc733eef6336e31",
       "log": "modules/WasowRationalAtInfinity.log",
-      "elapsed_seconds": 10.248
+      "elapsed_seconds": 16.267
     },
     {
       "file": "WasowAnalyticPowerPullback.lean",
@@ -7250,7 +7250,7 @@
       "olean": ".lake/build/lib/lean/WasowAnalyticPowerPullback.olean",
       "olean_sha256": "6e8e14eca3af10ca77e7437034bd7f449760702e91bb9473ce85932b27ba7ffe",
       "log": "modules/WasowAnalyticPowerPullback.log",
-      "elapsed_seconds": 13.944
+      "elapsed_seconds": 24.464
     },
     {
       "file": "WasowGlobalFiniteRealization.lean",
@@ -7320,7 +7320,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalFiniteRealization.olean",
       "olean_sha256": "72eac00683f51e644d56bd129cd5fee2c3e379e69ef91bfa9162329a0049bacd",
       "log": "modules/WasowGlobalFiniteRealization.log",
-      "elapsed_seconds": 10.412
+      "elapsed_seconds": 32.037
     },
     {
       "file": "WasowCanonicalTruncation.lean",
@@ -7408,7 +7408,7 @@
       "olean": ".lake/build/lib/lean/WasowCanonicalTruncation.olean",
       "olean_sha256": "e8b5f629f2215b66f5650023a82c39a1cea2f73515cd9af5e585488de96a72ae",
       "log": "modules/WasowCanonicalTruncation.log",
-      "elapsed_seconds": 11.043
+      "elapsed_seconds": 25.113
     },
     {
       "file": "WasowCanonicalPhaseEvaluation.lean",
@@ -7484,7 +7484,7 @@
       "olean": ".lake/build/lib/lean/WasowCanonicalPhaseEvaluation.olean",
       "olean_sha256": "3dfef45d6e27d1cc5a3818cef2b4f8bc537856728ceccc7113fba85ce0c55a60",
       "log": "modules/WasowCanonicalPhaseEvaluation.log",
-      "elapsed_seconds": 10.962
+      "elapsed_seconds": 19.312
     },
     {
       "file": "WasowLaurentRayEquation.lean",
@@ -7554,7 +7554,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentRayEquation.olean",
       "olean_sha256": "45b47491322b6761e90c9099aa0ee3924e56abc1d69ed4fb670f804ef525598a",
       "log": "modules/WasowLaurentRayEquation.log",
-      "elapsed_seconds": 11.574
+      "elapsed_seconds": 16.613
     },
     {
       "file": "WasowFuchsianODE.lean",
@@ -7630,7 +7630,7 @@
       "olean": ".lake/build/lib/lean/WasowFuchsianODE.olean",
       "olean_sha256": "7bd218f5158eae0aa9d51c6c290063aec91b66d541403f09d0d334f85f4682db",
       "log": "modules/WasowFuchsianODE.log",
-      "elapsed_seconds": 8.971
+      "elapsed_seconds": 15.672
     },
     {
       "file": "WasowFuchsianFundamental.lean",
@@ -7664,7 +7664,7 @@
       "olean": ".lake/build/lib/lean/WasowFuchsianFundamental.olean",
       "olean_sha256": "9a792bbfcbe179c8c2a6f7b94ad210a3cf38cc502c6af4496230c33f4665e908",
       "log": "modules/WasowFuchsianFundamental.log",
-      "elapsed_seconds": 10.291
+      "elapsed_seconds": 16.243
     },
     {
       "file": "WasowFuchsianBounds.lean",
@@ -7710,7 +7710,7 @@
       "olean": ".lake/build/lib/lean/WasowFuchsianBounds.olean",
       "olean_sha256": "f13b618fc8f01c5cb86dbe91083e2bf8d43af36b789604d45b941d4542e996cb",
       "log": "modules/WasowFuchsianBounds.log",
-      "elapsed_seconds": 11.621
+      "elapsed_seconds": 18.849
     },
     {
       "file": "WasowFuchsianTruncation.lean",
@@ -7762,7 +7762,7 @@
       "olean": ".lake/build/lib/lean/WasowFuchsianTruncation.olean",
       "olean_sha256": "15059f4121daa7b2e0dc15e6ca29b6af79420ea395ac4c6ced95ab607e740e53",
       "log": "modules/WasowFuchsianTruncation.log",
-      "elapsed_seconds": 10.308
+      "elapsed_seconds": 19.063
     },
     {
       "file": "WasowGlobalRayData.lean",
@@ -7904,7 +7904,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalRayData.olean",
       "olean_sha256": "4ed45ed457c37af3b98f941f6f892c829a73b2e95e1e7c2f38dfe24334595f48",
       "log": "modules/WasowGlobalRayData.log",
-      "elapsed_seconds": 12.586
+      "elapsed_seconds": 35.68
     },
     {
       "file": "CRGAsymptoticCoefficientMatrixTransfer.lean",
@@ -7962,7 +7962,7 @@
       "olean": ".lake/build/lib/lean/CRGAsymptoticCoefficientMatrixTransfer.olean",
       "olean_sha256": "13d7eeb66ef0aa2a45a7723d9c1a714a16f34cfa6e1addb4d34db00534388945",
       "log": "modules/CRGAsymptoticCoefficientMatrixTransfer.log",
-      "elapsed_seconds": 11.759
+      "elapsed_seconds": 18.537
     },
     {
       "file": "CRGPuiseuxFiniteRealization.lean",
@@ -8008,7 +8008,7 @@
       "olean": ".lake/build/lib/lean/CRGPuiseuxFiniteRealization.olean",
       "olean_sha256": "8d2bf5a1989f18de6bb799971fea58946c5680c88e2461dd7ad8ba5dd48c2b09",
       "log": "modules/CRGPuiseuxFiniteRealization.log",
-      "elapsed_seconds": 11.841
+      "elapsed_seconds": 18.658
     },
     {
       "file": "WasowRegularSingular.lean",
@@ -8084,7 +8084,7 @@
       "olean": ".lake/build/lib/lean/WasowRegularSingular.olean",
       "olean_sha256": "204f772a0e9ae98de9723307b32b656fcbe29a2006321abd4c8e82c803313ac6",
       "log": "modules/WasowRegularSingular.log",
-      "elapsed_seconds": 9.026
+      "elapsed_seconds": 15.782
     },
     {
       "file": "WasowRegularGauge.lean",
@@ -8166,7 +8166,7 @@
       "olean": ".lake/build/lib/lean/WasowRegularGauge.olean",
       "olean_sha256": "ab01056c0e61eabd5b652c2053c217b57cd00f7b6e90bf7763f03c0856a87aa4",
       "log": "modules/WasowRegularGauge.log",
-      "elapsed_seconds": 9.765
+      "elapsed_seconds": 16.757
     },
     {
       "file": "WasowRegularTail.lean",
@@ -8224,7 +8224,7 @@
       "olean": ".lake/build/lib/lean/WasowRegularTail.olean",
       "olean_sha256": "904e7b73b53c4a8a5a7fbef05da780271d14a73f760c6969c24541ffd1fbace1",
       "log": "modules/WasowRegularTail.log",
-      "elapsed_seconds": 11.575
+      "elapsed_seconds": 17.502
     },
     {
       "file": "WasowPolynomialTail.lean",
@@ -8270,7 +8270,7 @@
       "olean": ".lake/build/lib/lean/WasowPolynomialTail.olean",
       "olean_sha256": "904eb846fa492f7005d318261155e1b4571cc5245d99fa38b8bfbb2fd3dde10d",
       "log": "modules/WasowPolynomialTail.log",
-      "elapsed_seconds": 10.315
+      "elapsed_seconds": 18.862
     },
     {
       "file": "WasowLaurentConjugatedTail.lean",
@@ -8310,7 +8310,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentConjugatedTail.olean",
       "olean_sha256": "6e69eb6d820a088fd27617ece1ba6e00ee9fbf1e61ad16d0f8acd314c1f1288d",
       "log": "modules/WasowLaurentConjugatedTail.log",
-      "elapsed_seconds": 14.989
+      "elapsed_seconds": 19.177
     },
     {
       "file": "WasowLaurentChainTail.lean",
@@ -8362,7 +8362,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentChainTail.olean",
       "olean_sha256": "aae2ea50a6bc357a90ab7a7fc56d824617dd27a90d28df833d61b51558028a3d",
       "log": "modules/WasowLaurentChainTail.log",
-      "elapsed_seconds": 12.626
+      "elapsed_seconds": 17.342
     },
     {
       "file": "CRGAsymptoticCoefficientRayTail.lean",
@@ -8420,7 +8420,7 @@
       "olean": ".lake/build/lib/lean/CRGAsymptoticCoefficientRayTail.olean",
       "olean_sha256": "ffe935574c7827584fb21a431385585cb56151d91232abd920e90119bcde679f",
       "log": "modules/CRGAsymptoticCoefficientRayTail.log",
-      "elapsed_seconds": 18.386
+      "elapsed_seconds": 23.05
     },
     {
       "file": "CRGAsymptoticCoefficientScalarAlgebra.lean",
@@ -8520,7 +8520,7 @@
       "olean": ".lake/build/lib/lean/CRGAsymptoticCoefficientScalarAlgebra.olean",
       "olean_sha256": "79e6fa8fae2735659f3f85601947229f6aecb77691f0253269dcc00123dffe50",
       "log": "modules/CRGAsymptoticCoefficientScalarAlgebra.log",
-      "elapsed_seconds": 18.398
+      "elapsed_seconds": 23.08
     },
     {
       "file": "CRGExponentialCoefficients.lean",
@@ -8572,7 +8572,7 @@
       "olean": ".lake/build/lib/lean/CRGExponentialCoefficients.olean",
       "olean_sha256": "09cbfc567ef66a146184ffc613baa7d70087466baf94480fbaeab263c49df2e0",
       "log": "modules/CRGExponentialCoefficients.log",
-      "elapsed_seconds": 9.267
+      "elapsed_seconds": 18.135
     },
     {
       "file": "CRGCollectedEquation.lean",
@@ -8636,7 +8636,7 @@
       "olean": ".lake/build/lib/lean/CRGCollectedEquation.olean",
       "olean_sha256": "ff6798d51342dade7b4e86445509dac12c216ebd604895e60711bb30cf00db33",
       "log": "modules/CRGCollectedEquation.log",
-      "elapsed_seconds": 12.182
+      "elapsed_seconds": 16.52
     },
     {
       "file": "CRGPhaseDirections.lean",
@@ -8682,7 +8682,7 @@
       "olean": ".lake/build/lib/lean/CRGPhaseDirections.olean",
       "olean_sha256": "86f5e1f2ba380d98e0299a7726a52bfa3141d03aab6bfa4bc621ee22b86a51ae",
       "log": "modules/CRGPhaseDirections.log",
-      "elapsed_seconds": 9.231
+      "elapsed_seconds": 18.061
     },
     {
       "file": "CRGPhaseAsymptotics.lean",
@@ -8746,7 +8746,7 @@
       "olean": ".lake/build/lib/lean/CRGPhaseAsymptotics.olean",
       "olean_sha256": "d25e9765b0af4dac24da9dfc29cd3d5249e5a0e01b350330dfd5b579cf54ccc4",
       "log": "modules/CRGPhaseAsymptotics.log",
-      "elapsed_seconds": 12.189
+      "elapsed_seconds": 16.517
     },
     {
       "file": "CRGRayComparisonOrder.lean",
@@ -8798,7 +8798,7 @@
       "olean": ".lake/build/lib/lean/CRGRayComparisonOrder.olean",
       "olean_sha256": "2f1066aeac2710afb8a54c72742b88d7ca3ffca8de076c3ffbc0865e6f1a19da",
       "log": "modules/CRGRayComparisonOrder.log",
-      "elapsed_seconds": 9.705
+      "elapsed_seconds": 16.71
     },
     {
       "file": "CRGExponentialDominance.lean",
@@ -8856,7 +8856,7 @@
       "olean": ".lake/build/lib/lean/CRGExponentialDominance.olean",
       "olean_sha256": "692e3891390a2690675ac75570d4c6d266840d394d8d78ea1056a2cd345d0b1b",
       "log": "modules/CRGExponentialDominance.log",
-      "elapsed_seconds": 12.342
+      "elapsed_seconds": 17.49
     },
     {
       "file": "CRGRayComparisonLog.lean",
@@ -8908,7 +8908,7 @@
       "olean": ".lake/build/lib/lean/CRGRayComparisonLog.olean",
       "olean_sha256": "72acff2b8f0eb9b1cda1c818bd703944f2b0b40b68489e6726ff2f868411dfbd",
       "log": "modules/CRGRayComparisonLog.log",
-      "elapsed_seconds": 9.924
+      "elapsed_seconds": 18.44
     },
     {
       "file": "CRGSolutionSpanning.lean",
@@ -8954,7 +8954,7 @@
       "olean": ".lake/build/lib/lean/CRGSolutionSpanning.olean",
       "olean_sha256": "da107aeaa8c7c528436709e7743eb95b689a64d6bc563851bfad8b6225543e77",
       "log": "modules/CRGSolutionSpanning.log",
-      "elapsed_seconds": 9.487
+      "elapsed_seconds": 17.315
     },
     {
       "file": "WasowPhaseRealization.lean",
@@ -9000,7 +9000,7 @@
       "olean": ".lake/build/lib/lean/WasowPhaseRealization.olean",
       "olean_sha256": "f829e2128305ddfd4611a9d582da24b1bd084daff4cf3c2f7ede83675fb76138",
       "log": "modules/WasowPhaseRealization.log",
-      "elapsed_seconds": 9.477
+      "elapsed_seconds": 16.85
     },
     {
       "file": "WasowRegularTruncation.lean",
@@ -9046,7 +9046,7 @@
       "olean": ".lake/build/lib/lean/WasowRegularTruncation.olean",
       "olean_sha256": "b568bae9c5c21c61dd4ad64807e710d1410a112c03591dc78df6f961d639304b",
       "log": "modules/WasowRegularTruncation.log",
-      "elapsed_seconds": 10.73
+      "elapsed_seconds": 16.775
     },
     {
       "file": "WasowFuchsianRealization.lean",
@@ -9086,7 +9086,7 @@
       "olean": ".lake/build/lib/lean/WasowFuchsianRealization.olean",
       "olean_sha256": "e7e065c19f2f16007e0de39a068fa115c19c9e3e8345bedb1c3ce0bd84a23e14",
       "log": "modules/WasowFuchsianRealization.log",
-      "elapsed_seconds": 12.086
+      "elapsed_seconds": 17.889
     },
     {
       "file": "WasowLaurentExactAssemblyData.lean",
@@ -9120,7 +9120,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentExactAssemblyData.olean",
       "olean_sha256": "39f3451c6dd9b4723e2bbf01ad55509aaa72e246c1ca7f0095999f36e1c0c913",
       "log": "modules/WasowLaurentExactAssemblyData.log",
-      "elapsed_seconds": 15.296
+      "elapsed_seconds": 16.488
     },
     {
       "file": "CRGSolutionPerturbation.lean",
@@ -9160,7 +9160,7 @@
       "olean": ".lake/build/lib/lean/CRGSolutionPerturbation.olean",
       "olean_sha256": "7ea408940b5b5e68e10b9a22f6e63903d1d8696884443cafc45f27dc5e07599f",
       "log": "modules/CRGSolutionPerturbation.log",
-      "elapsed_seconds": 11.237
+      "elapsed_seconds": 19.266
     },
     {
       "file": "CRGSolutionPerturbationTail.lean",
@@ -9206,7 +9206,7 @@
       "olean": ".lake/build/lib/lean/CRGSolutionPerturbationTail.olean",
       "olean_sha256": "e9e3a83c90eb028eda97cd39c5773cb566e5852701ebc3ea6d8b03a4a9d440d2",
       "log": "modules/CRGSolutionPerturbationTail.log",
-      "elapsed_seconds": 11.228
+      "elapsed_seconds": 19.254
     },
     {
       "file": "WasowRegularLeaf.lean",
@@ -9258,7 +9258,7 @@
       "olean": ".lake/build/lib/lean/WasowRegularLeaf.olean",
       "olean_sha256": "2d15f7f599dac2e012a0eae8d004c884c5cccefd2053f4a2e5b17cb636a72f65",
       "log": "modules/WasowRegularLeaf.log",
-      "elapsed_seconds": 15.179
+      "elapsed_seconds": 16.475
     },
     {
       "file": "WasowPhaseRegularGauge.lean",
@@ -9316,7 +9316,7 @@
       "olean": ".lake/build/lib/lean/WasowPhaseRegularGauge.olean",
       "olean_sha256": "b172d192f15607f479a3bffcb9cc06d7b286ef0ed0436e3b896cceda84991823",
       "log": "modules/WasowPhaseRegularGauge.log",
-      "elapsed_seconds": 10.4
+      "elapsed_seconds": 23.374
     },
     {
       "file": "WasowCanonicalRegularGauge.lean",
@@ -9350,7 +9350,7 @@
       "olean": ".lake/build/lib/lean/WasowCanonicalRegularGauge.olean",
       "olean_sha256": "ce475dd471a2db7bf4d41eee7903f189e5aab4d9d94566e583ac89b8f5d3e9f7",
       "log": "modules/WasowCanonicalRegularGauge.log",
-      "elapsed_seconds": 18.489
+      "elapsed_seconds": 23.2
     },
     {
       "file": "WasowGlobalConjugatedTail.lean",
@@ -9390,7 +9390,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalConjugatedTail.olean",
       "olean_sha256": "89dfa4ecfc7733e60264b504e7055ed3781aa584014685c2815aac1deb47df68",
       "log": "modules/WasowGlobalConjugatedTail.log",
-      "elapsed_seconds": 11.842
+      "elapsed_seconds": 18.64
     },
     {
       "file": "WasowLaurentGaugeControl.lean",
@@ -9430,7 +9430,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentGaugeControl.olean",
       "olean_sha256": "7a7af129d9d1270e5e3d9180041c9c3f5dc8f6763cf1fab349fb28286a011544",
       "log": "modules/WasowLaurentGaugeControl.log",
-      "elapsed_seconds": 10.385
+      "elapsed_seconds": 23.362
     },
     {
       "file": "WasowLaurentExactAssembly.lean",
@@ -9470,7 +9470,7 @@
       "olean": ".lake/build/lib/lean/WasowLaurentExactAssembly.olean",
       "olean_sha256": "3aed805cb7eb70cc05ba018b77c1b9449ec33df61bbc06a90dc384e0604fd896",
       "log": "modules/WasowLaurentExactAssembly.log",
-      "elapsed_seconds": 10.366
+      "elapsed_seconds": 23.351
     },
     {
       "file": "WasowGlobalExactAssembly.lean",
@@ -9504,7 +9504,7 @@
       "olean": ".lake/build/lib/lean/WasowGlobalExactAssembly.olean",
       "olean_sha256": "8348aa15c3f42be09a0adb456f1aef21f4f24e26ad98ea7877bef61dc89bb419",
       "log": "modules/WasowGlobalExactAssembly.log",
-      "elapsed_seconds": 18.397
+      "elapsed_seconds": 23.064
     },
     {
       "file": "WasowRationalNormalForm.lean",
@@ -9556,7 +9556,7 @@
       "olean": ".lake/build/lib/lean/WasowRationalNormalForm.olean",
       "olean_sha256": "8cceb80b770719b6596411951529e831b25fcbb4663e56e75e7f5a6b662439e2",
       "log": "modules/WasowRationalNormalForm.log",
-      "elapsed_seconds": 10.82
+      "elapsed_seconds": 28.909
     },
     {
       "file": "CRGRayComparison.lean",
@@ -9596,7 +9596,7 @@
       "olean": ".lake/build/lib/lean/CRGRayComparison.olean",
       "olean_sha256": "4c9c382f18f8c8adfd31854392bb6ca37787163a9babb07f6131d1d102122dd1",
       "log": "modules/CRGRayComparison.log",
-      "elapsed_seconds": 13.238
+      "elapsed_seconds": 29.02
     },
     {
       "file": "CRGCompanion.lean",
@@ -9678,7 +9678,7 @@
       "olean": ".lake/build/lib/lean/CRGCompanion.olean",
       "olean_sha256": "f8e8d7c6f83ae53170d0e93874d1ca72b7f1c0b142478b0a41c2c6e3e3db5929",
       "log": "modules/CRGCompanion.log",
-      "elapsed_seconds": 17.024
+      "elapsed_seconds": 28.35
     },
     {
       "file": "CRGCompanionComparison.lean",
@@ -9712,7 +9712,7 @@
       "olean": ".lake/build/lib/lean/CRGCompanionComparison.olean",
       "olean_sha256": "5b27182f424dd3b0a812c8f92a1b9a1a876426f5bbb828668be45774387db16b",
       "log": "modules/CRGCompanionComparison.log",
-      "elapsed_seconds": 11.845
+      "elapsed_seconds": 31.59
     },
     {
       "file": "CRGGroupResidual.lean",
@@ -9806,7 +9806,7 @@
       "olean": ".lake/build/lib/lean/CRGGroupResidual.olean",
       "olean_sha256": "fd8300747e206e4f772385d22b9273c8c6f8b999a5514e115e9adb673f137574",
       "log": "modules/CRGGroupResidual.log",
-      "elapsed_seconds": 13.259
+      "elapsed_seconds": 25.929
     },
     {
       "file": "LevinDensity.lean",
@@ -9948,7 +9948,7 @@
       "olean": ".lake/build/lib/lean/LevinDensity.olean",
       "olean_sha256": "5a0b96992f678a0815f526beb1d1480b080e170b5b6e75c18f092a923bbdf9fb",
       "log": "modules/LevinDensity.log",
-      "elapsed_seconds": 10.649
+      "elapsed_seconds": 16.704
     },
     {
       "file": "LevinGeometry.lean",
@@ -10012,7 +10012,7 @@
       "olean": ".lake/build/lib/lean/LevinGeometry.olean",
       "olean_sha256": "4d1124639d9e9ecfaa7c48759c4ffaed3ffd4ac9251f28d8f21dbb57f09ab0d7",
       "log": "modules/LevinGeometry.log",
-      "elapsed_seconds": 12.127
+      "elapsed_seconds": 17.873
     },
     {
       "file": "LevinGrowth.lean",
@@ -10094,7 +10094,7 @@
       "olean": ".lake/build/lib/lean/LevinGrowth.olean",
       "olean_sha256": "4a3730a199d4a2a0b76472d368d15b4c86e7127acd4449089493d1f88a2d6721",
       "log": "modules/LevinGrowth.log",
-      "elapsed_seconds": 15.307
+      "elapsed_seconds": 16.252
     },
     {
       "file": "GundersenAngles.lean",
@@ -10158,7 +10158,7 @@
       "olean": ".lake/build/lib/lean/GundersenAngles.olean",
       "olean_sha256": "727ba4df256f16a4c7c314f67d66d4d5cd3f096fb00888717c64469719f132ca",
       "log": "modules/GundersenAngles.log",
-      "elapsed_seconds": 11.234
+      "elapsed_seconds": 19.269
     },
     {
       "file": "GundersenJet.lean",
@@ -10204,7 +10204,7 @@
       "olean": ".lake/build/lib/lean/GundersenJet.olean",
       "olean_sha256": "cd03f8d9f2f725d5361dc3d8ead00d1472593bcee7b137d502fbb64ad73398b8",
       "log": "modules/GundersenJet.log",
-      "elapsed_seconds": 10.447
+      "elapsed_seconds": 14.459
     },
     {
       "file": "CRGCollectedResidual.lean",
@@ -10250,7 +10250,151 @@
       "olean": ".lake/build/lib/lean/CRGCollectedResidual.olean",
       "olean_sha256": "00d4482709e6c750ca5be4a3a5d63c739ebbae1e7e0015c3ec57ff9cbbe02aa6",
       "log": "modules/CRGCollectedResidual.log",
-      "elapsed_seconds": 15.259
+      "elapsed_seconds": 28.888
+    },
+    {
+      "file": "CRGFixedGaugeComparison.lean",
+      "sha256": "7f7b1d225e0626a4a93c7438db6e3a2ca4b282c95610c91e035ae216315704ba",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGFixedGaugeComparison.olean",
+        "CRGFixedGaugeComparison.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 1,
+      "expected_audits": [
+        "CRGFixedGaugeComparison.of_fixed_normal_form"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGFixedGaugeComparison.of_fixed_normal_form": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGFixedGaugeComparison.olean",
+      "olean_sha256": "a083770329787592c66e227e9f54e565cfc72e421d5c00511d94b64827ec6552",
+      "log": "modules/CRGFixedGaugeComparison.log",
+      "elapsed_seconds": 28.047
+    },
+    {
+      "file": "WasowConstantCoordinates.lean",
+      "sha256": "6d75f1c771bd151e71a7f83ea161d964ff844034954f7d353edb9be60f875f30",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/WasowConstantCoordinates.olean",
+        "WasowConstantCoordinates.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 1,
+      "expected_audits": [
+        "WasowConstantCoordinates.exists_weighted_coordinates"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "WasowConstantCoordinates.exists_weighted_coordinates": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/WasowConstantCoordinates.olean",
+      "olean_sha256": "1043d4d8a114e4fc3865af717e46a6a67a6f8aa583628fab486b96e2f70788c2",
+      "log": "modules/WasowConstantCoordinates.log",
+      "elapsed_seconds": 16.783
+    },
+    {
+      "file": "WasowConstantLinearGauge.lean",
+      "sha256": "d6e0edf4f526a52b7e7d1f8f7dc7be90c37c71a0056e9e9f0ce2b3dc4acad88a",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/WasowConstantLinearGauge.olean",
+        "WasowConstantLinearGauge.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 8,
+      "expected_audits": [
+        "WasowConstantLinearGauge.linear_phase",
+        "WasowConstantLinearGauge.linear_phase_hasDerivAt",
+        "WasowConstantLinearGauge.residue_rayGauge",
+        "WasowConstantLinearGauge.residue_commute",
+        "WasowConstantLinearGauge.shearing_identity",
+        "WasowConstantLinearGauge.jordan_linear_rayGauge",
+        "WasowConstantLinearGauge.constantConjugate_eq",
+        "WasowConstantLinearGauge.constant_linear_normal_form"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "WasowConstantLinearGauge.linear_phase": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.linear_phase_hasDerivAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.residue_rayGauge": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.residue_commute": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.shearing_identity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.jordan_linear_rayGauge": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.constantConjugate_eq": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.constant_linear_normal_form": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/WasowConstantLinearGauge.olean",
+      "olean_sha256": "072aeea84018e1d2db0e90952769ea137c886e58a70603b982609182d5b08c4a",
+      "log": "modules/WasowConstantLinearGauge.log",
+      "elapsed_seconds": 17.877
     },
     {
       "file": "CRGGroupHighest.lean",
@@ -10350,295 +10494,29 @@
       "olean": ".lake/build/lib/lean/CRGGroupHighest.olean",
       "olean_sha256": "9a43d6a709c85b812e70ef259d250e1f893d76a23928e11539308a98926aa7a2",
       "log": "modules/CRGGroupHighest.log",
-      "elapsed_seconds": 10.288
+      "elapsed_seconds": 14.42
     },
     {
-      "file": "CRGPuiseuxScalarReduction.lean",
-      "sha256": "0bdd59c0bab9cf5c6e53ec987971e699835407641ad36e50eaf389f35dce4e98",
+      "file": "CRGPolynomialGroupComparison.lean",
+      "sha256": "08016120408cf38e9a6a75d409d8c3df2af119f44302e19064360497b6154ecb",
       "source_unchanged_during_check": true,
       "command": [
         "lake",
         "env",
         "lean",
         "-o",
-        ".lake/build/lib/lean/CRGPuiseuxScalarReduction.olean",
-        "CRGPuiseuxScalarReduction.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 5,
-      "expected_audits": [
-        "CRGPuiseuxScalarReduction.exists_highest",
-        "CRGPuiseuxScalarReduction.flat_high_quotient",
-        "CRGPuiseuxScalarReduction.residual_flat",
-        "CRGPuiseuxScalarReduction.reduced_equation",
-        "CRGPuiseuxScalarReduction.highest_order_positive"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGPuiseuxScalarReduction.exists_highest": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxScalarReduction.flat_high_quotient": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxScalarReduction.residual_flat": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxScalarReduction.reduced_equation": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxScalarReduction.highest_order_positive": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGPuiseuxScalarReduction.olean",
-      "olean_sha256": "af2ea352c4f69c4b271c5d34007a44464c56e3991a2f40669db1c5010c06294b",
-      "log": "modules/CRGPuiseuxScalarReduction.log",
-      "elapsed_seconds": 10.983
-    },
-    {
-      "file": "CRGPuiseuxRayData.lean",
-      "sha256": "947f519243ecad4576830c3d5cfca7ce437a00da07243cced97c52d70fc358fe",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGPuiseuxRayData.olean",
-        "CRGPuiseuxRayData.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 3,
-      "expected_audits": [
-        "CRGPuiseuxRayData.global_ray_control",
-        "CRGPuiseuxRayData.error_continuous_along_ray",
-        "CRGPuiseuxRayData.smallConjugatedTails"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGPuiseuxRayData.global_ray_control": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxRayData.error_continuous_along_ray": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxRayData.smallConjugatedTails": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGPuiseuxRayData.olean",
-      "olean_sha256": "de78dacd012a438534597c6ab1e0fc4353b22ecf67b7e1f214e913b5a8aa72f3",
-      "log": "modules/CRGPuiseuxRayData.log",
-      "elapsed_seconds": 10.84
-    },
-    {
-      "file": "CRGGeneralRayGauge.lean",
-      "sha256": "4c2a39c81390df88203d33717652ccf77c02696969cd48ec7e0e3a3e6dda5930",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGGeneralRayGauge.olean",
-        "CRGGeneralRayGauge.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 4,
-      "expected_audits": [
-        "CRGGeneralRayGauge.exists_approximateRayGauge_of_laurent_regular",
-        "CRGGeneralRayGauge.exists_exact_rayGauge_of_laurent_regular",
-        "CRGGeneralRayGauge.exists_exact_rayGauge",
-        "CRGGeneralRayGauge.exists_exact_rayGauge_of_puiseux_phases"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGGeneralRayGauge.exists_approximateRayGauge_of_laurent_regular": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGGeneralRayGauge.exists_exact_rayGauge_of_laurent_regular": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGGeneralRayGauge.exists_exact_rayGauge": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGGeneralRayGauge.exists_exact_rayGauge_of_puiseux_phases": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGGeneralRayGauge.olean",
-      "olean_sha256": "ff59fa0061f913899ed74bc962e85ac08ff16dd1cfea521cfc49c938802d62e2",
-      "log": "modules/CRGGeneralRayGauge.log",
-      "elapsed_seconds": 10.509
-    },
-    {
-      "file": "CRGPuiseuxNormalForm.lean",
-      "sha256": "097d24c4cdc90897a439ee6f6ad1e5054cdc51eb52755c8422e940590feff123",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGPuiseuxNormalForm.olean",
-        "CRGPuiseuxNormalForm.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 2,
-      "expected_audits": [
-        "CRGPuiseuxNormalForm.lifted_ray_normal_form",
-        "CRGPuiseuxNormalForm.exists_fixed_lifted_phase_normal_form"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGPuiseuxNormalForm.lifted_ray_normal_form": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxNormalForm.exists_fixed_lifted_phase_normal_form": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGPuiseuxNormalForm.olean",
-      "olean_sha256": "3fd618fc7645ecad0a0dc311e2563974a4de700d02f66f270181babe06e6d9ec",
-      "log": "modules/CRGPuiseuxNormalForm.log",
-      "elapsed_seconds": 13.229
-    },
-    {
-      "file": "CRGPuiseuxCompanionExpansion.lean",
-      "sha256": "b53e851602d18d602fbc89913f90dec4cae2c21f6fe505e128501cf9d58c7f85",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGPuiseuxCompanionExpansion.olean",
-        "CRGPuiseuxCompanionExpansion.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 7,
-      "expected_audits": [
-        "CRGPuiseuxCompanionExpansion.entry_companionSeries",
-        "CRGPuiseuxCompanionExpansion.clearedCompanion_eq",
-        "CRGPuiseuxCompanionExpansion.clearedCompanion_completeExpansion",
-        "CRGPuiseuxCompanionExpansion.clearedCompanion_eventually_continuousAt",
-        "CRGPuiseuxCompanionExpansion.normalizedSource_completeExpansion",
-        "CRGPuiseuxCompanionExpansion.normalizedSource_eventually_continuousAt",
-        "CRGPuiseuxCompanionExpansion.exists_companion_normal_form"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGPuiseuxCompanionExpansion.entry_companionSeries": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionExpansion.clearedCompanion_eq": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionExpansion.clearedCompanion_completeExpansion": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionExpansion.clearedCompanion_eventually_continuousAt": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionExpansion.normalizedSource_completeExpansion": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionExpansion.normalizedSource_eventually_continuousAt": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionExpansion.exists_companion_normal_form": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGPuiseuxCompanionExpansion.olean",
-      "olean_sha256": "7f09225003098300a29ab64fc8f2e3a39f00f1b70b7a6d42c8a2e74b3f940c1c",
-      "log": "modules/CRGPuiseuxCompanionExpansion.log",
-      "elapsed_seconds": 17.025
-    },
-    {
-      "file": "CRGGeneralRayRamification.lean",
-      "sha256": "39b803bc66f28099e96ab05a4b3df8c1d60babd1aca2037fbd933714d4974978",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGGeneralRayRamification.olean",
-        "CRGGeneralRayRamification.lean"
+        ".lake/build/lib/lean/CRGPolynomialGroupComparison.olean",
+        "CRGPolynomialGroupComparison.lean"
       ],
       "exit_code": 0,
       "audit_count": 1,
       "expected_audits": [
-        "CRGGeneralRayRamification.descend_rayGauge"
+        "CRGPolynomialGroupComparison.group_ray_comparison"
       ],
       "audit_names_match": true,
       "axioms_allowed": true,
       "audits": {
-        "CRGGeneralRayRamification.descend_rayGauge": [
+        "CRGPolynomialGroupComparison.group_ray_comparison": [
           "propext",
           "Classical.choice",
           "Quot.sound"
@@ -10647,50 +10525,38 @@
       "passed": true,
       "forbidden_proof_commands": [],
       "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGGeneralRayRamification.olean",
-      "olean_sha256": "8c30257e119b814e38599c3d466a33d90819160dc42b155538ed04a8177a2d2c",
-      "log": "modules/CRGGeneralRayRamification.log",
-      "elapsed_seconds": 13.762
+      "olean": ".lake/build/lib/lean/CRGPolynomialGroupComparison.olean",
+      "olean_sha256": "b6bf5b36f93ca2edf7bb7ce9db37f9467ff5924ab214f843fcd99ddc539375a8",
+      "log": "modules/CRGPolynomialGroupComparison.log",
+      "elapsed_seconds": 25.852
     },
     {
-      "file": "CRGPuiseuxCompanionNormalForm.lean",
-      "sha256": "c15a00c2f06ab48e5207a3783fcfba9f47347768755cb2f095cd501457001d8e",
+      "file": "CRGConstantGroupComparison.lean",
+      "sha256": "865fc8c72699f5477d65b4b09da3e2eae89e32f3cadf0e972721ce79f97ecab7",
       "source_unchanged_during_check": true,
       "command": [
         "lake",
         "env",
         "lean",
         "-o",
-        ".lake/build/lib/lean/CRGPuiseuxCompanionNormalForm.olean",
-        "CRGPuiseuxCompanionNormalForm.lean"
+        ".lake/build/lib/lean/CRGConstantGroupComparison.olean",
+        "CRGConstantGroupComparison.lean"
       ],
       "exit_code": 0,
-      "audit_count": 4,
+      "audit_count": 2,
       "expected_audits": [
-        "CRGPuiseuxCompanionNormalForm.ramifiedCoefficient_companion",
-        "CRGPuiseuxCompanionNormalForm.physicalCoefficient_pullback",
-        "CRGPuiseuxCompanionNormalForm.physical_ray_normal_form",
-        "CRGPuiseuxCompanionNormalForm.exists_fixed_physical_phase_normal_form"
+        "CRGConstantGroupComparison.scalar_constant_comparison",
+        "CRGConstantGroupComparison.group_constant_comparison"
       ],
       "audit_names_match": true,
       "axioms_allowed": true,
       "audits": {
-        "CRGPuiseuxCompanionNormalForm.ramifiedCoefficient_companion": [
+        "CRGConstantGroupComparison.scalar_constant_comparison": [
           "propext",
           "Classical.choice",
           "Quot.sound"
         ],
-        "CRGPuiseuxCompanionNormalForm.physicalCoefficient_pullback": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionNormalForm.physical_ray_normal_form": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionNormalForm.exists_fixed_physical_phase_normal_form": [
+        "CRGConstantGroupComparison.group_constant_comparison": [
           "propext",
           "Classical.choice",
           "Quot.sound"
@@ -10699,504 +10565,10 @@
       "passed": true,
       "forbidden_proof_commands": [],
       "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGPuiseuxCompanionNormalForm.olean",
-      "olean_sha256": "3da5f403e5c3bb6cde610989fa0eaf06fb7c49012eaa29b9ffe1fdd246556133",
-      "log": "modules/CRGPuiseuxCompanionNormalForm.log",
-      "elapsed_seconds": 11.859
-    },
-    {
-      "file": "CRGPuiseuxCoordinates.lean",
-      "sha256": "054a025730a86b8d18470ea8c2bc8927182e30eb3726b538f6f93dea8d5c87cd",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGPuiseuxCoordinates.olean",
-        "CRGPuiseuxCoordinates.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 6,
-      "expected_audits": [
-        "CRGPuiseuxCoordinates.ray_pow",
-        "CRGPuiseuxCoordinates.originalPoint_inverseRay",
-        "CRGPuiseuxCoordinates.originalPoint_localOnRay",
-        "CRGPuiseuxCoordinates.direction_pow_general",
-        "CRGPuiseuxCoordinates.inverseRay_power",
-        "CRGPuiseuxCoordinates.lifted_tendsto_local_ray"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGPuiseuxCoordinates.ray_pow": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCoordinates.originalPoint_inverseRay": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCoordinates.originalPoint_localOnRay": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCoordinates.direction_pow_general": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCoordinates.inverseRay_power": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCoordinates.lifted_tendsto_local_ray": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGPuiseuxCoordinates.olean",
-      "olean_sha256": "13d9107a371144c563924718797881ee7381def451ec543baff0e8870377b132",
-      "log": "modules/CRGPuiseuxCoordinates.log",
-      "elapsed_seconds": 13.257
-    },
-    {
-      "file": "CRGPuiseuxRayReduction.lean",
-      "sha256": "636cba2f441f0f77962578b599f258d80cd5e1c619335768da06c5bdbabbb681",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGPuiseuxRayReduction.olean",
-        "CRGPuiseuxRayReduction.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 6,
-      "expected_audits": [
-        "CRGPuiseuxRayReduction.localJet_power_bound",
-        "CRGPuiseuxRayReduction.localJet_zero",
-        "CRGPuiseuxRayReduction.cleared_equation",
-        "CRGPuiseuxRayReduction.highest_positive_from_ray_bounds",
-        "CRGPuiseuxRayReduction.flat_residual_from_ray_bounds",
-        "CRGPuiseuxRayReduction.flat_on_physical_ray"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGPuiseuxRayReduction.localJet_power_bound": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxRayReduction.localJet_zero": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxRayReduction.cleared_equation": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxRayReduction.highest_positive_from_ray_bounds": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxRayReduction.flat_residual_from_ray_bounds": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxRayReduction.flat_on_physical_ray": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 4,
-      "olean": ".lake/build/lib/lean/CRGPuiseuxRayReduction.olean",
-      "olean_sha256": "cf6c6b16046ec627c4acec60a6a9840e3cc8a20cc42a286c760063d90230f8db",
-      "log": "modules/CRGPuiseuxRayReduction.log",
-      "elapsed_seconds": 11.756
-    },
-    {
-      "file": "CRGPuiseuxSector.lean",
-      "sha256": "3472e5017f443478847352f851e47839dd0c21d7a22821fa458095c7b78e54b8",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGPuiseuxSector.olean",
-        "CRGPuiseuxSector.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 4,
-      "expected_audits": [
-        "CRGPuiseuxSector.clearedCoefficients_continuousAt",
-        "CRGPuiseuxSector.Sector.coefficients_continuous",
-        "CRGPuiseuxSector.Sector.localOnRay_tendsto",
-        "CRGPuiseuxSector.Sector.physical_ray_gauge"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGPuiseuxSector.clearedCoefficients_continuousAt": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxSector.Sector.coefficients_continuous": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxSector.Sector.localOnRay_tendsto": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxSector.Sector.physical_ray_gauge": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGPuiseuxSector.olean",
-      "olean_sha256": "e625d4c478cddedc17ad6eee72153ff852a42b5285cc5e6cad98d54447ecb1ec",
-      "log": "modules/CRGPuiseuxSector.log",
-      "elapsed_seconds": 14.816
-    },
-    {
-      "file": "CRGExponentialExpansionSector.lean",
-      "sha256": "2fe46ffc99f97619def6a86432662f419b0d7a182015681d0ce526ed45ac151f",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGExponentialExpansionSector.olean",
-        "CRGExponentialExpansionSector.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 5,
-      "expected_audits": [
-        "CRGExponentialExpansionSector.exponential_flat_on_local_ray",
-        "CRGExponentialExpansionSector.flat_times_expansion",
-        "CRGExponentialExpansionSector.Groups.normalized_expansion",
-        "CRGExponentialExpansionSector.Groups.sector",
-        "CRGExponentialExpansionSector.Groups.ae_sector_cover"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGExponentialExpansionSector.exponential_flat_on_local_ray": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGExponentialExpansionSector.flat_times_expansion": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGExponentialExpansionSector.Groups.normalized_expansion": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGExponentialExpansionSector.Groups.sector": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGExponentialExpansionSector.Groups.ae_sector_cover": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 1,
-      "olean": ".lake/build/lib/lean/CRGExponentialExpansionSector.olean",
-      "olean_sha256": "8589bfe18e4027a881fcb50d55b41c2f5c31eb22c2fabb3150398455ca5ecbb1",
-      "log": "modules/CRGExponentialExpansionSector.log",
-      "elapsed_seconds": 17.824
-    },
-    {
-      "file": "CRGGeneralRayComparison.lean",
-      "sha256": "d2df11dc2d73e7ab4fedaf8aba9fd598a6889ca86144f12b8967a1f486c3022f",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGGeneralRayComparison.olean",
-        "CRGGeneralRayComparison.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 6,
-      "expected_audits": [
-        "CRGGeneralRayComparison.gauge_continuousOn",
-        "CRGGeneralRayComparison.gauge_operator_norm_bound",
-        "CRGGeneralRayComparison.smallConjugatedTails_of_exponential",
-        "CRGGeneralRayComparison.exists_perturbed_fundamental",
-        "CRGGeneralRayComparison.represented_scalar_log_comparison",
-        "CRGGeneralRayComparison.ray_comparison"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGGeneralRayComparison.gauge_continuousOn": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGGeneralRayComparison.gauge_operator_norm_bound": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGGeneralRayComparison.smallConjugatedTails_of_exponential": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGGeneralRayComparison.exists_perturbed_fundamental": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGGeneralRayComparison.represented_scalar_log_comparison": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGGeneralRayComparison.ray_comparison": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGGeneralRayComparison.olean",
-      "olean_sha256": "ba8e13af85d2b17fb61d0483f5ab843af65291673fe178f48e8fcf2bd79fee7c",
-      "log": "modules/CRGGeneralRayComparison.log",
-      "elapsed_seconds": 12.942
-    },
-    {
-      "file": "CRGGeneralRayFlatTail.lean",
-      "sha256": "6ffe462d4e975fd66af560aece3177a82c323b2ec03592495db18452033d6ffc",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGGeneralRayFlatTail.olean",
-        "CRGGeneralRayFlatTail.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 3,
-      "expected_audits": [
-        "CRGGeneralRayFlatTail.smallConjugatedTails_of_power",
-        "CRGGeneralRayFlatTail.smallConjugatedTails_of_flat",
-        "CRGGeneralRayFlatTail.smallConjugatedTails_of_flat_inverse_powers"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGGeneralRayFlatTail.smallConjugatedTails_of_power": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGGeneralRayFlatTail.smallConjugatedTails_of_flat": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGGeneralRayFlatTail.smallConjugatedTails_of_flat_inverse_powers": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGGeneralRayFlatTail.olean",
-      "olean_sha256": "cbd12877cdcdc5077d93f55672bae2099778b153ede7c4b144ad9cfba734677a",
-      "log": "modules/CRGGeneralRayFlatTail.log",
-      "elapsed_seconds": 10.499
-    },
-    {
-      "file": "CRGPuiseuxCompanionComparison.lean",
-      "sha256": "05bad68a6f9437a417c77af4dc72123e51d59afc9dd35daa4f1f4c4d4bece759",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGPuiseuxCompanionComparison.olean",
-        "CRGPuiseuxCompanionComparison.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 9,
-      "expected_audits": [
-        "CRGPuiseuxCompanionComparison.perturbation_mulVec",
-        "CRGPuiseuxCompanionComparison.norm_perturbation_le",
-        "CRGPuiseuxCompanionComparison.perturbation_continuousOn",
-        "CRGPuiseuxCompanionComparison.perturbation_flat",
-        "CRGPuiseuxCompanionComparison.companion_mulVec_last",
-        "CRGPuiseuxCompanionComparison.companion_mulVec_not_last",
-        "CRGPuiseuxCompanionComparison.jet_hasDerivAt_of_scalar_equation",
-        "CRGPuiseuxCompanionComparison.jet_polynomial_comparison",
-        "CRGPuiseuxCompanionComparison.scalar_ray_comparison"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGPuiseuxCompanionComparison.perturbation_mulVec": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionComparison.norm_perturbation_le": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionComparison.perturbation_continuousOn": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionComparison.perturbation_flat": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionComparison.companion_mulVec_last": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionComparison.companion_mulVec_not_last": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionComparison.jet_hasDerivAt_of_scalar_equation": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionComparison.jet_polynomial_comparison": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxCompanionComparison.scalar_ray_comparison": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGPuiseuxCompanionComparison.olean",
-      "olean_sha256": "8bbe1e01a6ad9d1f46a5d6d644399d68e330053784aedb3c3027f761656ddfb8",
-      "log": "modules/CRGPuiseuxCompanionComparison.log",
-      "elapsed_seconds": 15.251
-    },
-    {
-      "file": "CRGPuiseuxSectorComparison.lean",
-      "sha256": "c55a41ec8204d68d1dac2f0fd77c72ae78dca44e4848829654e32bc56d8ab78b",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGPuiseuxSectorComparison.olean",
-        "CRGPuiseuxSectorComparison.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 6,
-      "expected_audits": [
-        "CRGPuiseuxSectorComparison.localOnRay_continuousAt",
-        "CRGPuiseuxSectorComparison.localJet_continuousAt",
-        "CRGPuiseuxSectorComparison.residual_continuousAt",
-        "CRGPuiseuxSectorComparison.companion_continuousAt",
-        "CRGPuiseuxSectorComparison.reduced_physical_equation",
-        "CRGPuiseuxSectorComparison.Sector.ray_comparison"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGPuiseuxSectorComparison.localOnRay_continuousAt": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxSectorComparison.localJet_continuousAt": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxSectorComparison.residual_continuousAt": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxSectorComparison.companion_continuousAt": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxSectorComparison.reduced_physical_equation": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "CRGPuiseuxSectorComparison.Sector.ray_comparison": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGPuiseuxSectorComparison.olean",
-      "olean_sha256": "a30a964b5fa279bc49a100e094de3c2a39168ed7d20e9082fb913ce75ed25b6a",
-      "log": "modules/CRGPuiseuxSectorComparison.log",
-      "elapsed_seconds": 15.988
+      "olean": ".lake/build/lib/lean/CRGConstantGroupComparison.olean",
+      "olean_sha256": "e36ac9f04356a307de86e01b038c9433a655c92787b20281d13de7c4a66a67c0",
+      "log": "modules/CRGConstantGroupComparison.log",
+      "elapsed_seconds": 28.861
     },
     {
       "file": "CRGOrder.lean",
@@ -11254,7 +10626,7 @@
       "olean": ".lake/build/lib/lean/CRGOrder.olean",
       "olean_sha256": "df9cfbb9b5be5bb38f9699d0dc2755ffca905b8605d4883f219ecc2e65a236c0",
       "log": "modules/CRGOrder.log",
-      "elapsed_seconds": 10.45
+      "elapsed_seconds": 14.463
     },
     {
       "file": "CRGPhragmenStrip.lean",
@@ -11294,7 +10666,7 @@
       "olean": ".lake/build/lib/lean/CRGPhragmenStrip.olean",
       "olean_sha256": "82b8b921fa212a8e4aa7293bd53d8b98dd8659e1f85619be373ab61fbf5d181e",
       "log": "modules/CRGPhragmenStrip.log",
-      "elapsed_seconds": 12.329
+      "elapsed_seconds": 24.358
     },
     {
       "file": "CRGPhragmenGrowth.lean",
@@ -11340,7 +10712,7 @@
       "olean": ".lake/build/lib/lean/CRGPhragmenGrowth.olean",
       "olean_sha256": "f2ce09c3687ca38403a9ea829bd6533e576a3ae60cf781492da8a1258d88f90e",
       "log": "modules/CRGPhragmenGrowth.log",
-      "elapsed_seconds": 10.95
+      "elapsed_seconds": 24.41
     },
     {
       "file": "CRGPhragmenGlobal.lean",
@@ -11380,7 +10752,7 @@
       "olean": ".lake/build/lib/lean/CRGPhragmenGlobal.olean",
       "olean_sha256": "e5e2fbc2fa2564a281c99b5d70c24cf89a3a812dd87f8fdbf13543f74a1a0c93",
       "log": "modules/CRGPhragmenGlobal.log",
-      "elapsed_seconds": 10.425
+      "elapsed_seconds": 24.96
     },
     {
       "file": "CRGPhragmenRay.lean",
@@ -11426,7 +10798,7 @@
       "olean": ".lake/build/lib/lean/CRGPhragmenRay.olean",
       "olean_sha256": "808da27a3b167826a82ece0e427a9d6bea7c6d44f03f92509811db5ce2713ee7",
       "log": "modules/CRGPhragmenRay.log",
-      "elapsed_seconds": 12.572
+      "elapsed_seconds": 19.381
     },
     {
       "file": "CRGPhragmenPolynomial.lean",
@@ -11472,7 +10844,7 @@
       "olean": ".lake/build/lib/lean/CRGPhragmenPolynomial.olean",
       "olean_sha256": "82363cd2eb7341731e0162dbb6925c2554d1c252908c832ce73a00fe8c3408b0",
       "log": "modules/CRGPhragmenPolynomial.log",
-      "elapsed_seconds": 11.739
+      "elapsed_seconds": 32.028
     },
     {
       "file": "CRGPhragmenPolynomialGlobal.lean",
@@ -11518,7 +10890,7 @@
       "olean": ".lake/build/lib/lean/CRGPhragmenPolynomialGlobal.olean",
       "olean_sha256": "753e26a28949fc1f64364533265a0efc30731b2f90c8fe5e1011585bdee85bd4",
       "log": "modules/CRGPhragmenPolynomialGlobal.log",
-      "elapsed_seconds": 10.786
+      "elapsed_seconds": 35.678
     },
     {
       "file": "CRGPhragmenPolynomialRay.lean",
@@ -11558,7 +10930,7 @@
       "olean": ".lake/build/lib/lean/CRGPhragmenPolynomialRay.olean",
       "olean_sha256": "0ca47fe3e9c06428dbb915620a1972560e9ef59f66e44433cae11a7eeee414dd",
       "log": "modules/CRGPhragmenPolynomialRay.log",
-      "elapsed_seconds": 13.223
+      "elapsed_seconds": 18.524
     },
     {
       "file": "LevinAnalytic.lean",
@@ -11658,7 +11030,7 @@
       "olean": ".lake/build/lib/lean/LevinAnalytic.olean",
       "olean_sha256": "2c55f8f3e490ba4259e497e57651101d9e8f91b84f2e7f70cda28d05ac5d8268",
       "log": "modules/LevinAnalytic.log",
-      "elapsed_seconds": 12.082
+      "elapsed_seconds": 24.322
     },
     {
       "file": "LevinCompact.lean",
@@ -11746,7 +11118,7 @@
       "olean": ".lake/build/lib/lean/LevinCompact.olean",
       "olean_sha256": "68a03c581e4961a43a3870e781830feb986477bae31bd4d99307b0c64486e41f",
       "log": "modules/LevinCompact.log",
-      "elapsed_seconds": 10.82
+      "elapsed_seconds": 24.787
     },
     {
       "file": "LevinFiniteType.lean",
@@ -11798,7 +11170,7 @@
       "olean": ".lake/build/lib/lean/LevinFiniteType.olean",
       "olean_sha256": "015665e1eb482e47f488e83e3a6816894b804dfc86eabbe018290e89ad17e5e4",
       "log": "modules/LevinFiniteType.log",
-      "elapsed_seconds": 10.524
+      "elapsed_seconds": 19.476
     },
     {
       "file": "LevinFactorization.lean",
@@ -11904,7 +11276,7 @@
       "olean": ".lake/build/lib/lean/LevinFactorization.olean",
       "olean_sha256": "84eae53046f05775a535d9d525732be79f27490babd79fdc11d20181d52f5f40",
       "log": "modules/LevinFactorization.log",
-      "elapsed_seconds": 10.312
+      "elapsed_seconds": 31.977
     },
     {
       "file": "LevinLocalFactor.lean",
@@ -11944,7 +11316,7 @@
       "olean": ".lake/build/lib/lean/LevinLocalFactor.olean",
       "olean_sha256": "8132232ce61e772d490861b296f1e60005506dea06f6030576ff72bae7ca7bfa",
       "log": "modules/LevinLocalFactor.log",
-      "elapsed_seconds": 12.565
+      "elapsed_seconds": 35.697
     },
     {
       "file": "LevinLogKernel.lean",
@@ -12062,7 +11434,7 @@
       "olean": ".lake/build/lib/lean/LevinLogKernel.olean",
       "olean_sha256": "ecce977b8ba9942c63799aaed98ed000a5665de756176eb428d9fb79558e5e72",
       "log": "modules/LevinLogKernel.log",
-      "elapsed_seconds": 12.596
+      "elapsed_seconds": 31.93
     },
     {
       "file": "LevinCanonicalKernel.lean",
@@ -12114,7 +11486,7 @@
       "olean": ".lake/build/lib/lean/LevinCanonicalKernel.olean",
       "olean_sha256": "4bfa769255e82ec2f9c11706a281fce33f3349b3428de28341823252136391d8",
       "log": "modules/LevinCanonicalKernel.log",
-      "elapsed_seconds": 10.992
+      "elapsed_seconds": 35.698
     },
     {
       "file": "LevinFiniteProduct.lean",
@@ -12196,7 +11568,7 @@
       "olean": ".lake/build/lib/lean/LevinFiniteProduct.olean",
       "olean_sha256": "39957bc00144bf22f7dd538d82b99f5c0425229f8dc4e7817a8baac5fc4697f7",
       "log": "modules/LevinFiniteProduct.log",
-      "elapsed_seconds": 13.042
+      "elapsed_seconds": 28.754
     },
     {
       "file": "LevinAnnulus.lean",
@@ -12290,7 +11662,7 @@
       "olean": ".lake/build/lib/lean/LevinAnnulus.olean",
       "olean_sha256": "1c6a7dfc5d8157942b3f2651c2ce62f06ca2e66ee4f6899cb1c1c346cea614ca",
       "log": "modules/LevinAnnulus.log",
-      "elapsed_seconds": 17.142
+      "elapsed_seconds": 29.456
     },
     {
       "file": "LevinCartan.lean",
@@ -12354,7 +11726,7 @@
       "olean": ".lake/build/lib/lean/LevinCartan.olean",
       "olean_sha256": "0c00bf0a2f0df2c8d651b2048f0f80e48f26716793d83086fd2cb77e798c18ce",
       "log": "modules/LevinCartan.log",
-      "elapsed_seconds": 16.939
+      "elapsed_seconds": 28.513
     },
     {
       "file": "LevinMinimumModulus.lean",
@@ -12442,7 +11814,7 @@
       "olean": ".lake/build/lib/lean/LevinMinimumModulus.olean",
       "olean_sha256": "58c137d929babbc5d71893b5930710dbafa38736e9461c926d2c5686dee4df02",
       "log": "modules/LevinMinimumModulus.log",
-      "elapsed_seconds": 12.141
+      "elapsed_seconds": 31.891
     },
     {
       "file": "LevinCartanCost.lean",
@@ -12506,7 +11878,7 @@
       "olean": ".lake/build/lib/lean/LevinCartanCost.olean",
       "olean_sha256": "ac79ca10168ee58102b7efe2b46ff92fca6850169f7c93cb2da8bbd28358010a",
       "log": "modules/LevinCartanCost.log",
-      "elapsed_seconds": 12.874
+      "elapsed_seconds": 28.867
     },
     {
       "file": "LevinMinimumTransfer.lean",
@@ -12546,7 +11918,7 @@
       "olean": ".lake/build/lib/lean/LevinMinimumTransfer.olean",
       "olean_sha256": "d783cb44efa3647a58ffefb16af7d9e566c4dee09ee4f18329e117ebf955a4de",
       "log": "modules/LevinMinimumTransfer.log",
-      "elapsed_seconds": 15.298
+      "elapsed_seconds": 27.197
     },
     {
       "file": "LevinLocalProfile.lean",
@@ -12580,7 +11952,7 @@
       "olean": ".lake/build/lib/lean/LevinLocalProfile.olean",
       "olean_sha256": "337171f8e33689c175d7efe7d02bda118199a5d1822dc3cd2666e25c3f4814c6",
       "log": "modules/LevinLocalProfile.log",
-      "elapsed_seconds": 12.778
+      "elapsed_seconds": 31.419
     },
     {
       "file": "LevinDyadic.lean",
@@ -12632,7 +12004,7 @@
       "olean": ".lake/build/lib/lean/LevinDyadic.olean",
       "olean_sha256": "b9b67382183db3450731a97af2311ca0d1d9c53687c0ba8b551b6cedca955d82",
       "log": "modules/LevinDyadic.log",
-      "elapsed_seconds": 11.988
+      "elapsed_seconds": 28.721
     },
     {
       "file": "LevinAssembly.lean",
@@ -12696,7 +12068,7 @@
       "olean": ".lake/build/lib/lean/LevinAssembly.olean",
       "olean_sha256": "0e245433dd003b55e2e00056aafc301082c677881d83859a2e665c0a616b1f66",
       "log": "modules/LevinAssembly.log",
-      "elapsed_seconds": 13.165
+      "elapsed_seconds": 29.234
     },
     {
       "file": "LevinMeasurableDensity.lean",
@@ -12730,7 +12102,7 @@
       "olean": ".lake/build/lib/lean/LevinMeasurableDensity.olean",
       "olean_sha256": "7226f872522c613dfb4fd5d28cd894dc0b683804f812dad7aa2b11127778f46f",
       "log": "modules/LevinMeasurableDensity.log",
-      "elapsed_seconds": 15.13
+      "elapsed_seconds": 29.009
     },
     {
       "file": "LevinSmallDensity.lean",
@@ -12806,7 +12178,7 @@
       "olean": ".lake/build/lib/lean/LevinSmallDensity.olean",
       "olean_sha256": "63b2cb682e2ad667a14cce152d802e59bc5c1dce00bca77b7675bc343a21baa3",
       "log": "modules/LevinSmallDensity.log",
-      "elapsed_seconds": 11.778
+      "elapsed_seconds": 28.317
     },
     {
       "file": "LevinExceptional.lean",
@@ -12870,7 +12242,7 @@
       "olean": ".lake/build/lib/lean/LevinExceptional.olean",
       "olean_sha256": "4465f0a625c6794ee543176ec0e195a994025fa56003dc7be0561d0f3f197dca",
       "log": "modules/LevinExceptional.log",
-      "elapsed_seconds": 14.821
+      "elapsed_seconds": 31.563
     },
     {
       "file": "LevinOrigin.lean",
@@ -12946,7 +12318,7 @@
       "olean": ".lake/build/lib/lean/LevinOrigin.olean",
       "olean_sha256": "4025f743e6b558b202f5e8d7d83419da46ee30309e377172424abbe29a411b50",
       "log": "modules/LevinOrigin.log",
-      "elapsed_seconds": 11.69
+      "elapsed_seconds": 28.381
     },
     {
       "file": "LevinIndicatorOrigin.lean",
@@ -12986,7 +12358,7 @@
       "olean": ".lake/build/lib/lean/LevinIndicatorOrigin.olean",
       "olean_sha256": "a709a299f2b175574dce18870941c0a0d911d4ffc2b080f93081a4d968bd8217",
       "log": "modules/LevinIndicatorOrigin.log",
-      "elapsed_seconds": 14.791
+      "elapsed_seconds": 31.464
     },
     {
       "file": "LevinZeroFree.lean",
@@ -13056,7 +12428,7 @@
       "olean": ".lake/build/lib/lean/LevinZeroFree.olean",
       "olean_sha256": "7d9faa7101636c1931e42bb4b75e19f2ec02bada42e294429710a5c1379e1588",
       "log": "modules/LevinZeroFree.log",
-      "elapsed_seconds": 13.778
+      "elapsed_seconds": 26.004
     },
     {
       "file": "LevinIndicatorModulus.lean",
@@ -13138,7 +12510,7 @@
       "olean": ".lake/build/lib/lean/LevinIndicatorModulus.olean",
       "olean_sha256": "2e97b092480fc8351992e1ee4c691e398296eb56e706b7bcad8145a8274bc1b5",
       "log": "modules/LevinIndicatorModulus.log",
-      "elapsed_seconds": 17.945
+      "elapsed_seconds": 30.716
     },
     {
       "file": "LevinGrid.lean",
@@ -13208,7 +12580,7 @@
       "olean": ".lake/build/lib/lean/LevinGrid.olean",
       "olean_sha256": "aeaa78fc022e3d1724f4f8be96d550a879a06fa705fe6159113d4a4ce70cffa7",
       "log": "modules/LevinGrid.log",
-      "elapsed_seconds": 16.302
+      "elapsed_seconds": 39.065
     },
     {
       "file": "LevinFiniteCover.lean",
@@ -13248,7 +12620,7 @@
       "olean": ".lake/build/lib/lean/LevinFiniteCover.olean",
       "olean_sha256": "4ebc1dfdfa35975b6bcf94053127e5790c87e12eb9a696543219709eed09e030",
       "log": "modules/LevinFiniteCover.log",
-      "elapsed_seconds": 12.699
+      "elapsed_seconds": 21.019
     },
     {
       "file": "LevinRadial.lean",
@@ -13288,7 +12660,7 @@
       "olean": ".lake/build/lib/lean/LevinRadial.olean",
       "olean_sha256": "4318070052bedb3b138f94090b4b04b0abffba1e09ff37c8cfe3bb589acd5c51",
       "log": "modules/LevinRadial.log",
-      "elapsed_seconds": 15.654
+      "elapsed_seconds": 29.84
     },
     {
       "file": "LevinGeneral.lean",
@@ -13340,7 +12712,7 @@
       "olean": ".lake/build/lib/lean/LevinGeneral.olean",
       "olean_sha256": "9fe8a4ca25ad71be81047d9f40de0e12e33f8b02fa6ac57d868eca1cfad2a15a",
       "log": "modules/LevinGeneral.log",
-      "elapsed_seconds": 13.412
+      "elapsed_seconds": 39.29
     },
     {
       "file": "LevinIndicatorLower.lean",
@@ -13398,7 +12770,7 @@
       "olean": ".lake/build/lib/lean/LevinIndicatorLower.olean",
       "olean_sha256": "6f5a9864504410e6f1adb4cb55b6874cda49074e72c7a3987ddd4f5b0aae73fd",
       "log": "modules/LevinIndicatorLower.log",
-      "elapsed_seconds": 13.315
+      "elapsed_seconds": 37.799
     },
     {
       "file": "LevinPoisson.lean",
@@ -13456,7 +12828,7 @@
       "olean": ".lake/build/lib/lean/LevinPoisson.olean",
       "olean_sha256": "c38d1c1cb6bbf9df0da716713fa260a6a4321754fbd99207aed8d12fac999687",
       "log": "modules/LevinPoisson.log",
-      "elapsed_seconds": 19.323
+      "elapsed_seconds": 27.635
     },
     {
       "file": "LevinIndicator.lean",
@@ -13490,7 +12862,7 @@
       "olean": ".lake/build/lib/lean/LevinIndicator.olean",
       "olean_sha256": "940c3a88b82589163a72f2a97280ac925f5e5a6ff5e49f0eaa9f95fcf250ce72",
       "log": "modules/LevinIndicator.log",
-      "elapsed_seconds": 12.969
+      "elapsed_seconds": 21.549
     },
     {
       "file": "LevinIndicatorUpper.lean",
@@ -13542,7 +12914,7 @@
       "olean": ".lake/build/lib/lean/LevinIndicatorUpper.olean",
       "olean_sha256": "43e4ebbec6b6a5ae1afe2566c3aeb628d90c376fb5c8d382e25281f9c1f0b25e",
       "log": "modules/LevinIndicatorUpper.log",
-      "elapsed_seconds": 13.103
+      "elapsed_seconds": 35.18
     },
     {
       "file": "LevinCriterion.lean",
@@ -13600,7 +12972,7 @@
       "olean": ".lake/build/lib/lean/LevinCriterion.olean",
       "olean_sha256": "8bd52cb2bddedea9db0e5d18037ec0ab8d23858c694db5bdd6837bdfa03c762f",
       "log": "modules/LevinCriterion.log",
-      "elapsed_seconds": 14.793
+      "elapsed_seconds": 27.872
     },
     {
       "file": "LevinScaledBounds.lean",
@@ -13664,7 +13036,7 @@
       "olean": ".lake/build/lib/lean/LevinScaledBounds.olean",
       "olean_sha256": "2b8c7134de02293c81fc0d496842cbadc0c51f176011a3949ab19fb3c3d3120d",
       "log": "modules/LevinScaledBounds.log",
-      "elapsed_seconds": 12.976
+      "elapsed_seconds": 16.741
     },
     {
       "file": "LevinDiskClip.lean",
@@ -13728,7 +13100,7 @@
       "olean": ".lake/build/lib/lean/LevinDiskClip.olean",
       "olean_sha256": "bb6d8f9358d447436ef6baa19badcc689b0fc7c7cd1b9c62157b440f616479ed",
       "log": "modules/LevinDiskClip.log",
-      "elapsed_seconds": 17.639
+      "elapsed_seconds": 29.727
     },
     {
       "file": "LevinDiskAssembly.lean",
@@ -13840,7 +13212,7 @@
       "olean": ".lake/build/lib/lean/LevinDiskAssembly.olean",
       "olean_sha256": "4a335d524bdfbaf1c4590f13c90b7bf47fcc18b88127372dc6c3d45215ef55e6",
       "log": "modules/LevinDiskAssembly.log",
-      "elapsed_seconds": 14.699
+      "elapsed_seconds": 39.619
     },
     {
       "file": "LevinScaling.lean",
@@ -13892,7 +13264,7 @@
       "olean": ".lake/build/lib/lean/LevinScaling.olean",
       "olean_sha256": "508406e701988e64208b92902d6bf8f190b7bcf2549aebd8e79b6adf286127d7",
       "log": "modules/LevinScaling.log",
-      "elapsed_seconds": 9.074
+      "elapsed_seconds": 75.662
     },
     {
       "file": "LevinC0.lean",
@@ -13938,7 +13310,7 @@
       "olean": ".lake/build/lib/lean/LevinC0.olean",
       "olean_sha256": "be1e9f61f29279c8812850cc6c8978ecea3d5883797c019f82b2cbd8419ea00c",
       "log": "modules/LevinC0.log",
-      "elapsed_seconds": 8.834
+      "elapsed_seconds": 38.348
     },
     {
       "file": "CRGOrderRay.lean",
@@ -14014,7 +13386,7 @@
       "olean": ".lake/build/lib/lean/CRGOrderRay.olean",
       "olean_sha256": "81921193716e0a0f5b220fedb7cb64769411d36702925c474840e7d31018b36d",
       "log": "modules/CRGOrderRay.log",
-      "elapsed_seconds": 8.356
+      "elapsed_seconds": 18.345
     },
     {
       "file": "CRGPolynomialGrowth.lean",
@@ -14054,7 +13426,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialGrowth.olean",
       "olean_sha256": "1f6fc27cca9b5e83704a267fd63a133d5243df7b47c59914bb515a24c58b7069",
       "log": "modules/CRGPolynomialGrowth.log",
-      "elapsed_seconds": 12.983
+      "elapsed_seconds": 21.537
     },
     {
       "file": "CRGOrderPhaseCriterion.lean",
@@ -14100,7 +13472,7 @@
       "olean": ".lake/build/lib/lean/CRGOrderPhaseCriterion.olean",
       "olean_sha256": "27e9d1aac98608d4f5627bdbde2bddf2f8405a760d801fe72bdf30bd1a2f70e2",
       "log": "modules/CRGOrderPhaseCriterion.log",
-      "elapsed_seconds": 8.54
+      "elapsed_seconds": 17.541
     },
     {
       "file": "CRGOrderLevin.lean",
@@ -14164,7 +13536,7 @@
       "olean": ".lake/build/lib/lean/CRGOrderLevin.olean",
       "olean_sha256": "513f926864bea677267008174dd08d9ee5c7c922d081499aaf7415709b632715",
       "log": "modules/CRGOrderLevin.log",
-      "elapsed_seconds": 8.244
+      "elapsed_seconds": 17.132
     },
     {
       "file": "GundersenCartan.lean",
@@ -14222,7 +13594,7 @@
       "olean": ".lake/build/lib/lean/GundersenCartan.olean",
       "olean_sha256": "1b22b1aa71b5e3a6dd57749c2afd7bbb5e2b1b7c34167e52382b59def6a67ed7",
       "log": "modules/GundersenCartan.log",
-      "elapsed_seconds": 12.787
+      "elapsed_seconds": 21.191
     },
     {
       "file": "GundersenBlaschke.lean",
@@ -14286,7 +13658,7 @@
       "olean": ".lake/build/lib/lean/GundersenBlaschke.olean",
       "olean_sha256": "5ae10041a6e6e8e589800546749dec426291632a142049800c8c84ef2986c010",
       "log": "modules/GundersenBlaschke.log",
-      "elapsed_seconds": 15.155
+      "elapsed_seconds": 35.312
     },
     {
       "file": "GundersenLogarithm.lean",
@@ -14338,7 +13710,7 @@
       "olean": ".lake/build/lib/lean/GundersenLogarithm.olean",
       "olean_sha256": "5809d98d74932fe38e6e549405afd17b581ee7d22261e68da93fa3f5b1e92adb",
       "log": "modules/GundersenLogarithm.log",
-      "elapsed_seconds": 12.972
+      "elapsed_seconds": 35.186
     },
     {
       "file": "GundersenLocal.lean",
@@ -14372,7 +13744,7 @@
       "olean": ".lake/build/lib/lean/GundersenLocal.olean",
       "olean_sha256": "5b9fab289f11a2dcc559b026d6dd447d19bb6b01064847a336467e00e306f87a",
       "log": "modules/GundersenLocal.log",
-      "elapsed_seconds": 13.131
+      "elapsed_seconds": 28.221
     },
     {
       "file": "GundersenGrowth.lean",
@@ -14424,7 +13796,7 @@
       "olean": ".lake/build/lib/lean/GundersenGrowth.olean",
       "olean_sha256": "5dd979afa9b7c8767e69dec0260c14265703534310283bbaf1820b6ad4466f8b",
       "log": "modules/GundersenGrowth.log",
-      "elapsed_seconds": 10.165
+      "elapsed_seconds": 18.252
     },
     {
       "file": "CRGGundersenDyadic.lean",
@@ -14470,7 +13842,7 @@
       "olean": ".lake/build/lib/lean/CRGGundersenDyadic.olean",
       "olean_sha256": "cf56d6a3e1c44caf6c66d2da4f5c6ad0c52f1af0c651b3acfadc3dae22e1af7c",
       "log": "modules/CRGGundersenDyadic.log",
-      "elapsed_seconds": 8.77
+      "elapsed_seconds": 73.853
     },
     {
       "file": "GundersenOrigin.lean",
@@ -14528,7 +13900,7 @@
       "olean": ".lake/build/lib/lean/GundersenOrigin.olean",
       "olean_sha256": "09edcc157d755fe38c769c7df15ae6688f82e7215647547c57644779ceaec07e",
       "log": "modules/GundersenOrigin.log",
-      "elapsed_seconds": 9.087
+      "elapsed_seconds": 38.402
     },
     {
       "file": "GundersenDerivative.lean",
@@ -14580,7 +13952,7 @@
       "olean": ".lake/build/lib/lean/GundersenDerivative.olean",
       "olean_sha256": "30be2e9968d3654908b67004720a4b1919910aeeb0925ec50ac2e34deb2bff62",
       "log": "modules/GundersenDerivative.log",
-      "elapsed_seconds": 9.003
+      "elapsed_seconds": 38.283
     },
     {
       "file": "GundersenTwoSided.lean",
@@ -14620,7 +13992,7 @@
       "olean": ".lake/build/lib/lean/GundersenTwoSided.olean",
       "olean_sha256": "de7728cd584906aac2e343335f067091f14eaefa46c449d32091c524724fc7ec",
       "log": "modules/GundersenTwoSided.log",
-      "elapsed_seconds": 14.912
+      "elapsed_seconds": 27.857
     },
     {
       "file": "GundersenTheorem.lean",
@@ -14678,7 +14050,7 @@
       "olean": ".lake/build/lib/lean/GundersenTheorem.olean",
       "olean_sha256": "6cf702fa0b2d8da9dfd8f03f88c9555f5881a4a8218372ff4564aa331c05c50a",
       "log": "modules/GundersenTheorem.log",
-      "elapsed_seconds": 8.738
+      "elapsed_seconds": 18.339
     },
     {
       "file": "CRGOrderAE.lean",
@@ -14718,7 +14090,7 @@
       "olean": ".lake/build/lib/lean/CRGOrderAE.olean",
       "olean_sha256": "997bd4e6f924af7d76ac4498bd3a41581af31f401e2c89d265c2cce221ba438a",
       "log": "modules/CRGOrderAE.log",
-      "elapsed_seconds": 8.22
+      "elapsed_seconds": 16.26
     },
     {
       "file": "CRGOrderPhaseData.lean",
@@ -14758,7 +14130,7 @@
       "olean": ".lake/build/lib/lean/CRGOrderPhaseData.olean",
       "olean_sha256": "230e43999669faf6b2c2b1b0ac9ff6447c1bdc9087b10662430c8e325b95a57c",
       "log": "modules/CRGOrderPhaseData.log",
-      "elapsed_seconds": 8.39
+      "elapsed_seconds": 16.232
     },
     {
       "file": "CRGFinitePhaseEndgame.lean",
@@ -14822,7 +14194,933 @@
       "olean": ".lake/build/lib/lean/CRGFinitePhaseEndgame.olean",
       "olean_sha256": "74b2269b49e6698748b1d6570eb4f158c6fc9529e8331e8809760a8f6b258fa1",
       "log": "modules/CRGFinitePhaseEndgame.log",
-      "elapsed_seconds": 9.654
+      "elapsed_seconds": 15.182
+    },
+    {
+      "file": "CRGLinearPhaseEndgame.lean",
+      "sha256": "8680de82078509e4f60722b0203ee033a15bb44df84c1b3663589ef5bd015c7c",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGLinearPhaseEndgame.olean",
+        "CRGLinearPhaseEndgame.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 1,
+      "expected_audits": [
+        "CRGLinearPhaseEndgame.order_one_of_linear_phases"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGLinearPhaseEndgame.order_one_of_linear_phases": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGLinearPhaseEndgame.olean",
+      "olean_sha256": "dc3ff479a770a61e1b5ff6fe37023f2fdf5f02084855850e2e8deb4bdb9d1626",
+      "log": "modules/CRGLinearPhaseEndgame.log",
+      "elapsed_seconds": 25.905
+    },
+    {
+      "file": "CRGConstantMultiplierOrder.lean",
+      "sha256": "e8d284ac4db38a1fe9be1a2be024d928b6eb463e46bf0f3d1d44dcb2e308d4cb",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGConstantMultiplierOrder.olean",
+        "CRGConstantMultiplierOrder.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 3,
+      "expected_audits": [
+        "CRGConstantMultiplierOrder.of_collected_constant_equation",
+        "CRGConstantMultiplierOrder.exists_constant_collected_equation",
+        "CRGConstantMultiplierOrder.order_one_of_constant_multipliers"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGConstantMultiplierOrder.of_collected_constant_equation": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGConstantMultiplierOrder.exists_constant_collected_equation": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGConstantMultiplierOrder.order_one_of_constant_multipliers": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGConstantMultiplierOrder.olean",
+      "olean_sha256": "13aed58c45d2a6869169c4cc9910f6855a352d15eebca78e65e5ecbb1982c9aa",
+      "log": "modules/CRGConstantMultiplierOrder.log",
+      "elapsed_seconds": 21.428
+    },
+    {
+      "file": "CRGPuiseuxScalarReduction.lean",
+      "sha256": "0bdd59c0bab9cf5c6e53ec987971e699835407641ad36e50eaf389f35dce4e98",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPuiseuxScalarReduction.olean",
+        "CRGPuiseuxScalarReduction.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 5,
+      "expected_audits": [
+        "CRGPuiseuxScalarReduction.exists_highest",
+        "CRGPuiseuxScalarReduction.flat_high_quotient",
+        "CRGPuiseuxScalarReduction.residual_flat",
+        "CRGPuiseuxScalarReduction.reduced_equation",
+        "CRGPuiseuxScalarReduction.highest_order_positive"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPuiseuxScalarReduction.exists_highest": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxScalarReduction.flat_high_quotient": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxScalarReduction.residual_flat": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxScalarReduction.reduced_equation": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxScalarReduction.highest_order_positive": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGPuiseuxScalarReduction.olean",
+      "olean_sha256": "af2ea352c4f69c4b271c5d34007a44464c56e3991a2f40669db1c5010c06294b",
+      "log": "modules/CRGPuiseuxScalarReduction.log",
+      "elapsed_seconds": 35.289
+    },
+    {
+      "file": "CRGPuiseuxRayData.lean",
+      "sha256": "947f519243ecad4576830c3d5cfca7ce437a00da07243cced97c52d70fc358fe",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPuiseuxRayData.olean",
+        "CRGPuiseuxRayData.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 3,
+      "expected_audits": [
+        "CRGPuiseuxRayData.global_ray_control",
+        "CRGPuiseuxRayData.error_continuous_along_ray",
+        "CRGPuiseuxRayData.smallConjugatedTails"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPuiseuxRayData.global_ray_control": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxRayData.error_continuous_along_ray": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxRayData.smallConjugatedTails": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGPuiseuxRayData.olean",
+      "olean_sha256": "de78dacd012a438534597c6ab1e0fc4353b22ecf67b7e1f214e913b5a8aa72f3",
+      "log": "modules/CRGPuiseuxRayData.log",
+      "elapsed_seconds": 27.85
+    },
+    {
+      "file": "CRGGeneralRayGauge.lean",
+      "sha256": "4c2a39c81390df88203d33717652ccf77c02696969cd48ec7e0e3a3e6dda5930",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGGeneralRayGauge.olean",
+        "CRGGeneralRayGauge.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 4,
+      "expected_audits": [
+        "CRGGeneralRayGauge.exists_approximateRayGauge_of_laurent_regular",
+        "CRGGeneralRayGauge.exists_exact_rayGauge_of_laurent_regular",
+        "CRGGeneralRayGauge.exists_exact_rayGauge",
+        "CRGGeneralRayGauge.exists_exact_rayGauge_of_puiseux_phases"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGGeneralRayGauge.exists_approximateRayGauge_of_laurent_regular": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGGeneralRayGauge.exists_exact_rayGauge_of_laurent_regular": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGGeneralRayGauge.exists_exact_rayGauge": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGGeneralRayGauge.exists_exact_rayGauge_of_puiseux_phases": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGGeneralRayGauge.olean",
+      "olean_sha256": "ff59fa0061f913899ed74bc962e85ac08ff16dd1cfea521cfc49c938802d62e2",
+      "log": "modules/CRGGeneralRayGauge.log",
+      "elapsed_seconds": 16.783
+    },
+    {
+      "file": "CRGPuiseuxNormalForm.lean",
+      "sha256": "097d24c4cdc90897a439ee6f6ad1e5054cdc51eb52755c8422e940590feff123",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPuiseuxNormalForm.olean",
+        "CRGPuiseuxNormalForm.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 2,
+      "expected_audits": [
+        "CRGPuiseuxNormalForm.lifted_ray_normal_form",
+        "CRGPuiseuxNormalForm.exists_fixed_lifted_phase_normal_form"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPuiseuxNormalForm.lifted_ray_normal_form": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxNormalForm.exists_fixed_lifted_phase_normal_form": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGPuiseuxNormalForm.olean",
+      "olean_sha256": "3fd618fc7645ecad0a0dc311e2563974a4de700d02f66f270181babe06e6d9ec",
+      "log": "modules/CRGPuiseuxNormalForm.log",
+      "elapsed_seconds": 75.807
+    },
+    {
+      "file": "CRGPuiseuxCompanionExpansion.lean",
+      "sha256": "b53e851602d18d602fbc89913f90dec4cae2c21f6fe505e128501cf9d58c7f85",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPuiseuxCompanionExpansion.olean",
+        "CRGPuiseuxCompanionExpansion.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 7,
+      "expected_audits": [
+        "CRGPuiseuxCompanionExpansion.entry_companionSeries",
+        "CRGPuiseuxCompanionExpansion.clearedCompanion_eq",
+        "CRGPuiseuxCompanionExpansion.clearedCompanion_completeExpansion",
+        "CRGPuiseuxCompanionExpansion.clearedCompanion_eventually_continuousAt",
+        "CRGPuiseuxCompanionExpansion.normalizedSource_completeExpansion",
+        "CRGPuiseuxCompanionExpansion.normalizedSource_eventually_continuousAt",
+        "CRGPuiseuxCompanionExpansion.exists_companion_normal_form"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPuiseuxCompanionExpansion.entry_companionSeries": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionExpansion.clearedCompanion_eq": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionExpansion.clearedCompanion_completeExpansion": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionExpansion.clearedCompanion_eventually_continuousAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionExpansion.normalizedSource_completeExpansion": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionExpansion.normalizedSource_eventually_continuousAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionExpansion.exists_companion_normal_form": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGPuiseuxCompanionExpansion.olean",
+      "olean_sha256": "7f09225003098300a29ab64fc8f2e3a39f00f1b70b7a6d42c8a2e74b3f940c1c",
+      "log": "modules/CRGPuiseuxCompanionExpansion.log",
+      "elapsed_seconds": 38.298
+    },
+    {
+      "file": "CRGGeneralRayRamification.lean",
+      "sha256": "39b803bc66f28099e96ab05a4b3df8c1d60babd1aca2037fbd933714d4974978",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGGeneralRayRamification.olean",
+        "CRGGeneralRayRamification.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 1,
+      "expected_audits": [
+        "CRGGeneralRayRamification.descend_rayGauge"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGGeneralRayRamification.descend_rayGauge": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGGeneralRayRamification.olean",
+      "olean_sha256": "8c30257e119b814e38599c3d466a33d90819160dc42b155538ed04a8177a2d2c",
+      "log": "modules/CRGGeneralRayRamification.log",
+      "elapsed_seconds": 18.343
+    },
+    {
+      "file": "CRGPuiseuxCompanionNormalForm.lean",
+      "sha256": "c15a00c2f06ab48e5207a3783fcfba9f47347768755cb2f095cd501457001d8e",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPuiseuxCompanionNormalForm.olean",
+        "CRGPuiseuxCompanionNormalForm.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 4,
+      "expected_audits": [
+        "CRGPuiseuxCompanionNormalForm.ramifiedCoefficient_companion",
+        "CRGPuiseuxCompanionNormalForm.physicalCoefficient_pullback",
+        "CRGPuiseuxCompanionNormalForm.physical_ray_normal_form",
+        "CRGPuiseuxCompanionNormalForm.exists_fixed_physical_phase_normal_form"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPuiseuxCompanionNormalForm.ramifiedCoefficient_companion": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionNormalForm.physicalCoefficient_pullback": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionNormalForm.physical_ray_normal_form": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionNormalForm.exists_fixed_physical_phase_normal_form": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGPuiseuxCompanionNormalForm.olean",
+      "olean_sha256": "3da5f403e5c3bb6cde610989fa0eaf06fb7c49012eaa29b9ffe1fdd246556133",
+      "log": "modules/CRGPuiseuxCompanionNormalForm.log",
+      "elapsed_seconds": 17.588
+    },
+    {
+      "file": "CRGPuiseuxCoordinates.lean",
+      "sha256": "054a025730a86b8d18470ea8c2bc8927182e30eb3726b538f6f93dea8d5c87cd",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPuiseuxCoordinates.olean",
+        "CRGPuiseuxCoordinates.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 6,
+      "expected_audits": [
+        "CRGPuiseuxCoordinates.ray_pow",
+        "CRGPuiseuxCoordinates.originalPoint_inverseRay",
+        "CRGPuiseuxCoordinates.originalPoint_localOnRay",
+        "CRGPuiseuxCoordinates.direction_pow_general",
+        "CRGPuiseuxCoordinates.inverseRay_power",
+        "CRGPuiseuxCoordinates.lifted_tendsto_local_ray"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPuiseuxCoordinates.ray_pow": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCoordinates.originalPoint_inverseRay": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCoordinates.originalPoint_localOnRay": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCoordinates.direction_pow_general": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCoordinates.inverseRay_power": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCoordinates.lifted_tendsto_local_ray": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGPuiseuxCoordinates.olean",
+      "olean_sha256": "13d9107a371144c563924718797881ee7381def451ec543baff0e8870377b132",
+      "log": "modules/CRGPuiseuxCoordinates.log",
+      "elapsed_seconds": 16.251
+    },
+    {
+      "file": "CRGPuiseuxRayReduction.lean",
+      "sha256": "636cba2f441f0f77962578b599f258d80cd5e1c619335768da06c5bdbabbb681",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPuiseuxRayReduction.olean",
+        "CRGPuiseuxRayReduction.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 6,
+      "expected_audits": [
+        "CRGPuiseuxRayReduction.localJet_power_bound",
+        "CRGPuiseuxRayReduction.localJet_zero",
+        "CRGPuiseuxRayReduction.cleared_equation",
+        "CRGPuiseuxRayReduction.highest_positive_from_ray_bounds",
+        "CRGPuiseuxRayReduction.flat_residual_from_ray_bounds",
+        "CRGPuiseuxRayReduction.flat_on_physical_ray"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPuiseuxRayReduction.localJet_power_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxRayReduction.localJet_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxRayReduction.cleared_equation": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxRayReduction.highest_positive_from_ray_bounds": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxRayReduction.flat_residual_from_ray_bounds": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxRayReduction.flat_on_physical_ray": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 4,
+      "olean": ".lake/build/lib/lean/CRGPuiseuxRayReduction.olean",
+      "olean_sha256": "cf6c6b16046ec627c4acec60a6a9840e3cc8a20cc42a286c760063d90230f8db",
+      "log": "modules/CRGPuiseuxRayReduction.log",
+      "elapsed_seconds": 15.227
+    },
+    {
+      "file": "CRGPuiseuxSector.lean",
+      "sha256": "3472e5017f443478847352f851e47839dd0c21d7a22821fa458095c7b78e54b8",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPuiseuxSector.olean",
+        "CRGPuiseuxSector.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 4,
+      "expected_audits": [
+        "CRGPuiseuxSector.clearedCoefficients_continuousAt",
+        "CRGPuiseuxSector.Sector.coefficients_continuous",
+        "CRGPuiseuxSector.Sector.localOnRay_tendsto",
+        "CRGPuiseuxSector.Sector.physical_ray_gauge"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPuiseuxSector.clearedCoefficients_continuousAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxSector.Sector.coefficients_continuous": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxSector.Sector.localOnRay_tendsto": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxSector.Sector.physical_ray_gauge": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGPuiseuxSector.olean",
+      "olean_sha256": "e625d4c478cddedc17ad6eee72153ff852a42b5285cc5e6cad98d54447ecb1ec",
+      "log": "modules/CRGPuiseuxSector.log",
+      "elapsed_seconds": 25.924
+    },
+    {
+      "file": "CRGExponentialExpansionSector.lean",
+      "sha256": "2fe46ffc99f97619def6a86432662f419b0d7a182015681d0ce526ed45ac151f",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGExponentialExpansionSector.olean",
+        "CRGExponentialExpansionSector.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 5,
+      "expected_audits": [
+        "CRGExponentialExpansionSector.exponential_flat_on_local_ray",
+        "CRGExponentialExpansionSector.flat_times_expansion",
+        "CRGExponentialExpansionSector.Groups.normalized_expansion",
+        "CRGExponentialExpansionSector.Groups.sector",
+        "CRGExponentialExpansionSector.Groups.ae_sector_cover"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGExponentialExpansionSector.exponential_flat_on_local_ray": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGExponentialExpansionSector.flat_times_expansion": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGExponentialExpansionSector.Groups.normalized_expansion": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGExponentialExpansionSector.Groups.sector": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGExponentialExpansionSector.Groups.ae_sector_cover": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 1,
+      "olean": ".lake/build/lib/lean/CRGExponentialExpansionSector.olean",
+      "olean_sha256": "8589bfe18e4027a881fcb50d55b41c2f5c31eb22c2fabb3150398455ca5ecbb1",
+      "log": "modules/CRGExponentialExpansionSector.log",
+      "elapsed_seconds": 21.306
+    },
+    {
+      "file": "CRGGeneralRayComparison.lean",
+      "sha256": "d2df11dc2d73e7ab4fedaf8aba9fd598a6889ca86144f12b8967a1f486c3022f",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGGeneralRayComparison.olean",
+        "CRGGeneralRayComparison.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 6,
+      "expected_audits": [
+        "CRGGeneralRayComparison.gauge_continuousOn",
+        "CRGGeneralRayComparison.gauge_operator_norm_bound",
+        "CRGGeneralRayComparison.smallConjugatedTails_of_exponential",
+        "CRGGeneralRayComparison.exists_perturbed_fundamental",
+        "CRGGeneralRayComparison.represented_scalar_log_comparison",
+        "CRGGeneralRayComparison.ray_comparison"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGGeneralRayComparison.gauge_continuousOn": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGGeneralRayComparison.gauge_operator_norm_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGGeneralRayComparison.smallConjugatedTails_of_exponential": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGGeneralRayComparison.exists_perturbed_fundamental": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGGeneralRayComparison.represented_scalar_log_comparison": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGGeneralRayComparison.ray_comparison": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGGeneralRayComparison.olean",
+      "olean_sha256": "ba8e13af85d2b17fb61d0483f5ab843af65291673fe178f48e8fcf2bd79fee7c",
+      "log": "modules/CRGGeneralRayComparison.log",
+      "elapsed_seconds": 18.64
+    },
+    {
+      "file": "CRGGeneralRayFlatTail.lean",
+      "sha256": "6ffe462d4e975fd66af560aece3177a82c323b2ec03592495db18452033d6ffc",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGGeneralRayFlatTail.olean",
+        "CRGGeneralRayFlatTail.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 3,
+      "expected_audits": [
+        "CRGGeneralRayFlatTail.smallConjugatedTails_of_power",
+        "CRGGeneralRayFlatTail.smallConjugatedTails_of_flat",
+        "CRGGeneralRayFlatTail.smallConjugatedTails_of_flat_inverse_powers"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGGeneralRayFlatTail.smallConjugatedTails_of_power": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGGeneralRayFlatTail.smallConjugatedTails_of_flat": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGGeneralRayFlatTail.smallConjugatedTails_of_flat_inverse_powers": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGGeneralRayFlatTail.olean",
+      "olean_sha256": "cbd12877cdcdc5077d93f55672bae2099778b153ede7c4b144ad9cfba734677a",
+      "log": "modules/CRGGeneralRayFlatTail.log",
+      "elapsed_seconds": 16.26
+    },
+    {
+      "file": "CRGPuiseuxCompanionComparison.lean",
+      "sha256": "05bad68a6f9437a417c77af4dc72123e51d59afc9dd35daa4f1f4c4d4bece759",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPuiseuxCompanionComparison.olean",
+        "CRGPuiseuxCompanionComparison.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 9,
+      "expected_audits": [
+        "CRGPuiseuxCompanionComparison.perturbation_mulVec",
+        "CRGPuiseuxCompanionComparison.norm_perturbation_le",
+        "CRGPuiseuxCompanionComparison.perturbation_continuousOn",
+        "CRGPuiseuxCompanionComparison.perturbation_flat",
+        "CRGPuiseuxCompanionComparison.companion_mulVec_last",
+        "CRGPuiseuxCompanionComparison.companion_mulVec_not_last",
+        "CRGPuiseuxCompanionComparison.jet_hasDerivAt_of_scalar_equation",
+        "CRGPuiseuxCompanionComparison.jet_polynomial_comparison",
+        "CRGPuiseuxCompanionComparison.scalar_ray_comparison"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPuiseuxCompanionComparison.perturbation_mulVec": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionComparison.norm_perturbation_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionComparison.perturbation_continuousOn": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionComparison.perturbation_flat": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionComparison.companion_mulVec_last": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionComparison.companion_mulVec_not_last": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionComparison.jet_hasDerivAt_of_scalar_equation": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionComparison.jet_polynomial_comparison": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxCompanionComparison.scalar_ray_comparison": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGPuiseuxCompanionComparison.olean",
+      "olean_sha256": "8bbe1e01a6ad9d1f46a5d6d644399d68e330053784aedb3c3027f761656ddfb8",
+      "log": "modules/CRGPuiseuxCompanionComparison.log",
+      "elapsed_seconds": 26.018
+    },
+    {
+      "file": "CRGPuiseuxSectorComparison.lean",
+      "sha256": "c55a41ec8204d68d1dac2f0fd77c72ae78dca44e4848829654e32bc56d8ab78b",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPuiseuxSectorComparison.olean",
+        "CRGPuiseuxSectorComparison.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 6,
+      "expected_audits": [
+        "CRGPuiseuxSectorComparison.localOnRay_continuousAt",
+        "CRGPuiseuxSectorComparison.localJet_continuousAt",
+        "CRGPuiseuxSectorComparison.residual_continuousAt",
+        "CRGPuiseuxSectorComparison.companion_continuousAt",
+        "CRGPuiseuxSectorComparison.reduced_physical_equation",
+        "CRGPuiseuxSectorComparison.Sector.ray_comparison"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPuiseuxSectorComparison.localOnRay_continuousAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxSectorComparison.localJet_continuousAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxSectorComparison.residual_continuousAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxSectorComparison.companion_continuousAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxSectorComparison.reduced_physical_equation": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPuiseuxSectorComparison.Sector.ray_comparison": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGPuiseuxSectorComparison.olean",
+      "olean_sha256": "a30a964b5fa279bc49a100e094de3c2a39168ed7d20e9082fb913ce75ed25b6a",
+      "log": "modules/CRGPuiseuxSectorComparison.log",
+      "elapsed_seconds": 22.655
     },
     {
       "file": "CRGIndicatorPeriodicRays.lean",
@@ -14898,7 +15196,7 @@
       "olean": ".lake/build/lib/lean/CRGIndicatorPeriodicRays.olean",
       "olean_sha256": "b270f699e337c5488c115bfee259d7029109c721f0188937057227c985de9eae",
       "log": "modules/CRGIndicatorPeriodicRays.log",
-      "elapsed_seconds": 8.972
+      "elapsed_seconds": 21.383
     },
     {
       "file": "CRGFinitePhaseWindowEndgame.lean",
@@ -14932,7 +15230,7 @@
       "olean": ".lake/build/lib/lean/CRGFinitePhaseWindowEndgame.olean",
       "olean_sha256": "50264301829e1526efffd93915767d3534ff43d7f0bbeb071502692185beffb0",
       "log": "modules/CRGFinitePhaseWindowEndgame.log",
-      "elapsed_seconds": 9.14
+      "elapsed_seconds": 22.501
     },
     {
       "file": "CRGPuiseuxProposition.lean",
@@ -14984,7 +15282,7 @@
       "olean": ".lake/build/lib/lean/CRGPuiseuxProposition.olean",
       "olean_sha256": "17488e82499c0d76090ee4ecf68b297808dd25000c99ab613941a031acfc6349",
       "log": "modules/CRGPuiseuxProposition.log",
-      "elapsed_seconds": 9.279
+      "elapsed_seconds": 17.924
     },
     {
       "file": "CRGExponentialExpansionConclusion.lean",
@@ -15024,7 +15322,7 @@
       "olean": ".lake/build/lib/lean/CRGExponentialExpansionConclusion.olean",
       "olean_sha256": "429b8d60a3f94a0bfb2554a4013c73bf0e28d25a1e79c8775b0111a4aaa55062",
       "log": "modules/CRGExponentialExpansionConclusion.log",
-      "elapsed_seconds": 9.805
+      "elapsed_seconds": 16.241
     },
     {
       "file": "CRGPuiseuxMonic.lean",
@@ -15070,7 +15368,7 @@
       "olean": ".lake/build/lib/lean/CRGPuiseuxMonic.olean",
       "olean_sha256": "d3b79607e827bf23b13d1b11ee50cf7b5114a14075a10509846ace406901e2a4",
       "log": "modules/CRGPuiseuxMonic.log",
-      "elapsed_seconds": 10.153
+      "elapsed_seconds": 27.012
     },
     {
       "file": "CRGExponentialCoefficientGroups.lean",
@@ -15104,7 +15402,7 @@
       "olean": ".lake/build/lib/lean/CRGExponentialCoefficientGroups.olean",
       "olean_sha256": "bfe16e6b86a50f80ffeb99d9262273936d42a93008d637954aeef2af5fecfe01",
       "log": "modules/CRGExponentialCoefficientGroups.log",
-      "elapsed_seconds": 15.673
+      "elapsed_seconds": 17.902
     },
     {
       "file": "CRGExponentialExpansionGroupsBuilder.lean",
@@ -15138,41 +15436,7 @@
       "olean": ".lake/build/lib/lean/CRGExponentialExpansionGroupsBuilder.olean",
       "olean_sha256": "5aff6cb0763b7e67f894cd2b54570bb70ab11ca6f1d803bc94a7022d6dd69979",
       "log": "modules/CRGExponentialExpansionGroupsBuilder.log",
-      "elapsed_seconds": 14.981
-    },
-    {
-      "file": "CRGPolynomialGroupComparison.lean",
-      "sha256": "08016120408cf38e9a6a75d409d8c3df2af119f44302e19064360497b6154ecb",
-      "source_unchanged_during_check": true,
-      "command": [
-        "lake",
-        "env",
-        "lean",
-        "-o",
-        ".lake/build/lib/lean/CRGPolynomialGroupComparison.olean",
-        "CRGPolynomialGroupComparison.lean"
-      ],
-      "exit_code": 0,
-      "audit_count": 1,
-      "expected_audits": [
-        "CRGPolynomialGroupComparison.group_ray_comparison"
-      ],
-      "audit_names_match": true,
-      "axioms_allowed": true,
-      "audits": {
-        "CRGPolynomialGroupComparison.group_ray_comparison": [
-          "propext",
-          "Classical.choice",
-          "Quot.sound"
-        ]
-      },
-      "passed": true,
-      "forbidden_proof_commands": [],
-      "warning_count": 0,
-      "olean": ".lake/build/lib/lean/CRGPolynomialGroupComparison.olean",
-      "olean_sha256": "b6bf5b36f93ca2edf7bb7ce9db37f9467ff5924ab214f843fcd99ddc539375a8",
-      "log": "modules/CRGPolynomialGroupComparison.log",
-      "elapsed_seconds": 12.663
+      "elapsed_seconds": 22.617
     },
     {
       "file": "CRGTheorem11.lean",
@@ -15212,7 +15476,7 @@
       "olean": ".lake/build/lib/lean/CRGTheorem11.olean",
       "olean_sha256": "63d48de89643a1c2cecda0ec291a4fe08b47a9184ff53ed3563c644da16dadc6",
       "log": "modules/CRGTheorem11.log",
-      "elapsed_seconds": 11.441
+      "elapsed_seconds": 21.337
     },
     {
       "file": "CRGIndicatorFixedPhases.lean",
@@ -15252,7 +15516,7 @@
       "olean": ".lake/build/lib/lean/CRGIndicatorFixedPhases.olean",
       "olean_sha256": "044c5036fbaa7d539faa8052fdcf6fcdcf652942ccc167fe4aefe75c0c3352db",
       "log": "modules/CRGIndicatorFixedPhases.log",
-      "elapsed_seconds": 9.031
+      "elapsed_seconds": 22.583
     },
     {
       "file": "CRGIndicatorAlternatives.lean",
@@ -15310,7 +15574,7 @@
       "olean": ".lake/build/lib/lean/CRGIndicatorAlternatives.olean",
       "olean_sha256": "ae42e67099e75160b70ed91802ec4ec0a0f5db5ca5eee5c50f4a4ef0150c48bc",
       "log": "modules/CRGIndicatorAlternatives.log",
-      "elapsed_seconds": 9.071
+      "elapsed_seconds": 17.891
     },
     {
       "file": "CRGIndicatorPartition.lean",
@@ -15368,7 +15632,7 @@
       "olean": ".lake/build/lib/lean/CRGIndicatorPartition.olean",
       "olean_sha256": "8238df96e5739b4f611c22f16c175af0b65edc36c53e1e7bdb3e7f0b48ac5f5b",
       "log": "modules/CRGIndicatorPartition.log",
-      "elapsed_seconds": 11.002
+      "elapsed_seconds": 16.239
     },
     {
       "file": "CRGIndicatorFinite.lean",
@@ -15414,7 +15678,7 @@
       "olean": ".lake/build/lib/lean/CRGIndicatorFinite.olean",
       "olean_sha256": "66b1202e0dcb95f4a3a51b4acad74aa3ed74d33943f1563e28353a0db6d72e4b",
       "log": "modules/CRGIndicatorFinite.log",
-      "elapsed_seconds": 9.625
+      "elapsed_seconds": 27.007
     },
     {
       "file": "CRGIndicatorCorollary.lean",
@@ -15466,7 +15730,7 @@
       "olean": ".lake/build/lib/lean/CRGIndicatorCorollary.olean",
       "olean_sha256": "0806125f70369a3525aa95ef93f6255919c076bab6e43c6212534651460d7208",
       "log": "modules/CRGIndicatorCorollary.log",
-      "elapsed_seconds": 12.748
+      "elapsed_seconds": 17.926
     },
     {
       "file": "CRGLinearKernelIntegration.lean",
@@ -15524,7 +15788,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelIntegration.olean",
       "olean_sha256": "f66444e5a38dc5e4c8a9bce445fc0179ef2d3e2e4613e8f5a3c5eee8045971de",
       "log": "modules/CRGLinearKernelIntegration.log",
-      "elapsed_seconds": 12.538
+      "elapsed_seconds": 16.595
     },
     {
       "file": "CRGLinearKernelExpansion.lean",
@@ -15570,7 +15834,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelExpansion.olean",
       "olean_sha256": "930c0be1ccda92ec76c0d1dd0edfded366041167359987b97531511351e5ad5f",
       "log": "modules/CRGLinearKernelExpansion.log",
-      "elapsed_seconds": 9.506
+      "elapsed_seconds": 75.667
     },
     {
       "file": "CRGPolynomialKernelEntire.lean",
@@ -15610,7 +15874,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelEntire.olean",
       "olean_sha256": "68900d7dbd548c3d844c71dc807e1b38af3e79c312db73cf0591c25ec0eb1f23",
       "log": "modules/CRGPolynomialKernelEntire.log",
-      "elapsed_seconds": 9.365
+      "elapsed_seconds": 17.493
     },
     {
       "file": "CRGLinearKernelEntire.lean",
@@ -15656,7 +15920,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelEntire.olean",
       "olean_sha256": "98cbe5eda01b55ab783d758c241342eca78c2a01aeedc0be934c6366983d76f2",
       "log": "modules/CRGLinearKernelEntire.log",
-      "elapsed_seconds": 8.032
+      "elapsed_seconds": 15.179
     },
     {
       "file": "CRGLinearKernelHolomorphicExpansion.lean",
@@ -15714,7 +15978,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelHolomorphicExpansion.olean",
       "olean_sha256": "b1c2538b00c697e5c0fa6c383e067e2b3427068f4a9cb9d6736f293aa5672b18",
       "log": "modules/CRGLinearKernelHolomorphicExpansion.log",
-      "elapsed_seconds": 8.353
+      "elapsed_seconds": 25.898
     },
     {
       "file": "CRGPolynomialKernelCoefficients.lean",
@@ -15754,7 +16018,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelCoefficients.olean",
       "olean_sha256": "b8c74e527554d92f0b094ecaf2a9ecbf638a113ac7b5f599c4796a0467e19507",
       "log": "modules/CRGPolynomialKernelCoefficients.log",
-      "elapsed_seconds": 7.879
+      "elapsed_seconds": 15.173
     },
     {
       "file": "CRGLinearKernelCoefficients.lean",
@@ -15794,7 +16058,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelCoefficients.olean",
       "olean_sha256": "9ea394432c59902966ba907a61c7d1ece951120615d48372ad7b6537731c5feb",
       "log": "modules/CRGLinearKernelCoefficients.log",
-      "elapsed_seconds": 8.318
+      "elapsed_seconds": 17.897
     },
     {
       "file": "CRGLinearKernelCancellation.lean",
@@ -15852,7 +16116,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelCancellation.olean",
       "olean_sha256": "43ba9c87520dc2ef5a5fac5613eb5c3161701b25621ca9402689b039893de339",
       "log": "modules/CRGLinearKernelCancellation.log",
-      "elapsed_seconds": 8.081
+      "elapsed_seconds": 16.166
     },
     {
       "file": "CRGLinearKernelSubdivision.lean",
@@ -15904,7 +16168,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelSubdivision.olean",
       "olean_sha256": "0ac16620ac267c55b60f3e744490c437b5fe32925adb3eafec81578b5cb0556e",
       "log": "modules/CRGLinearKernelSubdivision.log",
-      "elapsed_seconds": 10.074
+      "elapsed_seconds": 27.009
     },
     {
       "file": "CRGLinearKernelActiveCells.lean",
@@ -15956,7 +16220,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelActiveCells.olean",
       "olean_sha256": "1b12d04e1567f9e043598a85befd1d16de51168e03b8f843069d76d5e5123520",
       "log": "modules/CRGLinearKernelActiveCells.log",
-      "elapsed_seconds": 11.196
+      "elapsed_seconds": 17.958
     },
     {
       "file": "CRGPuiseuxAngularCells.lean",
@@ -16020,7 +16284,7 @@
       "olean": ".lake/build/lib/lean/CRGPuiseuxAngularCells.olean",
       "olean_sha256": "8a785f64b82c6a8abd0f7368ed45be0e25bf727212c5f4f602eb3fade4e796de",
       "log": "modules/CRGPuiseuxAngularCells.log",
-      "elapsed_seconds": 15.79
+      "elapsed_seconds": 17.957
     },
     {
       "file": "CRGPuiseuxPolynomialCone.lean",
@@ -16078,7 +16342,7 @@
       "olean": ".lake/build/lib/lean/CRGPuiseuxPolynomialCone.olean",
       "olean_sha256": "2dddef28eb24a80802ec4abb5131b6ad6b01eeebf188a5704f9812f208003b76",
       "log": "modules/CRGPuiseuxPolynomialCone.log",
-      "elapsed_seconds": 10.205
+      "elapsed_seconds": 27.147
     },
     {
       "file": "CRGPolynomialKernelAtInfinity.lean",
@@ -16124,7 +16388,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelAtInfinity.olean",
       "olean_sha256": "71f9382be562ab15a5fefafe4120ac7799d839e9e93c36958334937b18da215d",
       "log": "modules/CRGPolynomialKernelAtInfinity.log",
-      "elapsed_seconds": 8.658
+      "elapsed_seconds": 17.777
     },
     {
       "file": "CRGPolynomialKernelPuiseux.lean",
@@ -16164,7 +16428,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelPuiseux.olean",
       "olean_sha256": "79f863acab767c2c68f06814d10abe84147c8d8f2c0bbdd07be292cb8931f9b1",
       "log": "modules/CRGPolynomialKernelPuiseux.log",
-      "elapsed_seconds": 8.321
+      "elapsed_seconds": 16.182
     },
     {
       "file": "CRGPuiseuxBranchSector.lean",
@@ -16210,7 +16474,7 @@
       "olean": ".lake/build/lib/lean/CRGPuiseuxBranchSector.olean",
       "olean_sha256": "27dbc1a6ebc825170fdecb4cdac7bd0a4edf4c3d86bab3d87df8e3f204c5911a",
       "log": "modules/CRGPuiseuxBranchSector.log",
-      "elapsed_seconds": 15.662
+      "elapsed_seconds": 24.299
     },
     {
       "file": "CRGPolynomialKernelRamification.lean",
@@ -16256,7 +16520,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelRamification.olean",
       "olean_sha256": "40f52d43cfad66a5f131315a70c6bf8e57a532529a132613dc46687329b06d8c",
       "log": "modules/CRGPolynomialKernelRamification.log",
-      "elapsed_seconds": 7.845
+      "elapsed_seconds": 24.005
     },
     {
       "file": "CRGWatsonGrowing.lean",
@@ -16296,7 +16560,7 @@
       "olean": ".lake/build/lib/lean/CRGWatsonGrowing.olean",
       "olean_sha256": "4818fd72642b6682e1107820d33a78efa420d91dc67ead30798d2b278ff4e997",
       "log": "modules/CRGWatsonGrowing.log",
-      "elapsed_seconds": 8.165
+      "elapsed_seconds": 24.011
     },
     {
       "file": "CRGPolynomialKernelDensity.lean",
@@ -16348,7 +16612,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelDensity.olean",
       "olean_sha256": "a72b3f84cdcac0593d6fa33147e268f51868703cfd2f87c29bac7d79b194d934",
       "log": "modules/CRGPolynomialKernelDensity.log",
-      "elapsed_seconds": 7.838
+      "elapsed_seconds": 23.982
     },
     {
       "file": "CRGPolynomialKernelCancellation.lean",
@@ -16394,7 +16658,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelCancellation.olean",
       "olean_sha256": "fd3ae23371f6339b8c5d8d50f0121b68070f4c73097b20b47741b2d5a7d0f69b",
       "log": "modules/CRGPolynomialKernelCancellation.log",
-      "elapsed_seconds": 8.586
+      "elapsed_seconds": 14.09
     },
     {
       "file": "CRGWatsonTaylor.lean",
@@ -16434,7 +16698,7 @@
       "olean": ".lake/build/lib/lean/CRGWatsonTaylor.olean",
       "olean_sha256": "fb4357bc1b8998051ef1ebb047d7ca195388db8d6e41411cab6b75e972396429",
       "log": "modules/CRGWatsonTaylor.log",
-      "elapsed_seconds": 8.622
+      "elapsed_seconds": 21.317
     },
     {
       "file": "CRGWatsonDecay.lean",
@@ -16486,7 +16750,7 @@
       "olean": ".lake/build/lib/lean/CRGWatsonDecay.olean",
       "olean_sha256": "45da94417c289e33731f5f6ad00751a733b20c8cc6b49126ad199e4144285276",
       "log": "modules/CRGWatsonDecay.log",
-      "elapsed_seconds": 10.08
+      "elapsed_seconds": 16.42
     },
     {
       "file": "CRGWatsonMoments.lean",
@@ -16526,7 +16790,7 @@
       "olean": ".lake/build/lib/lean/CRGWatsonMoments.olean",
       "olean_sha256": "77a50cb3ca6cccf95521839dae95c66bd3ddec126e81f6f5645c309dd9a21d4e",
       "log": "modules/CRGWatsonMoments.log",
-      "elapsed_seconds": 8.593
+      "elapsed_seconds": 16.419
     },
     {
       "file": "CRGWatsonComplexMoments.lean",
@@ -16584,7 +16848,7 @@
       "olean": ".lake/build/lib/lean/CRGWatsonComplexMoments.olean",
       "olean_sha256": "a57e352efb8f7451ff6660549994ecf3379ab8c7b447b78a060757b946eddba8",
       "log": "modules/CRGWatsonComplexMoments.log",
-      "elapsed_seconds": 10.315
+      "elapsed_seconds": 22.027
     },
     {
       "file": "CRGWatsonExpansion.lean",
@@ -16630,7 +16894,7 @@
       "olean": ".lake/build/lib/lean/CRGWatsonExpansion.olean",
       "olean_sha256": "46c440d6b04299e499910c1e06cc1a8b6f30e59cceb626d2350092a61a05e34d",
       "log": "modules/CRGWatsonExpansion.log",
-      "elapsed_seconds": 10.082
+      "elapsed_seconds": 21.903
     },
     {
       "file": "CRGWatsonDensityGrowing.lean",
@@ -16676,7 +16940,7 @@
       "olean": ".lake/build/lib/lean/CRGWatsonDensityGrowing.olean",
       "olean_sha256": "7f35a1d5de37ecce3e7a4a4b441e5281398653f6386569ff17e4825e52fd5655",
       "log": "modules/CRGWatsonDensityGrowing.log",
-      "elapsed_seconds": 13.158
+      "elapsed_seconds": 14.229
     },
     {
       "file": "CRGWatsonFormalSeries.lean",
@@ -16716,7 +16980,7 @@
       "olean": ".lake/build/lib/lean/CRGWatsonFormalSeries.olean",
       "olean_sha256": "df68f6e999413a4d6584747d11043bec0d701e0d4cde9aee4444316752524040",
       "log": "modules/CRGWatsonFormalSeries.log",
-      "elapsed_seconds": 11.87
+      "elapsed_seconds": 22.881
     },
     {
       "file": "CRGWatsonSourceExpansion.lean",
@@ -16762,7 +17026,7 @@
       "olean": ".lake/build/lib/lean/CRGWatsonSourceExpansion.olean",
       "olean_sha256": "c5df9fc2a8a564f64fd49e33df68a1864c7a507c6c17cc8da038a8fd153df480",
       "log": "modules/CRGWatsonSourceExpansion.log",
-      "elapsed_seconds": 14.318
+      "elapsed_seconds": 21.937
     },
     {
       "file": "CRGPolynomialKernelCells.lean",
@@ -16788,7 +17052,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelCells.olean",
       "olean_sha256": "938efea69c5855549908207bbe125874598fc4f5d314425e8aabce05e79f7ffc",
       "log": "modules/CRGPolynomialKernelCells.log",
-      "elapsed_seconds": 12.417
+      "elapsed_seconds": 22.636
     },
     {
       "file": "CRGPuiseuxPolynomialKernelCells.lean",
@@ -16840,7 +17104,7 @@
       "olean": ".lake/build/lib/lean/CRGPuiseuxPolynomialKernelCells.olean",
       "olean_sha256": "0c4b707b212a0462f91fe7f704945237a1390dc8feec9f21daf2aa48b733186b",
       "log": "modules/CRGPuiseuxPolynomialKernelCells.log",
-      "elapsed_seconds": 12.441
+      "elapsed_seconds": 33.448
     },
     {
       "file": "CRGLinearKernelLines.lean",
@@ -16910,7 +17174,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelLines.olean",
       "olean_sha256": "ba825e1cff01e5c4b6fb7e6bdffa3498731575996e20429a6044c6fd36911faf",
       "log": "modules/CRGLinearKernelLines.log",
-      "elapsed_seconds": 8.248
+      "elapsed_seconds": 14.098
     },
     {
       "file": "CRGLinearKernelLinePackets.lean",
@@ -16968,7 +17232,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelLinePackets.olean",
       "olean_sha256": "0f1aa592b84e941295c6d4c181746cab8b11747519d024414d843049062c92e2",
       "log": "modules/CRGLinearKernelLinePackets.log",
-      "elapsed_seconds": 10.222
+      "elapsed_seconds": 21.322
     },
     {
       "file": "CRGLinearKernelNonzeroInterior.lean",
@@ -17002,7 +17266,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelNonzeroInterior.olean",
       "olean_sha256": "f28d94347d329e3b43e54938b333b12e96019714faed41af532ac623d77e8198",
       "log": "modules/CRGLinearKernelNonzeroInterior.log",
-      "elapsed_seconds": 12.808
+      "elapsed_seconds": 14.097
     },
     {
       "file": "CRGLinearKernelLineGeometry.lean",
@@ -17036,7 +17300,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelLineGeometry.olean",
       "olean_sha256": "4835800ea5af0621bc3183e0d80384b0ddd57869669f54f362f5f97578cfa11e",
       "log": "modules/CRGLinearKernelLineGeometry.log",
-      "elapsed_seconds": 12.812
+      "elapsed_seconds": 21.254
     },
     {
       "file": "CRGLinearKernelLineEndpoints.lean",
@@ -17094,7 +17358,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelLineEndpoints.olean",
       "olean_sha256": "e8f198a8652207a86f52db71786cd0de804caa66008f6f0a44754937782d324d",
       "log": "modules/CRGLinearKernelLineEndpoints.log",
-      "elapsed_seconds": 12.148
+      "elapsed_seconds": 22.009
     },
     {
       "file": "CRGPuiseuxLinearKernelCells.lean",
@@ -17146,7 +17410,7 @@
       "olean": ".lake/build/lib/lean/CRGPuiseuxLinearKernelCells.olean",
       "olean_sha256": "95463121878b788ad0c44f782862d25fca4e8323d63d4bbe277e63148f3d40b2",
       "log": "modules/CRGPuiseuxLinearKernelCells.log",
-      "elapsed_seconds": 14.377
+      "elapsed_seconds": 33.657
     },
     {
       "file": "CRGLinearKernelFarEndpoint.lean",
@@ -17186,7 +17450,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelFarEndpoint.olean",
       "olean_sha256": "43299d8b286671ece77945dce40a39767231cb1e1a07ae3d29299ef026f0fa82",
       "log": "modules/CRGLinearKernelFarEndpoint.log",
-      "elapsed_seconds": 14.375
+      "elapsed_seconds": 22.968
     },
     {
       "file": "CRGPolynomialKernelNonvanishing.lean",
@@ -17238,7 +17502,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelNonvanishing.olean",
       "olean_sha256": "ba64349f62fb7c94c5621e9152192e9979f9f39619f56021a972568ee6b44f88",
       "log": "modules/CRGPolynomialKernelNonvanishing.log",
-      "elapsed_seconds": 12.402
+      "elapsed_seconds": 22.554
     },
     {
       "file": "CRGLinearKernelSourceExpansion.lean",
@@ -17320,7 +17584,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelSourceExpansion.olean",
       "olean_sha256": "cd571884e7b4530a2c52da8a03170be5d9d18cefcea55a29b31bb2b43e09c912",
       "log": "modules/CRGLinearKernelSourceExpansion.log",
-      "elapsed_seconds": 12.425
+      "elapsed_seconds": 33.435
     },
     {
       "file": "CRGLinearKernelFarEndpointLower.lean",
@@ -17354,7 +17618,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelFarEndpointLower.olean",
       "olean_sha256": "425f5b4163d4067a8488aca3a98bd5ec6af3db749b34386fa956cdbfc927b87c",
       "log": "modules/CRGLinearKernelFarEndpointLower.log",
-      "elapsed_seconds": 14.312
+      "elapsed_seconds": 33.669
     },
     {
       "file": "CRGLinearKernelPacketExpansion.lean",
@@ -17406,7 +17670,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelPacketExpansion.olean",
       "olean_sha256": "51997dec3e52c89909c5579af982a21f52fdd37c1dd8ac5efb0e93fd7d69b486",
       "log": "modules/CRGLinearKernelPacketExpansion.log",
-      "elapsed_seconds": 11.76
+      "elapsed_seconds": 30.801
     },
     {
       "file": "CRGLinearKernelCellPackets.lean",
@@ -17452,7 +17716,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelCellPackets.olean",
       "olean_sha256": "237f2e3d585148ae3cf98436d1f5ce1aae5ec6348bf025efcdf1f1ad97ab09af",
       "log": "modules/CRGLinearKernelCellPackets.log",
-      "elapsed_seconds": 14.1
+      "elapsed_seconds": 28.45
     },
     {
       "file": "CRGPolynomialKernelFormalGroups.lean",
@@ -17498,7 +17762,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelFormalGroups.olean",
       "olean_sha256": "fb4712222535731894886492bffea2f1d0b140939b4622b8de391870eeb18823",
       "log": "modules/CRGPolynomialKernelFormalGroups.log",
-      "elapsed_seconds": 8.651
+      "elapsed_seconds": 21.301
     },
     {
       "file": "CRGPolynomialKernelClearing.lean",
@@ -17544,7 +17808,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelClearing.olean",
       "olean_sha256": "084b261d5a96d840fa5c389a8be6a8a9c80a0aa301cf1946b2b415203bd96cde",
       "log": "modules/CRGPolynomialKernelClearing.log",
-      "elapsed_seconds": 12.877
+      "elapsed_seconds": 16.525
     },
     {
       "file": "CRGLinearKernelGroupAssembly.lean",
@@ -17584,7 +17848,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelGroupAssembly.olean",
       "olean_sha256": "56e81741519125331ab268f2d389dd5e64437b129f6de1c26dde564b434877f9",
       "log": "modules/CRGLinearKernelGroupAssembly.log",
-      "elapsed_seconds": 12.179
+      "elapsed_seconds": 22.118
     },
     {
       "file": "CRGLinearKernelConclusion.lean",
@@ -17630,7 +17894,7 @@
       "olean": ".lake/build/lib/lean/CRGLinearKernelConclusion.olean",
       "olean_sha256": "081522856ebdfe6cec85610949e4bee2095a701c77913c514ade466f3f2160f4",
       "log": "modules/CRGLinearKernelConclusion.log",
-      "elapsed_seconds": 14.275
+      "elapsed_seconds": 32.079
     },
     {
       "file": "CRGOrderPolynomialPhases.lean",
@@ -17664,7 +17928,47 @@
       "olean": ".lake/build/lib/lean/CRGOrderPolynomialPhases.olean",
       "olean_sha256": "a3995e0c84c08ca31d8f6648ef17ba7273d52441595cea0afbce6169bdb4d728",
       "log": "modules/CRGOrderPolynomialPhases.log",
-      "elapsed_seconds": 9.252
+      "elapsed_seconds": 13.992
+    },
+    {
+      "file": "CRGPolynomialExponentialOrder.lean",
+      "sha256": "f0beba88fce840c90dd3d492f4fb3aa559c15ec952016cc9dad878b19c2a9cff",
+      "source_unchanged_during_check": true,
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-o",
+        ".lake/build/lib/lean/CRGPolynomialExponentialOrder.olean",
+        "CRGPolynomialExponentialOrder.lean"
+      ],
+      "exit_code": 0,
+      "audit_count": 2,
+      "expected_audits": [
+        "CRGPolynomialExponentialOrder.normalized_coefficient_expansion",
+        "CRGPolynomialExponentialOrder.polynomial_exponential_order_one"
+      ],
+      "audit_names_match": true,
+      "axioms_allowed": true,
+      "audits": {
+        "CRGPolynomialExponentialOrder.normalized_coefficient_expansion": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPolynomialExponentialOrder.polynomial_exponential_order_one": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "passed": true,
+      "forbidden_proof_commands": [],
+      "warning_count": 0,
+      "olean": ".lake/build/lib/lean/CRGPolynomialExponentialOrder.olean",
+      "olean_sha256": "bbe6a83bcb964da9b126762d403b21ab77bd5afd62ad78ddde94f2ee267b8c96",
+      "log": "modules/CRGPolynomialExponentialOrder.log",
+      "elapsed_seconds": 16.584
     },
     {
       "file": "CRGPolynomialKernelDensityGroups.lean",
@@ -17710,7 +18014,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelDensityGroups.olean",
       "olean_sha256": "54363ff44df2c7ee26cc8694298bc83d1f6708b922ac82303c75ada6941cb7e9",
       "log": "modules/CRGPolynomialKernelDensityGroups.log",
-      "elapsed_seconds": 12.149
+      "elapsed_seconds": 21.869
     },
     {
       "file": "CRGPolynomialKernelMonic.lean",
@@ -17744,7 +18048,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelMonic.olean",
       "olean_sha256": "51ec38779420e10a6ae04fbc21d84d5f9c6722f4fc75932602aead0a039a5358",
       "log": "modules/CRGPolynomialKernelMonic.log",
-      "elapsed_seconds": 14.403
+      "elapsed_seconds": 21.653
     },
     {
       "file": "CRGPolynomialKernelGrowingGroup.lean",
@@ -17778,7 +18082,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelGrowingGroup.olean",
       "olean_sha256": "4341dab6be3e75b716b505f00c07495abb957d997dc95bed032ea446c20cc9f6",
       "log": "modules/CRGPolynomialKernelGrowingGroup.log",
-      "elapsed_seconds": 12.375
+      "elapsed_seconds": 33.797
     },
     {
       "file": "CRGPolynomialKernelCellGroups.lean",
@@ -17818,7 +18122,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelCellGroups.olean",
       "olean_sha256": "3e7e35a0b24cf1409eaa08d064e09ef603b926e711ecb24544cbdb4879e3fcfd",
       "log": "modules/CRGPolynomialKernelCellGroups.log",
-      "elapsed_seconds": 14.425
+      "elapsed_seconds": 30.85
     },
     {
       "file": "CRGPolynomialKernelCellSeries.lean",
@@ -17858,7 +18162,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelCellSeries.olean",
       "olean_sha256": "ce9588ee4ca16dd91af5f66183c57cfdf5b6e453a6b15b31d72a1e85bd3dbe95",
       "log": "modules/CRGPolynomialKernelCellSeries.log",
-      "elapsed_seconds": 11.687
+      "elapsed_seconds": 28.386
     },
     {
       "file": "CRGPolynomialKernelGroupPackets.lean",
@@ -17892,7 +18196,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelGroupPackets.olean",
       "olean_sha256": "daf53481cff8e0b4b3ab0dee0f73a2e884b7c0cbc1a6e42d715dd24efc491a7d",
       "log": "modules/CRGPolynomialKernelGroupPackets.log",
-      "elapsed_seconds": 14.011
+      "elapsed_seconds": 32.118
     },
     {
       "file": "CRGPolynomialKernelConclusion.lean",
@@ -17932,7 +18236,7 @@
       "olean": ".lake/build/lib/lean/CRGPolynomialKernelConclusion.olean",
       "olean_sha256": "8f276955196723e04205995325b227086df5cc7fb0445f65c2352b683f4bd6cb",
       "log": "modules/CRGPolynomialKernelConclusion.log",
-      "elapsed_seconds": 14.321
+      "elapsed_seconds": 35.347
     },
     {
       "file": "CRGSection3Alignment.lean",
@@ -18026,7 +18330,7 @@
       "olean": ".lake/build/lib/lean/CRGSection3Alignment.olean",
       "olean_sha256": "98a0d55110ff53a89521b99e6ae9cbda665f013ec806e6f1f807c8eaa815be96",
       "log": "modules/CRGSection3Alignment.log",
-      "elapsed_seconds": 14.327
+      "elapsed_seconds": 21.654
     },
     {
       "file": "CRGUniformSectorAlignment.lean",
@@ -18072,7 +18376,7 @@
       "olean": ".lake/build/lib/lean/CRGUniformSectorAlignment.olean",
       "olean_sha256": "fa284d96fb169ae1ab3f5a8c8f802c5f17183b92ca2087abb215c370f1ea8657",
       "log": "modules/CRGUniformSectorAlignment.log",
-      "elapsed_seconds": 12.431
+      "elapsed_seconds": 21.472
     },
     {
       "file": "CRGZeroDistributionLocal.lean",
@@ -18118,7 +18422,7 @@
       "olean": ".lake/build/lib/lean/CRGZeroDistributionLocal.olean",
       "olean_sha256": "799f58f3fc105a5a2422d608466df52f9a2bc4a756a78c7b259cb8179e30a559",
       "log": "modules/CRGZeroDistributionLocal.log",
-      "elapsed_seconds": 12.238
+      "elapsed_seconds": 14.404
     },
     {
       "file": "CRGZeroDistributionScaled.lean",
@@ -18170,7 +18474,7 @@
       "olean": ".lake/build/lib/lean/CRGZeroDistributionScaled.olean",
       "olean_sha256": "4e7de05a397ee44e855b9d51607630ebedc52f2c73bdc476e3376a50958dcb5b",
       "log": "modules/CRGZeroDistributionScaled.log",
-      "elapsed_seconds": 13.048
+      "elapsed_seconds": 23.014
     },
     {
       "file": "CRGZeroDistributionProfile.lean",
@@ -18222,7 +18526,7 @@
       "olean": ".lake/build/lib/lean/CRGZeroDistributionProfile.olean",
       "olean_sha256": "2bad46e985a44705d30d7ab35563ad943321b4c8a5caf6636319a1994a627040",
       "log": "modules/CRGZeroDistributionProfile.log",
-      "elapsed_seconds": 13.937
+      "elapsed_seconds": 21.928
     },
     {
       "file": "CRGZeroDistributionCompact.lean",
@@ -18268,7 +18572,7 @@
       "olean": ".lake/build/lib/lean/CRGZeroDistributionCompact.olean",
       "olean_sha256": "7e7b98b6e0ac4b38d3e1edf5a44c183f1d94ae07303770f57403bf92c2a7bbb7",
       "log": "modules/CRGZeroDistributionCompact.log",
-      "elapsed_seconds": 11.689
+      "elapsed_seconds": 33.623
     },
     {
       "file": "CRGZeroDistributionSector.lean",
@@ -18314,7 +18618,7 @@
       "olean": ".lake/build/lib/lean/CRGZeroDistributionSector.olean",
       "olean_sha256": "dcca213e2a9cb9b3cce5fdb34a775d3bdab733111ec31d3c3d2b86583faa932c",
       "log": "modules/CRGZeroDistributionSector.log",
-      "elapsed_seconds": 14.042
+      "elapsed_seconds": 33.667
     },
     {
       "file": "CRGZeroDistributionHarmonic.lean",
@@ -18360,7 +18664,7 @@
       "olean": ".lake/build/lib/lean/CRGZeroDistributionHarmonic.olean",
       "olean_sha256": "61973993c64be6c31b99702abe21cb70627f33b4405c8ce92662532135686f97",
       "log": "modules/CRGZeroDistributionHarmonic.log",
-      "elapsed_seconds": 14.282
+      "elapsed_seconds": 30.779
     },
     {
       "file": "CRGZeroDistributionDyadic.lean",
@@ -18400,7 +18704,7 @@
       "olean": ".lake/build/lib/lean/CRGZeroDistributionDyadic.olean",
       "olean_sha256": "a1a415fe187f2c90bd763a0bf23e4f4ac4b8ce38c1acf326420401861ef2aaa4",
       "log": "modules/CRGZeroDistributionDyadic.log",
-      "elapsed_seconds": 11.745
+      "elapsed_seconds": 14.385
     },
     {
       "file": "CRGZeroDistributionCorollary.lean",
@@ -18452,7 +18756,7 @@
       "olean": ".lake/build/lib/lean/CRGZeroDistributionCorollary.olean",
       "olean_sha256": "b1510251278f74224bc685c166e05ace1dd9eae4f8d9f79236151c020aed1b89",
       "log": "modules/CRGZeroDistributionCorollary.log",
-      "elapsed_seconds": 12.085
+      "elapsed_seconds": 28.434
     },
     {
       "file": "CRGZeroDistributionRealPairs.lean",
@@ -18486,7 +18790,7 @@
       "olean": ".lake/build/lib/lean/CRGZeroDistributionRealPairs.olean",
       "olean_sha256": "eb1f0aedb5b1822b2e7efbc6e0766aec0a5be2601f22d41b41403e21c1b739b8",
       "log": "modules/CRGZeroDistributionRealPairs.log",
-      "elapsed_seconds": 12.723
+      "elapsed_seconds": 32.088
     },
     {
       "file": "WasowAnalyticAssembly.lean",
@@ -18520,7 +18824,7 @@
       "olean": ".lake/build/lib/lean/WasowAnalyticAssembly.olean",
       "olean_sha256": "1d7ca0e382310e493949b284a14687726786893c33858420ab9be88e93747717",
       "log": "modules/WasowAnalyticAssembly.log",
-      "elapsed_seconds": 13.686
+      "elapsed_seconds": 14.415
     },
     {
       "file": "WasowBookCheck.lean",
@@ -18572,7 +18876,7 @@
       "olean": ".lake/build/lib/lean/WasowBookCheck.olean",
       "olean_sha256": "67a109b3c894d6ddee22e3e598394b919b893c09e12f11e7b78a727281649264",
       "log": "modules/WasowBookCheck.log",
-      "elapsed_seconds": 14.502
+      "elapsed_seconds": 22.815
     },
     {
       "file": "WasowFuchsianRational.lean",
@@ -18612,7 +18916,7 @@
       "olean": ".lake/build/lib/lean/WasowFuchsianRational.olean",
       "olean_sha256": "26b1217012b96e09b57dfd9c0a31a95d998a4f459fcc0e5b7cd608c61d60118a",
       "log": "modules/WasowFuchsianRational.log",
-      "elapsed_seconds": 12.103
+      "elapsed_seconds": 21.975
     },
     {
       "file": "WasowFuchsian.lean",
@@ -18658,7 +18962,7 @@
       "olean": ".lake/build/lib/lean/WasowFuchsian.olean",
       "olean_sha256": "d94c6b5fe98f9c7f55bff25a10c944973afe3c525f3afd6c03c195999304c70a",
       "log": "modules/WasowFuchsian.log",
-      "elapsed_seconds": 12.68
+      "elapsed_seconds": 22.572
     },
     {
       "file": "WasowJordanFormal.lean",
@@ -18704,7 +19008,7 @@
       "olean": ".lake/build/lib/lean/WasowJordanFormal.olean",
       "olean_sha256": "5966b425bb0d0043ae84ffb1017553d0890939c4574ff681cff3544fe5627926",
       "log": "modules/WasowJordanFormal.log",
-      "elapsed_seconds": 12.311
+      "elapsed_seconds": 21.909
     },
     {
       "file": "WasowNormalizedLemma.lean",
@@ -18762,7 +19066,7 @@
       "olean": ".lake/build/lib/lean/WasowNormalizedLemma.olean",
       "olean_sha256": "b1cb0e3df5e07ebace3fa584cc8f69780bfe1720d04af7215b2121a19b260b97",
       "log": "modules/WasowNormalizedLemma.log",
-      "elapsed_seconds": 11.916
+      "elapsed_seconds": 22.489
     },
     {
       "file": "WasowNormalizedRecurrence.lean",
@@ -18832,7 +19136,7 @@
       "olean": ".lake/build/lib/lean/WasowNormalizedRecurrence.olean",
       "olean_sha256": "feea9d03d0876e396386f08ac2b8673607f09e22ef313d9777eee3e211c7fca5",
       "log": "modules/WasowNormalizedRecurrence.log",
-      "elapsed_seconds": 12.73
+      "elapsed_seconds": 33.404
     },
     {
       "file": "WasowPhaseFamilyBlocks.lean",
@@ -18932,7 +19236,7 @@
       "olean": ".lake/build/lib/lean/WasowPhaseFamilyBlocks.olean",
       "olean_sha256": "9cefb3e5bb88d271551d01b144570262cd85bc40a55de5526a3e016d5f73b647",
       "log": "modules/WasowPhaseFamilyBlocks.log",
-      "elapsed_seconds": 12.386
+      "elapsed_seconds": 30.676
     },
     {
       "file": "WasowPhaseFamilyRamification.lean",
@@ -18990,7 +19294,7 @@
       "olean": ".lake/build/lib/lean/WasowPhaseFamilyRamification.olean",
       "olean_sha256": "306dfe34bac8c6a18f1b310c184d5fd73ee16273f9955f3d554581d6e54b575d",
       "log": "modules/WasowPhaseFamilyRamification.log",
-      "elapsed_seconds": 11.587
+      "elapsed_seconds": 28.394
     },
     {
       "file": "WasowPhaseTree.lean",
@@ -19042,7 +19346,7 @@
       "olean": ".lake/build/lib/lean/WasowPhaseTree.olean",
       "olean_sha256": "570d638fea0bd0693a1c59bad1aa6faaf149d0d2907204de69f5e56dcf97526c",
       "log": "modules/WasowPhaseTree.log",
-      "elapsed_seconds": 7.912
+      "elapsed_seconds": 32.033
     },
     {
       "file": "WasowRecursivePhases.lean",
@@ -19106,7 +19410,7 @@
       "olean": ".lake/build/lib/lean/WasowRecursivePhases.olean",
       "olean_sha256": "a8e74bb4509c8028282b30d9990da6247f4ef189c86789a108ed608f1180d02f",
       "log": "modules/WasowRecursivePhases.log",
-      "elapsed_seconds": 6.568
+      "elapsed_seconds": 35.518
     },
     {
       "file": "WasowRationalReduction.lean",
@@ -19140,7 +19444,7 @@
       "olean": ".lake/build/lib/lean/WasowRationalReduction.olean",
       "olean_sha256": "0aab92f14d67af830d366ced94aa21d1ece37a3f12944424490c90e05cb3b094",
       "log": "modules/WasowRationalReduction.log",
-      "elapsed_seconds": 5.854
+      "elapsed_seconds": 12.388
     },
     {
       "file": "WasowRayRotation.lean",
@@ -19240,7 +19544,7 @@
       "olean": ".lake/build/lib/lean/WasowRayRotation.olean",
       "olean_sha256": "395310f2d99bb7a78e220815728729f460fdd9cd595e0cc4f6819d88ea7ce1a3",
       "log": "modules/WasowRayRotation.log",
-      "elapsed_seconds": 11.663
+      "elapsed_seconds": 35.241
     },
     {
       "file": "WasowRegularBlocks.lean",
@@ -19304,7 +19608,7 @@
       "olean": ".lake/build/lib/lean/WasowRegularBlocks.olean",
       "olean_sha256": "339cb4e31257ebcc279aee7b66576e710d19c73f976ac2ea2f8fafd0b103be00",
       "log": "modules/WasowRegularBlocks.log",
-      "elapsed_seconds": 11.571
+      "elapsed_seconds": 35.239
     },
     {
       "file": "WasowTruncationRealization.lean",
@@ -19338,11 +19642,11 @@
       "olean": ".lake/build/lib/lean/WasowTruncationRealization.olean",
       "olean_sha256": "4f069d9e7b02fc9fdfa7aab7ba58dc0275be6661c2ab8d0e7c36e5d15e701a7d",
       "log": "modules/WasowTruncationRealization.log",
-      "elapsed_seconds": 11.412
+      "elapsed_seconds": 12.452
     },
     {
       "file": "Audit.lean",
-      "sha256": "222cd863dea18f212e7669ffe1e181eb3a903147532bb2f4139ef0f1dde3fea1",
+      "sha256": "986d77b5de95ff78404de506a92acfaf4ebde12d30ac50443367b33c0d749512",
       "source_unchanged_during_check": true,
       "command": [
         "lake",
@@ -19353,7 +19657,7 @@
         "Audit.lean"
       ],
       "exit_code": 0,
-      "audit_count": 1734,
+      "audit_count": 1752,
       "expected_audits": [
         "CRGAngularShadow.ae_eventually_avoid",
         "CRGAngularShadow.ae_eventually_avoid_on_interval",
@@ -21088,7 +21392,25 @@
         "WasowWeightedRemainder.exists_small_remainder_tail",
         "WasowWeightedRemainder.exists_small_weighted_inverse_tail",
         "WasowWeightedRemainder.exists_weighted_inverse_tail_bound",
-        "WasowWeightedRemainder.normalizedDefect_control"
+        "WasowWeightedRemainder.normalizedDefect_control",
+        "WasowConstantCoordinates.exists_weighted_coordinates",
+        "WasowConstantLinearGauge.linear_phase",
+        "WasowConstantLinearGauge.linear_phase_hasDerivAt",
+        "WasowConstantLinearGauge.residue_rayGauge",
+        "WasowConstantLinearGauge.residue_commute",
+        "WasowConstantLinearGauge.shearing_identity",
+        "WasowConstantLinearGauge.jordan_linear_rayGauge",
+        "WasowConstantLinearGauge.constantConjugate_eq",
+        "WasowConstantLinearGauge.constant_linear_normal_form",
+        "CRGFixedGaugeComparison.of_fixed_normal_form",
+        "CRGConstantGroupComparison.scalar_constant_comparison",
+        "CRGConstantGroupComparison.group_constant_comparison",
+        "CRGLinearPhaseEndgame.order_one_of_linear_phases",
+        "CRGConstantMultiplierOrder.of_collected_constant_equation",
+        "CRGConstantMultiplierOrder.exists_constant_collected_equation",
+        "CRGConstantMultiplierOrder.order_one_of_constant_multipliers",
+        "CRGPolynomialExponentialOrder.normalized_coefficient_expansion",
+        "CRGPolynomialExponentialOrder.polynomial_exponential_order_one"
       ],
       "audit_names_match": true,
       "axioms_allowed": true,
@@ -29760,15 +30082,105 @@
           "propext",
           "Classical.choice",
           "Quot.sound"
+        ],
+        "WasowConstantCoordinates.exists_weighted_coordinates": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.linear_phase": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.linear_phase_hasDerivAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.residue_rayGauge": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.residue_commute": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.shearing_identity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.jordan_linear_rayGauge": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.constantConjugate_eq": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "WasowConstantLinearGauge.constant_linear_normal_form": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGFixedGaugeComparison.of_fixed_normal_form": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGConstantGroupComparison.scalar_constant_comparison": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGConstantGroupComparison.group_constant_comparison": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGLinearPhaseEndgame.order_one_of_linear_phases": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGConstantMultiplierOrder.of_collected_constant_equation": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGConstantMultiplierOrder.exists_constant_collected_equation": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGConstantMultiplierOrder.order_one_of_constant_multipliers": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPolynomialExponentialOrder.normalized_coefficient_expansion": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CRGPolynomialExponentialOrder.polynomial_exponential_order_one": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
         ]
       },
       "passed": true,
       "forbidden_proof_commands": [],
       "warning_count": 0,
       "olean": ".lake/build/lib/lean/Audit.olean",
-      "olean_sha256": "44a4502e3786628683daee4c5e9dab6153683abb7a903a0065a32e6af845f090",
+      "olean_sha256": "cd1a0d4c1400f6b78ccb07563bcafddbe5ef76144d530e153e489ff4fa80d9c2",
       "log": "modules/Audit.log",
-      "elapsed_seconds": 7.401
+      "elapsed_seconds": 7.662
     }
   ],
   "recompiled_modules": [
@@ -29920,22 +30332,12 @@
     "GundersenAngles.lean",
     "GundersenJet.lean",
     "CRGCollectedResidual.lean",
+    "CRGFixedGaugeComparison.lean",
+    "WasowConstantCoordinates.lean",
+    "WasowConstantLinearGauge.lean",
     "CRGGroupHighest.lean",
-    "CRGPuiseuxScalarReduction.lean",
-    "CRGPuiseuxRayData.lean",
-    "CRGGeneralRayGauge.lean",
-    "CRGPuiseuxNormalForm.lean",
-    "CRGPuiseuxCompanionExpansion.lean",
-    "CRGGeneralRayRamification.lean",
-    "CRGPuiseuxCompanionNormalForm.lean",
-    "CRGPuiseuxCoordinates.lean",
-    "CRGPuiseuxRayReduction.lean",
-    "CRGPuiseuxSector.lean",
-    "CRGExponentialExpansionSector.lean",
-    "CRGGeneralRayComparison.lean",
-    "CRGGeneralRayFlatTail.lean",
-    "CRGPuiseuxCompanionComparison.lean",
-    "CRGPuiseuxSectorComparison.lean",
+    "CRGPolynomialGroupComparison.lean",
+    "CRGConstantGroupComparison.lean",
     "CRGOrder.lean",
     "CRGPhragmenStrip.lean",
     "CRGPhragmenGrowth.lean",
@@ -29998,6 +30400,23 @@
     "CRGOrderAE.lean",
     "CRGOrderPhaseData.lean",
     "CRGFinitePhaseEndgame.lean",
+    "CRGLinearPhaseEndgame.lean",
+    "CRGConstantMultiplierOrder.lean",
+    "CRGPuiseuxScalarReduction.lean",
+    "CRGPuiseuxRayData.lean",
+    "CRGGeneralRayGauge.lean",
+    "CRGPuiseuxNormalForm.lean",
+    "CRGPuiseuxCompanionExpansion.lean",
+    "CRGGeneralRayRamification.lean",
+    "CRGPuiseuxCompanionNormalForm.lean",
+    "CRGPuiseuxCoordinates.lean",
+    "CRGPuiseuxRayReduction.lean",
+    "CRGPuiseuxSector.lean",
+    "CRGExponentialExpansionSector.lean",
+    "CRGGeneralRayComparison.lean",
+    "CRGGeneralRayFlatTail.lean",
+    "CRGPuiseuxCompanionComparison.lean",
+    "CRGPuiseuxSectorComparison.lean",
     "CRGIndicatorPeriodicRays.lean",
     "CRGFinitePhaseWindowEndgame.lean",
     "CRGPuiseuxProposition.lean",
@@ -30005,7 +30424,6 @@
     "CRGPuiseuxMonic.lean",
     "CRGExponentialCoefficientGroups.lean",
     "CRGExponentialExpansionGroupsBuilder.lean",
-    "CRGPolynomialGroupComparison.lean",
     "CRGTheorem11.lean",
     "CRGIndicatorFixedPhases.lean",
     "CRGIndicatorAlternatives.lean",
@@ -30058,6 +30476,7 @@
     "CRGLinearKernelGroupAssembly.lean",
     "CRGLinearKernelConclusion.lean",
     "CRGOrderPolynomialPhases.lean",
+    "CRGPolynomialExponentialOrder.lean",
     "CRGPolynomialKernelDensityGroups.lean",
     "CRGPolynomialKernelMonic.lean",
     "CRGPolynomialKernelGrowingGroup.lean",
@@ -30095,6 +30514,10 @@
   ],
   "reused_verified_modules": [],
   "all_requested_checks_passed": true,
+  "constant_linear_ray_normal_form_verified": true,
+  "linear_phase_exact_order_one_verified": true,
+  "constant_multiplier_order_one_crg_verified": true,
+  "actual_polynomial_exponential_order_one_verified": true,
   "manuscript_corollary_3_6_verified": true,
   "real_order_indicator_pairs_verified": true,
   "manuscript_proposition_5_1_verified": true,
@@ -30202,8 +30625,8 @@
   "configuration_sha256": {
     "lean-toolchain": "302cd63c54178885b89e669f33b38f12f4dd7ae7e5cac537b3203e3768d8fb2b",
     "lake-manifest.json": "21890c9a4b216fefd043daf9d55d4169b82f33ebe2087c79841ad5e21bc3cae3",
-    "lakefile.toml": "0b2ef6a9f6a3520741f72dd3a2890f691370d6a6e6da3d19beadcb6f1fb384e3",
-    "verify.py": "796f32d1ec8a1dea560374c67927cec22f247a305804649ca01008557a65b9f6"
+    "lakefile.toml": "3d06ca3c8a4a3bc2057f75b0ea9b607393a26972ba211ed1b2dcb08f128ced83",
+    "verify.py": "7e0a3212d4000b31484b06e2070655fff0a9600a7be3c37e8f5a1f92d60a9cc6"
   },
   "lean_toolchain": "leanprover/lean4:v4.33.0",
   "mathlib_revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
@@ -30358,22 +30781,12 @@
     "GundersenAngles.lean",
     "GundersenJet.lean",
     "CRGCollectedResidual.lean",
+    "CRGFixedGaugeComparison.lean",
+    "WasowConstantCoordinates.lean",
+    "WasowConstantLinearGauge.lean",
     "CRGGroupHighest.lean",
-    "CRGPuiseuxScalarReduction.lean",
-    "CRGPuiseuxRayData.lean",
-    "CRGGeneralRayGauge.lean",
-    "CRGPuiseuxNormalForm.lean",
-    "CRGPuiseuxCompanionExpansion.lean",
-    "CRGGeneralRayRamification.lean",
-    "CRGPuiseuxCompanionNormalForm.lean",
-    "CRGPuiseuxCoordinates.lean",
-    "CRGPuiseuxRayReduction.lean",
-    "CRGPuiseuxSector.lean",
-    "CRGExponentialExpansionSector.lean",
-    "CRGGeneralRayComparison.lean",
-    "CRGGeneralRayFlatTail.lean",
-    "CRGPuiseuxCompanionComparison.lean",
-    "CRGPuiseuxSectorComparison.lean",
+    "CRGPolynomialGroupComparison.lean",
+    "CRGConstantGroupComparison.lean",
     "CRGOrder.lean",
     "CRGPhragmenStrip.lean",
     "CRGPhragmenGrowth.lean",
@@ -30436,6 +30849,23 @@
     "CRGOrderAE.lean",
     "CRGOrderPhaseData.lean",
     "CRGFinitePhaseEndgame.lean",
+    "CRGLinearPhaseEndgame.lean",
+    "CRGConstantMultiplierOrder.lean",
+    "CRGPuiseuxScalarReduction.lean",
+    "CRGPuiseuxRayData.lean",
+    "CRGGeneralRayGauge.lean",
+    "CRGPuiseuxNormalForm.lean",
+    "CRGPuiseuxCompanionExpansion.lean",
+    "CRGGeneralRayRamification.lean",
+    "CRGPuiseuxCompanionNormalForm.lean",
+    "CRGPuiseuxCoordinates.lean",
+    "CRGPuiseuxRayReduction.lean",
+    "CRGPuiseuxSector.lean",
+    "CRGExponentialExpansionSector.lean",
+    "CRGGeneralRayComparison.lean",
+    "CRGGeneralRayFlatTail.lean",
+    "CRGPuiseuxCompanionComparison.lean",
+    "CRGPuiseuxSectorComparison.lean",
     "CRGIndicatorPeriodicRays.lean",
     "CRGFinitePhaseWindowEndgame.lean",
     "CRGPuiseuxProposition.lean",
@@ -30443,7 +30873,6 @@
     "CRGPuiseuxMonic.lean",
     "CRGExponentialCoefficientGroups.lean",
     "CRGExponentialExpansionGroupsBuilder.lean",
-    "CRGPolynomialGroupComparison.lean",
     "CRGTheorem11.lean",
     "CRGIndicatorFixedPhases.lean",
     "CRGIndicatorAlternatives.lean",
@@ -30496,6 +30925,7 @@
     "CRGLinearKernelGroupAssembly.lean",
     "CRGLinearKernelConclusion.lean",
     "CRGOrderPolynomialPhases.lean",
+    "CRGPolynomialExponentialOrder.lean",
     "CRGPolynomialKernelDensityGroups.lean",
     "CRGPolynomialKernelMonic.lean",
     "CRGPolynomialKernelGrowingGroup.lean",
@@ -30531,17 +30961,17 @@
     "WasowTruncationRealization.lean",
     "Audit.lean"
   ],
-  "module_count": 320,
-  "source_bytes": 2120343,
-  "source_lines": 43306,
+  "module_count": 327,
+  "source_bytes": 2154879,
+  "source_lines": 44046,
   "all_sources_unchanged": true,
   "all_oleans_unchanged": true,
   "configuration_unchanged": true,
   "dependency_check_passed_at_end": true,
-  "distinct_proved_declarations": 1734,
+  "distinct_proved_declarations": 1752,
   "unified_audit_matches_modules": true,
   "all_modules_checked": true,
   "warning_count": 42,
-  "finished_at_utc": "2026-10-02T13:40:47.996489+00:00",
-  "elapsed_seconds": 966.394
+  "finished_at_utc": "2026-10-14T17:50:50.069249+00:00",
+  "elapsed_seconds": 1797.632
 }
